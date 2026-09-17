@@ -14,13 +14,12 @@ class Serial:
         print(f"Serial.py: SENT SIGNAL: {signal.decode()}")
 
     def __find_port(self):
-        for port in serial.tools.list_ports.comports():
-            if "ACM" in port.device:
-                return port.device
-        print("Serial.py: Serial not found, retrying...")
-        time.sleep(1)
-        port = self.__find_port()
-        return port
+        while True:
+            for port in serial.tools.list_ports.comports():
+                if "ACM" in port.device:
+                    return port.device
+            print("Serial.py: Serial not found, retrying...")
+            time.sleep(1)
     
     def is_ready(self):
         if self.serial.in_waiting > 1:
@@ -37,8 +36,3 @@ class Serial:
             self.serial.close()
         except Exception:
             pass
-    
-    def __enter__(self):
-        return self
-    def __exit__(self):
-        self.close()

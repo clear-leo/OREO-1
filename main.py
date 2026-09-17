@@ -1,19 +1,21 @@
 import ttkbootstrap as ttk
 import tkinter as tk
 from PIL import Image, ImageTk
+import time
 
 from Serial import Serial
 
 root = ttk.App(title="App proyectadisima", theme="bootstrap-dark")
 root.attributes("-fullscreen", True)
 root.configure(background="#021D29")
-serial = Serial(9600)
+
 
 class Information(ttk.Frame):
     
     def __init__(self, master):
         self.WIDTH = 1850
         self.HEIGHT = 1080 
+        self.serial = Serial(9600)
 
         #CHANGEME
         # Aqui esta toda la información que vamos a cambiar para añadir el Serial.
@@ -53,11 +55,15 @@ class Information(ttk.Frame):
     # Función para probar la idea de una funcion recurrente que revise si hemos recibido un mensaje por serial.
     # O la logica se hace aquí o se hace dentro de otra función. Probablemente otra función quizas hasta -
     # - otro archivo, preferiblemente eso.
-    def __CHANGEME(self):
-        self.master.after(100, self.__CHANGEME)
+    def __update_country(self):
+        if not self.serial.is_ready():
+            self.master.after(1000, self.__update_country)
+        self.pais.set("Cambio")
+            
+        
 
     def run(self):
-        self.master.after(100, self.__CHANGEME)
+        self.master.after(1000, self.__update_country)
         self.master.mainloop()
 
 
