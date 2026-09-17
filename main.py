@@ -2,10 +2,12 @@ import ttkbootstrap as ttk
 import tkinter as tk
 from PIL import Image, ImageTk
 
+from Serial import Serial
+
 root = ttk.App(title="App proyectadisima", theme="bootstrap-dark")
 root.attributes("-fullscreen", True)
 root.configure(background="#021D29")
-
+serial = Serial(9600)
 
 class Information(ttk.Frame):
     
@@ -52,7 +54,6 @@ class Information(ttk.Frame):
     # O la logica se hace aquí o se hace dentro de otra función. Probablemente otra función quizas hasta -
     # - otro archivo, preferiblemente eso.
     def __CHANGEME(self):
-        print("hi")
         self.master.after(100, self.__CHANGEME)
 
     def run(self):
