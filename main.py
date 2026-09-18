@@ -1,5 +1,6 @@
 import ttkbootstrap as ttk
 import tkinter as tk
+import json
 from PIL import Image, ImageTk
 import time
 
@@ -16,14 +17,16 @@ class Information(ttk.Frame):
         self.WIDTH = 1850
         self.HEIGHT = 1080 
         self.serial = Serial(9600)
+        
+        with open("data.json", "r") as file:
+            self.ref_imagenes = json.load(file)
 
         #CHANGEME
         # Aqui esta toda la información que vamos a cambiar para añadir el Serial.
         self.pais = ttk.StringVar()
         self.info_pais = ttk.StringVar()
-        self.imagen_pais = "placeholders/stupid.png"
-        self.info_pais.set("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
-        self.pais.set("Pais placeholder")
+        self.info_pais.set("Empieza por diciendo un país.")
+        self.pais.set("Bienvenido!")
         # --
 
         self.master = master
@@ -34,7 +37,8 @@ class Information(ttk.Frame):
         self.__build_info()
 
     def __build_info(self):
-        frame = ttk.LabelFrame(self, text="País seleccionado", padding=12)
+        self.frame = ttk.LabelFrame(self, text="País seleccionado", padding=12)
+        frame = self.frame
         frame.columnconfigure(0, weight=1)
         frame.rowconfigure(0, weight=1)
         frame.pack(fill='both', expand=True)
@@ -42,15 +46,17 @@ class Information(ttk.Frame):
         ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="center").grid(row=0, column=0, sticky='nsew', pady=20)
         ttk.Label(frame, textvariable=self.info_pais, font=("Arial", 24), anchor="w", wraplength=self.WIDTH).grid(row=1, column=0, sticky='nsew', pady=20)
 
+        self.label_imagen = ttk.Label(self.frame, anchor="center")
 
-        # Es probable que esta lógica la cambie, y es más probable que esta lógica sea obsoleta cuando
-        # - añademos el cambio dinámico.
-        imagen = Image.open(self.imagen_pais)
+
+    def __load_image(self, path):
+        imagen = Image.open(path)
         imagen_tk = ImageTk.PhotoImage(imagen)
 
-        label_imagen = ttk.Label(frame, image=imagen_tk, anchor="center")
+        label_imagen = ttk.Label(self.frame, image=imagen_tk, anchor="center")
         label_imagen.image = imagen_tk  # type: ignore[attr-defined]
         label_imagen.grid(row=3, column=0, sticky='nsew', pady=20)
+
 
     # Función para probar la idea de una funcion recurrente que revise si hemos recibido un mensaje por serial.
     # O la logica se hace aquí o se hace dentro de otra función. Probablemente otra función quizas hasta -
@@ -58,7 +64,10 @@ class Information(ttk.Frame):
     def __update_country(self): 
         try:
             if self.serial.is_ready():
-                self.pais.set(self.serial.read_country())
+                pais = self.serial.read_country()
+                self.pais.set(pais)
+                self.__load_image(self.ref_imagenes[pais])
+
             self.master.after(100, self.__update_country)
         except RuntimeError:
             print("Serial disconnected or closed unexpectedly.")
