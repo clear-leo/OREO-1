@@ -8,8 +8,14 @@ class Serial:
         self.port = self.__find_port()
         self.serial = self.__connect(baud)
 
-        print(f"Serial.py: FOUND SIGNAL: {self.serial.readline()}")
-
+        received = ""
+        while received != "RUTHERE":
+            if not self.is_ready():
+                print("Serial.py WAITING FOR SIGNAL")
+                time.sleep(0.5)
+            else:
+                received = self.serial.readline().decode().strip()
+        print(f"Serial.py FOUND SIGNAL: {received}")
         signal = b"ITSGOTIME"
         self.serial.write(signal)
         print(f"Serial.py: SENT SIGNAL: {signal.decode()}")
@@ -36,11 +42,11 @@ class Serial:
     
     def is_ready(self):
         try: 
-            if self.serial.in_waiting > 0:
+            if self.serial.in_waiting > 4:
                 return True
             return False
         except (serial.SerialException, OSError):
-            return False
+            raise RuntimeError("Serial closed unexpectedly.")
     def read_country(self):
         try:
             data = self.serial.readline().decode().strip().capitalize()

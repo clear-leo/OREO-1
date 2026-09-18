@@ -21,7 +21,7 @@ class Information(ttk.Frame):
         # Aqui esta toda la información que vamos a cambiar para añadir el Serial.
         self.pais = ttk.StringVar()
         self.info_pais = ttk.StringVar()
-        self.imagen_pais = "stupid" + ".png"
+        self.imagen_pais = "placeholders/stupid.png"
         self.info_pais.set("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")
         self.pais.set("Pais placeholder")
         # --
@@ -55,15 +55,18 @@ class Information(ttk.Frame):
     # Función para probar la idea de una funcion recurrente que revise si hemos recibido un mensaje por serial.
     # O la logica se hace aquí o se hace dentro de otra función. Probablemente otra función quizas hasta -
     # - otro archivo, preferiblemente eso.
-    def __update_country(self):
-        if not self.serial.is_ready():
-            self.master.after(1000, self.__update_country)
-        self.pais.set("Cambio")
+    def __update_country(self): 
+        try:
+            if self.serial.is_ready():
+                self.pais.set(self.serial.read_country())
+            self.master.after(100, self.__update_country)
+        except RuntimeError:
+            print("Serial disconnected or closed unexpectedly.")
+            #add later
             
-        
 
     def run(self):
-        self.master.after(1000, self.__update_country)
+        self.master.after(100, self.__update_country)
         self.master.mainloop()
 
 
