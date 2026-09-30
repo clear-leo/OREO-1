@@ -1,26 +1,38 @@
 {
-    "américa del norte": {
-        "informacion": "América del norte es un subcontinente situado en el hemisferio norte y occidental del planeta. Abarca países como Canadá, Estados Unidos y México, además de Groenlandia, que pertenece políticamente a Dinamarca. Su superficie ronda los 24 millones de kilómetros cuadrados, lo que la convierte en uno de los continentes más extensos. Su geografía es muy variada: las Montañas Rocosas recorren el oeste, los Grandes Lagos forman una de las mayores reservas de agua dulce del mundo y el desierto de Sonora se extiende por el noroeste. Sus climas van desde el frío polar del Ártico hasta el clima tropical del sur de México. Es una región con gran diversidad cultural, fruto de pueblos originarios, colonización europea y migraciones de todo el mundo.",
+    "americanorte": {
+        "nombre": "América del Norte",
+        "info_top": "América del norte es un subcontinente situado en el hemisferio norte y occidental del planeta. Abarca países como Canadá, Estados Unidos y México, además de Groenlandia, que pertenece políticamente a Dinamarca. Su superficie ronda los 24 millones de kilómetros cuadrados, lo que la convierte en uno de los continentes más extensos.",
+        "info_bottom": "Su geografía es muy variada: las Montañas Rocosas recorren el oeste, los Grandes Lagos forman una de las mayores reservas de agua dulce del mundo y el desierto de Sonora se extiende por el noroeste. Sus climas van desde el frío polar del Ártico hasta el clima tropical del sur de México. Es una región con gran diversidad cultural, fruto de pueblos originarios, colonización europea y migraciones de todo el mundo.",
         "imagen": "placeholders/bork.jpg"
     },
-    "américa del sur": {
-        "informacion": "América del sur es un continente ubicado en su mayor parte en el hemisferio sur y occidental. Está formado por doce países soberanos, entre ellos Brasil, Argentina, Colombia, Perú y Ecuador, además de algunos territorios dependientes. Su superficie ronda los 17,8 millones de kilómetros cuadrados. La cordillera de los Andes, la más larga del mundo, recorre todo su lado occidental, mientras que la cuenca del Amazonas alberga la selva tropical más grande del planeta y el río más caudaloso de la Tierra. También destacan la Patagonia, el desierto de Atacama y las islas Galápagos. Su población es una mezcla de culturas indígenas, europeas, africanas y asiáticas, y sus idiomas principales son el español y el portugués.",
+    "americasur": {
+        "nombre": "América del Sur",
+        "info_top": "América del sur es un continente ubicado en su mayor parte en el hemisferio sur y occidental. Está formado por doce países soberanos, entre ellos Brasil, Argentina, Colombia, Perú y Ecuador, además de algunos territorios dependientes. Su superficie ronda los 17,8 millones de kilómetros cuadrados.",
+        "info_bottom": "La cordillera de los Andes, la más larga del mundo, recorre todo su lado occidental, mientras que la cuenca del Amazonas alberga la selva tropical más grande del planeta y el río más caudaloso de la Tierra. También destacan la Patagonia, el desierto de Atacama y las islas Galápagos. Su población es una mezcla de culturas indígenas, europeas, africanas y asiáticas, y sus idiomas principales son el español y el portugués.",
         "imagen": "placeholders/stupid.png"
     },
     "europa": {
-        "informacion": "Europa es un continente situado en el hemisferio norte, separado de Asia por los montes Urales y unido a ella en una misma masa de tierra llamada Eurasia. Tiene una superficie de unos 10 millones de kilómetros cuadrados y alberga más de 40 países, entre ellos Francia, Alemania, España, Italia y Rusia. Es famosa por su historia: aquí nacieron la Grecia clásica, el Imperio romano y buena parte de las ideas políticas y científicas modernas. Su relieve incluye los Alpes, los Pirineos y llanuras fértiles atravesadas por ríos como el Danubio y el Rin. Su clima es mayormente templado. Además, gran parte de sus países forman la Unión Europea, una alianza política y económica.",
+        "nombre": "Europa",
+        "info_top": "Europa es un continente situado en el hemisferio norte, separado de Asia por los montes Urales y unido a ella en una misma masa de tierra llamada Eurasia. Tiene una superficie de unos 10 millones de kilómetros cuadrados y alberga más de 40 países, entre ellos Francia, Alemania, España, Italia y Rusia.",
+        "info_bottom": "Es famosa por su historia: aquí nacieron la Grecia clásica, el Imperio romano y buena parte de las ideas políticas y científicas modernas. Su relieve incluye los Alpes, los Pirineos y llanuras fértiles atravesadas por ríos como el Danubio y el Rin. Su clima es mayormente templado. Además, gran parte de sus países forman la Unión Europea, una alianza política y económica.",
         "imagen": "placeholders/bork.jpg"
     },
     "asia": {
-        "informacion": "Asia es el continente más grande y poblado del mundo, con cerca de 44 millones de kilómetros cuadrados y más de 4.700 millones de habitantes, casi el sesenta por ciento de la población mundial. Se extiende desde el océano Ártico hasta el Índico y desde el Pacífico hasta los montes Urales. Alberga países como China, India, Japón, Indonesia y Arabia Saudita. Su geografía es impresionante: allí se encuentra el Himalaya, con el monte Everest, la montaña más alta del planeta sobre el nivel del mar, además del desierto de Gobi y la meseta tibetana. Fue cuna de civilizaciones antiguas y de grandes religiones como el budismo, el hinduismo y el islam, y hoy es un centro económico y tecnológico fundamental.",
+        "nombre": "Asia",
+        "info_top": "Asia es el continente más grande y poblado del mundo, con cerca de 44 millones de kilómetros cuadrados y más de 4.700 millones de habitantes, casi el sesenta por ciento de la población mundial. Se extiende desde el océano Ártico hasta el Índico y desde el Pacífico hasta los montes Urales. Alberga países como China, India, Japón, Indonesia y Arabia Saudita.",
+        "info_bottom": "Su geografía es impresionante: allí se encuentra el Himalaya, con el monte Everest, la montaña más alta del planeta sobre el nivel del mar, además del desierto de Gobi y la meseta tibetana. Fue cuna de civilizaciones antiguas y de grandes religiones como el budismo, el hinduismo y el islam, y hoy es un centro económico y tecnológico fundamental.",
         "imagen": "placeholders/stupid.png"
     },
-    "áfrica": {
-        "informacion": "África es el segundo continente más grande del mundo, con unos 30 millones de kilómetros cuadrados y más de 1.400 millones de habitantes repartidos en 54 países. El ecuador lo atraviesa casi por la mitad, por lo que combina selvas tropicales, sabanas y grandes desiertos como el Sahara, el más extenso del planeta fuera de las regiones polares. Sus principales ríos son el Nilo, el Congo y el Níger, y destacan el monte Kilimanjaro y el lago Victoria. Es considerada la cuna de la humanidad, pues allí surgieron los primeros ancestros del ser humano. Posee una enorme diversidad cultural y lingüística, con miles de lenguas, y una fauna emblemática que incluye leones, elefantes y jirafas.",
+    "africa": {
+        "nombre": "África",
+        "info_top": "África es el segundo continente más grande del mundo, con unos 30 millones de kilómetros cuadrados y más de 1.400 millones de habitantes repartidos en 54 países. El ecuador lo atraviesa casi por la mitad, por lo que combina selvas tropicales, sabanas y grandes desiertos como el Sahara, el más extenso del planeta fuera de las regiones polares.",
+        "info_bottom": "Sus principales ríos son el Nilo, el Congo y el Níger, y destacan el monte Kilimanjaro y el lago Victoria. Es considerada la cuna de la humanidad, pues allí surgieron los primeros ancestros del ser humano. Posee una enorme diversidad cultural y lingüística, con miles de lenguas, y una fauna emblemática que incluye leones, elefantes y jirafas.",
         "imagen": "placeholders/bork.jpg"
     },
-    "oceanía": {
-        "informacion": "Oceanía es el continente más pequeño en superficie, con alrededor de 8,5 millones de kilómetros cuadrados, y está formado por Australia, Nueva Zelanda, Papúa Nueva Guinea y miles de islas dispersas por el océano Pacífico. Se suele dividir en regiones como Melanesia, Micronesia y Polinesia. Australia concentra la mayor parte de la tierra y de la población, con paisajes que van desde el desierto del interior hasta la Gran Barrera de Coral, el mayor sistema de arrecifes del mundo. Su fauna es única, con especies como el canguro, el koala y el kiwi. Los pueblos originarios, como los aborígenes australianos y los maoríes, mantienen culturas milenarias que conviven con influencias modernas.",
+    "oceania": {
+        "nombre": "Oceanía",
+        "info_top": "Oceanía es el continente más pequeño en superficie, con alrededor de 8,5 millones de kilómetros cuadrados, y está formado por Australia, Nueva Zelanda, Papúa Nueva Guinea y miles de islas dispersas por el océano Pacífico. Se suele dividir en regiones como Melanesia, Micronesia y Polinesia.",
+        "info_bottom": "Australia concentra la mayor parte de la tierra y de la población, con paisajes que van desde el desierto del interior hasta la Gran Barrera de Coral, el mayor sistema de arrecifes del mundo. Su fauna es única, con especies como el canguro, el koala y el kiwi. Los pueblos originarios, como los aborígenes australianos y los maoríes, mantienen culturas milenarias que conviven con influencias modernas.",
         "imagen": "placeholders/stupid.png"
     }
 }
