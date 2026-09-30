@@ -66,6 +66,7 @@ class Information(ttk.Frame):
             if self.serial.is_ready():
                 pais = self.serial.read_country()
                 self.pais.set(pais)
+                self.info_pais.set(f"{pais} hiasdkanjdshn")
                 self.__load_image(self.ref_imagenes[pais])
 
             self.master.after(100, self.__update_country)

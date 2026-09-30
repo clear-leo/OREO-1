@@ -19,6 +19,7 @@ class Serial:
         signal = b"ITSGOTIME"
         self.serial.write(signal)
         print(f"Serial.py: SENT SIGNAL: {signal.decode()}")
+        self.serial.reset_input_buffer()
 
     def __connect(self, baud):
         for attempt in range(MAX_CONNECTION_ATTEMPTS):
@@ -35,14 +36,14 @@ class Serial:
     def __find_port(self):
         while True:
             for port in serial.tools.list_ports.comports():
-                if "ACM" in port.device:
+                if "ACM" in port.device or "COM" in port.device: 
                     return port.device
             print("Serial.py: Serial not found, retrying...")
             time.sleep(1)
     
     def is_ready(self):
         try: 
-            if self.serial.in_waiting > 4:
+            if self.serial.in_waiting > 1:
                 return True
             return False
         except (serial.SerialException, OSError):
