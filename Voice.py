@@ -38,7 +38,6 @@ class Voice:
             while True:
                 if self._recognizer.AcceptWaveform(self.audio.get()):
                     texto = json.loads(self._recognizer.Result())["text"]
-                    print("Vosk escuchó:", repr(texto))   # debug
                     if texto in FRASES:
                         self.result.put(FRASES[texto])
 
