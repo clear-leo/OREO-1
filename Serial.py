@@ -50,7 +50,7 @@ class Serial:
             raise RuntimeError("Serial closed unexpectedly.")
     def read_country(self):
         try:
-            data = self.serial.readline().decode().strip().capitalize()
+            data = self.serial.readline().decode().strip()
             return data
         except (serial.SerialException, OSError):
             raise RuntimeError("Serial closed unexpectedly.")

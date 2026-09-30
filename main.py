@@ -14,18 +14,18 @@ root.configure(background="#021D29")
 class Information(ttk.Frame):
     
     def __init__(self, master):
-        self.WIDTH = 1850
+        self.WIDTH = 1920
         self.HEIGHT = 1080 
         self.serial = Serial(9600)
         
-        with open("data.json", "r") as file:
-            self.ref_imagenes = json.load(file)
+        with open("data.json", "r", encoding="utf-8") as file:
+            self.datos_json = json.load(file)
 
         #CHANGEME
         # Aqui esta toda la información que vamos a cambiar para añadir el Serial.
         self.pais = ttk.StringVar()
         self.info_pais = ttk.StringVar()
-        self.info_pais.set("Empieza por diciendo un país.")
+        self.info_pais.set("Empieza por escogiendo un continente.")
         self.pais.set("Bienvenido!")
         # --
 
@@ -44,7 +44,7 @@ class Information(ttk.Frame):
         frame.pack(fill='both', expand=True)
 
         ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="center").grid(row=0, column=0, sticky='nsew', pady=20)
-        ttk.Label(frame, textvariable=self.info_pais, font=("Arial", 24), anchor="w", wraplength=self.WIDTH).grid(row=1, column=0, sticky='nsew', pady=20)
+        ttk.Label(frame, textvariable=self.info_pais, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=1, column=0, sticky='nsew', pady=20)
 
         self.label_imagen = ttk.Label(self.frame, anchor="center")
 
@@ -66,17 +66,17 @@ class Information(ttk.Frame):
             if self.serial.is_ready():
                 pais = self.serial.read_country()
                 self.pais.set(pais)
-                self.info_pais.set(f"{pais} hiasdkanjdshn")
-                self.__load_image(self.ref_imagenes[pais])
+                self.info_pais.set(self.datos_json[pais.lower()]["informacion"])
+                self.__load_image(self.datos_json[pais.lower()]["imagen"])
 
-            self.master.after(100, self.__update_country)
+            self.master.after(200, self.__update_country)
         except RuntimeError:
             print("Serial disconnected or closed unexpectedly.")
             #add later
             
 
     def run(self):
-        self.master.after(100, self.__update_country)
+        self.master.after(200, self.__update_country)
         self.master.mainloop()
 
 
