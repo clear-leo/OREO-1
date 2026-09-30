@@ -3,8 +3,10 @@ import tkinter as tk
 import json
 from PIL import Image, ImageTk
 import time
+from queue import Empty
 
 from Serial import Serial
+from Voice import Voice
 
 root = ttk.App(title="App proyectadisima", theme="bootstrap-dark")
 root.attributes("-fullscreen", True)
@@ -16,7 +18,8 @@ class Information(ttk.Frame):
     def __init__(self, master):
         self.WIDTH = 1920
         self.HEIGHT = 1080 
-        self.serial = Serial(9600)
+        self.voice = Voice(16000)
+        self.voice.start()
         
         with open("data.json", "r", encoding="utf-8") as file:
             self.datos = json.load(file)
@@ -67,18 +70,15 @@ class Information(ttk.Frame):
     # - otro archivo, preferiblemente eso.
     def __update_country(self): 
         try:
-            if self.serial.is_ready():
-                pais = self.serial.read_country()
-                if pais.lower() in self.datos:
-                    self.pais.set(self.datos[pais.lower()]["nombre"])
-                    self.info_top.set(self.datos[pais.lower()]["info_top"])
-                    self.info_bottom.set(self.datos[pais.lower()]["info_bottom"])
-                    self.__load_image(self.datos[pais.lower()]["imagen"])
-
-            self.master.after(200, self.__update_country)
-        except RuntimeError:
-            print("Serial disconnected or closed unexpectedly.")
-            #add later
+            pais = self.voice.read_country()
+            if pais and pais in self.datos:
+                self.pais.set(self.datos[pais]["nombre"])
+                self.info_top.set(self.datos[pais]["info_top"])
+                self.info_bottom.set(self.datos[pais]["info_bottom"])
+                self.__load_image(self.datos[pais]["imagen"])
+        except Empty:
+            pass
+        self.master.after(200, self.__update_country)
             
 
     def run(self):

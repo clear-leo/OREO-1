@@ -41,19 +41,8 @@ class Serial:
             print("Serial.py: Serial not found, retrying...")
             time.sleep(1)
     
-    def is_ready(self):
-        try: 
-            if self.serial.in_waiting > 1:
-                return True
-            return False
-        except (serial.SerialException, OSError):
-            raise RuntimeError("Serial closed unexpectedly.")
-    def read_country(self):
-        try:
-            data = self.serial.readline().decode().strip()
-            return data
-        except (serial.SerialException, OSError):
-            raise RuntimeError("Serial closed unexpectedly.")
+    def write(self, message):
+        self.serial.write(message.bytes())
 
     def close(self):
         try:
