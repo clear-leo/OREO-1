@@ -20,6 +20,7 @@ class Information(ttk.Frame):
         self.HEIGHT = 1080 
         self.voice = Voice(16000)
         self.voice.start()
+        self.serial = Serial(9600)
         
         with open("data.json", "r", encoding="utf-8") as file:
             self.datos = json.load(file)
