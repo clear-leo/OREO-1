@@ -1,8 +1,6 @@
 import ttkbootstrap as ttk
-import tkinter as tk
 import json
 from PIL import Image, ImageTk
-import time
 from queue import Empty
 
 from Serial import Serial
