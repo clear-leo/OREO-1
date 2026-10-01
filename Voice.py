@@ -2,7 +2,6 @@ import json, queue, threading, os, time
 import sounddevice as sd
 from vosk import Model, KaldiRecognizer
 
-# lowercase phrase (what Vosk returns) -> key in your data.json
 FRASES = {
     "américa del norte": "americanorte",
     "américa del sur": "americasur",
