@@ -1,9 +1,11 @@
-import json, queue, threading, os, time
+import json, queue, threading, os
 import sounddevice as sd
 from vosk import Model, KaldiRecognizer
 
 FRASES = {
     "américa del norte": "americanorte",
+    "norteamérica": "americanorte",
+    "sudamérica": "americasur",
     "américa del sur": "americasur",
     "europa": "europa",
     "asia": "asia",

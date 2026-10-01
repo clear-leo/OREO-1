@@ -29,8 +29,10 @@ class Serial:
             print("Serial.py: Serial not found, retrying...")
             time.sleep(1)
     
-    def write(self, message):
-        self.serial.write(bytes(message, encoding="utf-8"))
+    def write(self, message: str):
+        self.serial.write(message.encode("utf-8"))
+    def writeLine(self, message: str):
+        self.write(f"{message}\n")
 
     def close(self):
         try:

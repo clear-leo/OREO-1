@@ -18,7 +18,7 @@ class Information(ttk.Frame):
         self.HEIGHT = 1080 
         self.voice = Voice(16000)
         self.voice.start()
-        self.serial = Serial(9600)
+        self.serial = Serial(115200)
         
         with open("data.json", "r", encoding="utf-8") as file:
             self.datos = json.load(file)
@@ -75,6 +75,7 @@ class Information(ttk.Frame):
                 self.info_top.set(self.datos[pais]["info_top"])
                 self.info_bottom.set(self.datos[pais]["info_bottom"])
                 self.__load_image(self.datos[pais]["imagen"])
+                self.serial.writeLine(self.datos[pais].get("angulo"))
         except Empty:
             pass
         self.master.after(200, self.__update_country)
