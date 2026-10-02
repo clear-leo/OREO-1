@@ -43,17 +43,18 @@ class Information(ttk.Frame):
     def __build_info(self):
         self.frame = ttk.LabelFrame(self, text="País seleccionado", padding=12)
         frame = self.frame
-        frame.columnconfigure(0, weight=1)
-        frame.rowconfigure(0, weight=1)
+        frame.columnconfigure(2, weight=1)
+        frame.rowconfigure(1, weight=1)
+        frame.rowconfigure(2, weight=1)
         frame.pack(fill='both', expand=True)
 
-        ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="center").grid(row=0, column=0, sticky='ew', pady=0)
-        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=1, column=0, sticky='ew', pady=10)
+        ttk.Label(frame, textvariable=self.pais, font=("Arial", 100, "bold"), anchor="center").grid(row=0, column=0, sticky='ew', pady=0)
+        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2).grid(row=1, column=0, sticky='ew', pady=10)
 
         self.label_imagen = ttk.Label(self.frame, anchor="center")
-        self.label_imagen.grid(row=2, column=0)
+        self.label_imagen.grid(row=1, column=2)
 
-        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=3, column=0, sticky='ew', pady=10)
+        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2).grid(row=3, column=0, pady=5)
 
 
     def __load_image(self, path):
