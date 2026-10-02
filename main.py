@@ -50,12 +50,12 @@ class Information(ttk.Frame):
         frame.pack(fill='both', expand=True)
 
         ttk.Label(frame, textvariable=self.pais, font=("Arial", 100, "bold"), anchor="center").grid(row=0, column=0, columnspan=2, sticky='ew')
-        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=1, column=0, sticky='ew', padx = 20)
+        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=1, column=0, sticky='ew', padx=20)
 
         self.label_imagen = ttk.Label(self.frame, anchor="center")
         self.label_imagen.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=20, pady=10)
 
-        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=2, column=0, pady=5)
+        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=2, column=0, padx=20)
 
 
     def __load_image(self, path):
