@@ -16,8 +16,8 @@ for archivo_nombre in jsons:
             "capital": pais["capital"].capitalize(),
             "idioma": pais["idiomas"][0].capitalize(),
             "mejor_epoca": pais["mejor_epoca"],
-            "costo": pais["costo"],
-            "info_bottom": pais["cultura"] + pais["consejo"],
+            "costo": pais["costo"].capitalize().strip(),
+            "info_bottom": pais["cultura"] + " " + pais["consejo"],
             "imagen": f'images/{data["continente"]["nombre"].lower().strip()}.png',
             "angulo": angulos[data["continente"]["nombre"].lower().strip()],
         }

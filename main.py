@@ -49,14 +49,15 @@ class Information(ttk.Frame):
         frame = self.frame
         frame.columnconfigure(0, weight=1, uniform="cols")
         frame.columnconfigure(1, weight=1, uniform="cols")
-        frame.rowconfigure([1,2,3], weight=1)
+        frame.rowconfigure([1,3], weight=1)
+        frame.rowconfigure([2], weight=1)
         frame.pack(fill='both', expand=True)
 
-        ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="w", wraplength=1200).grid(row=0, column=0, columnspan=2, sticky='w', pady=40, padx=80)
+        ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="center", wraplength=1200).grid(row=0, column=0, columnspan=2, sticky='nsew', pady=40, padx=80)
         ttk.Label(frame, textvariable=self.info_top, font=("Arial", 18), anchor="center", wraplength=self.WIDTH/2).grid(row=1, column=0, sticky='ew', padx=20)
         
         info_frame = ttk.Frame(self.frame).grid(row=2, column=0)
-        info_frame.columnconfigure([1,2], weight=1)
+        info_frame.columnconfigure([2], weight=1)
         info_frame.rowconfigure([0,1,2,3], weight=1)
         ttk.Label(info_frame, text="Capital:", font=("Arial", 18, "bold"), anchor="w").grid(row=0, column=0)
         ttk.Label(info_frame, textvariable=self.capital, font=("Arial", 18), anchor="e").grid(row=0, column=1)
@@ -65,14 +66,14 @@ class Information(ttk.Frame):
         ttk.Label(info_frame, textvariable=self.idioma, font=("Arial", 18), anchor="e").grid(row=1, column=1)
 
         ttk.Label(info_frame, text="Mejor época:", font=("Arial", 18, "bold"), anchor="w").grid(row=2, column=0)
-        ttk.Label(info_frame, textvariable=self.mejor_epoca, font=("Arial", 18), anchor="e", wraplength=self.WIDTH/2 - 40).grid(row=2, column=1)
+        ttk.Label(info_frame, textvariable=self.mejor_epoca, font=("Arial", 18), anchor="e", wraplength=self.WIDTH/3).grid(row=2, column=1)
 
         ttk.Label(info_frame, text="Costo:", font=("Arial", 18, "bold"), anchor="w").grid(row=3, column=0)
         ttk.Label(info_frame, textvariable=self.costo, font=("Arial", 18), anchor="e", wraplength=self.WIDTH/2 - 40).grid(row=3, column=1)
                 
         
         self.label_imagen = ttk.Label(self.frame, anchor="center")
-        self.label_imagen.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=20, pady=10)
+        self.label_imagen.grid(row=2, column=1, rowspan=2, sticky="nsew", padx=20, pady=10)
         self.__load_image("images/default.png")
 
         ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 18), anchor="center", wraplength=self.WIDTH/2).grid(row=3, column=0, padx=20)
