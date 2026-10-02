@@ -1,10 +1,10 @@
 import ttkbootstrap as ttk
-import tkinter as tk
 import json
 from PIL import Image, ImageTk
-import time
+from queue import Empty
 
 from Serial import Serial
+from Voice import Voice
 
 root = ttk.App(title="App proyectadisima", theme="bootstrap-dark")
 root.attributes("-fullscreen", True)
@@ -16,7 +16,9 @@ class Information(ttk.Frame):
     def __init__(self, master):
         self.WIDTH = 1920
         self.HEIGHT = 1080 
-        self.serial = Serial(9600)
+        self.voice = Voice(16000)
+        self.voice.start()
+        self.serial = Serial(115200)
         
         with open("data.json", "r", encoding="utf-8") as file:
             self.datos = json.load(file)
@@ -41,17 +43,19 @@ class Information(ttk.Frame):
     def __build_info(self):
         self.frame = ttk.LabelFrame(self, text="País seleccionado", padding=12)
         frame = self.frame
-        frame.columnconfigure(0, weight=1)
-        frame.rowconfigure(0, weight=1)
+        frame.columnconfigure(0, weight=1, uniform="cols")
+        frame.columnconfigure(1, weight=1, uniform="cols")
+        frame.rowconfigure(1, weight=1)
+        frame.rowconfigure(2, weight=1)
         frame.pack(fill='both', expand=True)
 
-        ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="center").grid(row=0, column=0, sticky='ew', pady=0)
-        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=1, column=0, sticky='ew', pady=10)
+        ttk.Label(frame, textvariable=self.pais, font=("Arial", 100, "bold"), anchor="center").grid(row=0, column=0, columnspan=2, sticky='ew')
+        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=1, column=0, sticky='ew', padx=20)
 
         self.label_imagen = ttk.Label(self.frame, anchor="center")
-        self.label_imagen.grid(row=2, column=0, sticky='ew')
+        self.label_imagen.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=20, pady=10)
 
-        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=3, column=0, sticky='ew', pady=10)
+        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=2, column=0, padx=20)
 
 
     def __load_image(self, path):
@@ -67,18 +71,16 @@ class Information(ttk.Frame):
     # - otro archivo, preferiblemente eso.
     def __update_country(self): 
         try:
-            if self.serial.is_ready():
-                pais = self.serial.read_country()
-                if pais.lower() in self.datos:
-                    self.pais.set(self.datos[pais.lower()]["nombre"])
-                    self.info_top.set(self.datos[pais.lower()]["info_top"])
-                    self.info_bottom.set(self.datos[pais.lower()]["info_bottom"])
-                    self.__load_image(self.datos[pais.lower()]["imagen"])
-
-            self.master.after(200, self.__update_country)
-        except RuntimeError:
-            print("Serial disconnected or closed unexpectedly.")
-            #add later
+            pais = self.voice.read_country()
+            if pais and pais in self.datos:
+                self.pais.set(self.datos[pais]["nombre"])
+                self.info_top.set(self.datos[pais]["info_top"])
+                self.info_bottom.set(self.datos[pais]["info_bottom"])
+                self.__load_image(self.datos[pais]["imagen"])
+                self.serial.writeLine(self.datos[pais].get("angulo"))
+        except Empty:
+            pass
+        self.master.after(200, self.__update_country)
             
 
     def run(self):
