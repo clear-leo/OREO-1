@@ -1,0 +1,2147 @@
+{
+  "continente": {
+    "nombre": "Asia",
+    "resumen": "El continente más grande y poblado. Va de los desiertos de Arabia al Himalaya y a las islas tropicales del sudeste asiático, con religiones, cocinas y civilizaciones milenarias.",
+    "cantidad_paises": 47,
+    "poblacion_total": 4793317381,
+    "area_km2_total": 32100814,
+    "clima": "Muy variado. Los monzones marcan las temporadas en el sur y sudeste; el golfo Pérsico es extremadamente caluroso en verano.",
+    "mejor_epoca": "Noviembre a marzo para el sudeste asiático, la India y el golfo. Primavera y otoño para Japón, Corea y China.",
+    "perfil_viajero": "Templos y cultura, gastronomía, playas tropicales, trekking de montaña y viajes económicos.",
+    "idiomas": "Chino mandarín, hindi, árabe, bengalí, japonés, indonesio y cientos más. El inglés sirve en zonas turísticas.",
+    "destinos_estrella": [
+      "Japón",
+      "Tailandia",
+      "Bali (Indonesia)",
+      "Taj Mahal (India)",
+      "Petra (Jordania)",
+      "Angkor Wat (Camboya)"
+    ],
+    "consejos_generales": [
+      "En países de mayoría musulmana y en templos budistas conviene vestir con hombros y rodillas cubiertos.",
+      "El monzón puede arruinar un viaje de playa; revisa la temporada de cada zona.",
+      "Hay varios países con conflictos activos; revisa las alertas antes de recomendarlos."
+    ],
+    "regiones": {
+      "Asia del Sur": [
+        "Afganistán",
+        "Bangladés",
+        "Bután",
+        "India",
+        "Irán",
+        "Maldivas",
+        "Nepal",
+        "Pakistán",
+        "Sri Lanka"
+      ],
+      "Asia Occidental": [
+        "Arabia Saudí",
+        "Armenia",
+        "Azerbaiyán",
+        "Baréin",
+        "Catar",
+        "Emiratos Árabes Unidos",
+        "Georgia",
+        "Irak",
+        "Israel",
+        "Jordania",
+        "Kuwait",
+        "Líbano",
+        "Omán",
+        "Palestina",
+        "Siria",
+        "Turquía",
+        "Yemen"
+      ],
+      "Sudeste Asiático": [
+        "Brunéi",
+        "Camboya",
+        "Filipinas",
+        "Indonesia",
+        "Laos",
+        "Malasia",
+        "Myanmar",
+        "Singapur",
+        "Tailandia",
+        "Timor Oriental",
+        "Vietnam"
+      ],
+      "Asia Oriental": [
+        "China",
+        "Corea del Norte",
+        "Corea del Sur",
+        "Japón",
+        "Mongolia"
+      ],
+      "Asia Central": [
+        "Kazajistán",
+        "Kirguistán",
+        "Tayikistán",
+        "Turkmenistán",
+        "Uzbekistán"
+      ]
+    },
+    "paises_no_recomendados_actualmente": [
+      "Afganistán",
+      "Corea del Norte",
+      "Irak",
+      "Myanmar",
+      "Palestina",
+      "Siria",
+      "Yemen"
+    ]
+  },
+  "notas": {
+    "fuentes": "Población: Banco Mundial (2025). Capitales: Wikidata. Idiomas, monedas y coordenadas: dataset mledoze/countries. Guía turística: redactada para este proyecto.",
+    "aviso": "Visas, precios y seguridad cambian. Verifícalos antes de recomendar un viaje.",
+    "costo": "Escala relativa: económico, moderado o caro."
+  },
+  "paises": [
+    {
+      "nombre": "Afganistán",
+      "iso": "AF",
+      "bandera": "🇦🇫",
+      "subregion": "Asia del Sur",
+      "capital": "Kabul",
+      "lat": 33,
+      "lon": 65,
+      "poblacion": 43844111,
+      "area_km2": 652230,
+      "idiomas": [
+        "darí",
+        "pastún",
+        "turcomano"
+      ],
+      "monedas": [
+        "afgani afgano (AFN)"
+      ],
+      "imagen": "af.png",
+      "viaje_recomendado": false,
+      "resumen": "País montañoso de enorme historia en la Ruta de la Seda, hoy fuera del circuito turístico.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Valle de Bamiyán",
+        "Mezquita Azul de Mazar-i-Sharif",
+        "Minarete de Jam (UNESCO)"
+      ],
+      "gastronomia": [
+        "Kabuli pulao",
+        "Mantu"
+      ],
+      "cultura": "Mosaico de etnias: pastunes, tayikos, hazaras y uzbekos.",
+      "festividades": [
+        "Nowruz, año nuevo persa (marzo)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Arabia Saudí",
+      "iso": "SA",
+      "bandera": "🇸🇦",
+      "subregion": "Asia Occidental",
+      "capital": "Riad",
+      "lat": 25,
+      "lon": 45,
+      "poblacion": 36973555,
+      "area_km2": 2149690,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "rial saudí (SAR)"
+      ],
+      "imagen": "sa.png",
+      "viaje_recomendado": true,
+      "resumen": "Desierto, ciudades antiguas de piedra y un país que abrió el turismo hace pocos años.",
+      "ideal_para": [
+        "historia",
+        "desierto",
+        "cultura"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Hegra (AlUla), tumbas nabateas (UNESCO)",
+        "Riad y Diriyah",
+        "Yeda histórica",
+        "Mar Rojo para bucear"
+      ],
+      "gastronomia": [
+        "Kabsa",
+        "Dátiles",
+        "Café árabe con cardamomo"
+      ],
+      "cultura": "La Meca y Medina son las ciudades más sagradas del islam; solo pueden entrar musulmanes.",
+      "festividades": [
+        "Temporada de Riad (invierno)",
+        "Ramadán"
+      ],
+      "consejo": "Viste de forma conservadora y revisa las normas durante el Ramadán.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Armenia",
+      "iso": "AM",
+      "bandera": "🇦🇲",
+      "subregion": "Asia Occidental",
+      "capital": "Ereván",
+      "lat": 40,
+      "lon": 45,
+      "poblacion": 3086700,
+      "area_km2": 29743,
+      "idiomas": [
+        "armenio"
+      ],
+      "monedas": [
+        "dram armenio (AMD)"
+      ],
+      "imagen": "am.png",
+      "viaje_recomendado": true,
+      "resumen": "Monasterios en montañas y uno de los países cristianos más antiguos del mundo.",
+      "ideal_para": [
+        "historia",
+        "religión",
+        "montaña"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Monasterio de Geghard (UNESCO)",
+        "Templo de Garni",
+        "Lago Sevan",
+        "Monasterio de Tatev y su teleférico"
+      ],
+      "gastronomia": [
+        "Khorovats",
+        "Dolma",
+        "Lavash (UNESCO)"
+      ],
+      "cultura": "Primer país en adoptar el cristianismo como religión oficial, en el año 301.",
+      "festividades": [
+        "Vardavar, fiesta del agua (verano)"
+      ],
+      "consejo": "Desde Ereván se ve el monte Ararat en días despejados.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Azerbaiyán",
+      "iso": "AZ",
+      "bandera": "🇦🇿",
+      "subregion": "Asia Occidental",
+      "capital": "Bakú",
+      "lat": 40.5,
+      "lon": 47.5,
+      "poblacion": 10246996,
+      "area_km2": 86600,
+      "idiomas": [
+        "azerbaiyano",
+        "ruso"
+      ],
+      "monedas": [
+        "manat azerbaiyano (AZN)"
+      ],
+      "imagen": "az.png",
+      "viaje_recomendado": true,
+      "resumen": "Rascacielos modernos junto a un casco medieval, a orillas del mar Caspio.",
+      "ideal_para": [
+        "ciudades",
+        "historia"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Ciudad vieja de Bakú (UNESCO)",
+        "Torres Flame",
+        "Gobustán y sus petroglifos",
+        "Sheki"
+      ],
+      "gastronomia": [
+        "Plov",
+        "Dolma",
+        "Pakhlava"
+      ],
+      "cultura": "Llamado 'tierra del fuego' por sus fuegos naturales de gas.",
+      "festividades": [
+        "Nowruz (marzo)"
+      ],
+      "consejo": "Revisa la situación de las fronteras con Armenia antes de viajar por tierra.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Bangladés",
+      "iso": "BD",
+      "bandera": "🇧🇩",
+      "subregion": "Asia del Sur",
+      "capital": "Daca",
+      "lat": 24,
+      "lon": 90,
+      "poblacion": 175686899,
+      "area_km2": 147570,
+      "idiomas": [
+        "bengalí"
+      ],
+      "monedas": [
+        "taka bangladesí (BDT)"
+      ],
+      "imagen": "bd.png",
+      "viaje_recomendado": true,
+      "resumen": "Ríos, manglares y la playa natural más larga del mundo. Muy poco turístico.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura"
+      ],
+      "mejor_epoca": "Noviembre a febrero.",
+      "imperdibles": [
+        "Sundarbans y el tigre de Bengala (UNESCO)",
+        "Cox's Bazar",
+        "Daca vieja",
+        "Srimangal y sus plantaciones de té"
+      ],
+      "gastronomia": [
+        "Hilsa (pescado)",
+        "Biryani",
+        "Mishti doi"
+      ],
+      "cultura": "Uno de los países más densamente poblados del planeta.",
+      "festividades": [
+        "Pohela Boishakh, año nuevo bengalí (14 de abril)"
+      ],
+      "consejo": "Evita la temporada de monzón, de junio a octubre.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Baréin",
+      "iso": "BH",
+      "bandera": "🇧🇭",
+      "subregion": "Asia Occidental",
+      "capital": "Manama",
+      "lat": 26,
+      "lon": 50.55,
+      "poblacion": 1600366,
+      "area_km2": 765,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar bareiní (BHD)"
+      ],
+      "imagen": "bh.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño reino insular del golfo Pérsico, más relajado que sus vecinos.",
+      "ideal_para": [
+        "ciudades",
+        "historia"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Fuerte de Baréin (UNESCO)",
+        "Circuito de Fórmula 1",
+        "Mezquita Al Fateh",
+        "Ruta de las perlas en Muharraq"
+      ],
+      "gastronomia": [
+        "Machboos",
+        "Halwa"
+      ],
+      "cultura": "Históricamente fue un centro de pesca de perlas.",
+      "festividades": [
+        "Gran Premio de F1"
+      ],
+      "consejo": "Se conecta con Arabia Saudí por un puente de unos 25 km.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Brunéi",
+      "iso": "BN",
+      "bandera": "🇧🇳",
+      "subregion": "Sudeste Asiático",
+      "capital": "Bandar Seri Begawan",
+      "lat": 4.5,
+      "lon": 114.67,
+      "poblacion": 466330,
+      "area_km2": 5765,
+      "idiomas": [
+        "malayo"
+      ],
+      "monedas": [
+        "dólar bruneano (BND)",
+        "dólar singapurense (SGD)"
+      ],
+      "imagen": "bn.png",
+      "viaje_recomendado": true,
+      "resumen": "Sultanato pequeño y rico en la isla de Borneo, con selvas intactas.",
+      "ideal_para": [
+        "naturaleza",
+        "religión"
+      ],
+      "mejor_epoca": "Febrero a abril.",
+      "imperdibles": [
+        "Mezquita Omar Ali Saifuddien",
+        "Kampong Ayer, pueblo sobre el agua",
+        "Parque Nacional Ulu Temburong"
+      ],
+      "gastronomia": [
+        "Ambuyat"
+      ],
+      "cultura": "Monarquía islámica muy conservadora. No se vende alcohol.",
+      "festividades": [
+        "Cumpleaños del Sultán (15 de julio)"
+      ],
+      "consejo": "Viste con recato y respeta las normas religiosas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Bután",
+      "iso": "BT",
+      "bandera": "🇧🇹",
+      "subregion": "Asia del Sur",
+      "capital": "Timbu",
+      "lat": 27.5,
+      "lon": 90.5,
+      "poblacion": 796682,
+      "area_km2": 38394,
+      "idiomas": [
+        "dzongkha"
+      ],
+      "monedas": [
+        "gultrum butanés (BTN)",
+        "rupia india (INR)"
+      ],
+      "imagen": "bt.png",
+      "viaje_recomendado": true,
+      "resumen": "Reino del Himalaya que mide su éxito en 'Felicidad Nacional Bruta'.",
+      "ideal_para": [
+        "montaña",
+        "religión",
+        "senderismo"
+      ],
+      "mejor_epoca": "Marzo a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Monasterio Nido del Tigre (Taktsang)",
+        "Punakha Dzong",
+        "Timbu",
+        "Valle de Paro"
+      ],
+      "gastronomia": [
+        "Ema datshi (chiles con queso)",
+        "Arroz rojo"
+      ],
+      "cultura": "Budismo en la vida cotidiana. Es obligatorio proteger una gran parte del bosque.",
+      "festividades": [
+        "Festivales tsechu de danzas con máscaras"
+      ],
+      "consejo": "Los turistas pagan una tasa diaria de desarrollo sostenible. Revisa el monto actual antes de planear.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Camboya",
+      "iso": "KH",
+      "bandera": "🇰🇭",
+      "subregion": "Sudeste Asiático",
+      "capital": "Nom Pen",
+      "lat": 13,
+      "lon": 105,
+      "poblacion": 17847982,
+      "area_km2": 181035,
+      "idiomas": [
+        "jemer"
+      ],
+      "monedas": [
+        "riel camboyano (KHR)",
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "kh.png",
+      "viaje_recomendado": true,
+      "resumen": "Hogar de Angkor Wat, el mayor monumento religioso del mundo.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Angkor Wat y templos de Angkor (UNESCO)",
+        "Nom Pen",
+        "Kampot",
+        "Islas de Koh Rong"
+      ],
+      "gastronomia": [
+        "Amok de pescado",
+        "Lok lak"
+      ],
+      "cultura": "Cultura jemer con fuerte presencia budista.",
+      "festividades": [
+        "Año Nuevo Jemer (abril)",
+        "Festival del Agua (noviembre)"
+      ],
+      "consejo": "Ve a Angkor Wat al amanecer y compra el pase de varios días si quieres ver más templos.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Catar",
+      "iso": "QA",
+      "bandera": "🇶🇦",
+      "subregion": "Asia Occidental",
+      "capital": "Doha",
+      "lat": 25.5,
+      "lon": 51.25,
+      "poblacion": 2972215,
+      "area_km2": 11586,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "rial catarí (QAR)"
+      ],
+      "imagen": "qa.png",
+      "viaje_recomendado": true,
+      "resumen": "Península del golfo con arquitectura moderna, museos y desierto.",
+      "ideal_para": [
+        "ciudades",
+        "museos",
+        "desierto"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Museo de Arte Islámico",
+        "Museo Nacional de Catar",
+        "Souq Waqif",
+        "Mar interior (Khor Al Adaid)"
+      ],
+      "gastronomia": [
+        "Machboos",
+        "Luqaimat"
+      ],
+      "cultura": "Sede del Mundial de fútbol 2022.",
+      "festividades": [
+        "Día Nacional (18 de diciembre)"
+      ],
+      "consejo": "En verano pasa de 40 °C. Planifica las salidas temprano o de noche.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "China",
+      "iso": "CN",
+      "bandera": "🇨🇳",
+      "subregion": "Asia Oriental",
+      "capital": "Pekín",
+      "lat": 35,
+      "lon": 105,
+      "poblacion": 1406585000,
+      "area_km2": 9706961,
+      "idiomas": [
+        "chino"
+      ],
+      "monedas": [
+        "yuan renminbi (CNY)"
+      ],
+      "imagen": "cn.png",
+      "viaje_recomendado": true,
+      "resumen": "Una de las civilizaciones más antiguas, con ciudades gigantes, montañas de película y una cocina enorme.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "gastronomía",
+        "ciudades"
+      ],
+      "mejor_epoca": "Abril a mayo y septiembre a octubre.",
+      "imperdibles": [
+        "Gran Muralla",
+        "Ciudad Prohibida (Pekín)",
+        "Guerreros de terracota (Xi'an)",
+        "Guilin y el río Li",
+        "Zhangjiajie"
+      ],
+      "gastronomia": [
+        "Pato laqueado",
+        "Dim sum",
+        "Hot pot de Sichuan",
+        "Dumplings"
+      ],
+      "cultura": "Cada región tiene su cocina propia. Muchas apps y webs occidentales están bloqueadas.",
+      "festividades": [
+        "Año Nuevo Chino (enero o febrero)",
+        "Festival del Medio Otoño"
+      ],
+      "consejo": "Instala antes del viaje apps locales de pago y mapas; allá es difícil sin ellas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Corea del Norte",
+      "iso": "KP",
+      "bandera": "🇰🇵",
+      "subregion": "Asia Oriental",
+      "capital": "Pionyang",
+      "lat": 40,
+      "lon": 127,
+      "poblacion": 26571036,
+      "area_km2": 120538,
+      "idiomas": [
+        "coreano"
+      ],
+      "monedas": [
+        "won norcoreano (KPW)"
+      ],
+      "imagen": "kp.png",
+      "viaje_recomendado": false,
+      "resumen": "Uno de los países más cerrados del mundo. Solo se visita con tours estatales.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Pionyang",
+        "Zona Desmilitarizada (lado norte)"
+      ],
+      "gastronomia": [
+        "Naengmyeon (fideos fríos)"
+      ],
+      "cultura": "Régimen totalitario con control total de la vida pública.",
+      "festividades": [
+        "Juegos Masivos"
+      ],
+      "consejo": "Varios países, entre ellos Estados Unidos, prohíben o desaconsejan firmemente el viaje.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Corea del Sur",
+      "iso": "KR",
+      "bandera": "🇰🇷",
+      "subregion": "Asia Oriental",
+      "capital": "Seúl",
+      "lat": 37,
+      "lon": 127.5,
+      "poblacion": 51684564,
+      "area_km2": 100210,
+      "idiomas": [
+        "coreano"
+      ],
+      "monedas": [
+        "won surcoreano (KRW)"
+      ],
+      "imagen": "kr.png",
+      "viaje_recomendado": true,
+      "resumen": "Tecnología, templos, comida picante y la ola cultural del K-pop.",
+      "ideal_para": [
+        "ciudades",
+        "gastronomía",
+        "cultura pop",
+        "historia"
+      ],
+      "mejor_epoca": "Abril a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Seúl y el palacio Gyeongbokgung",
+        "Busan",
+        "Isla de Jeju",
+        "Gyeongju",
+        "Zona Desmilitarizada"
+      ],
+      "gastronomia": [
+        "Kimchi",
+        "Bibimbap",
+        "Barbacoa coreana",
+        "Tteokbokki"
+      ],
+      "cultura": "El respeto a los mayores marca la etiqueta. Se comparte la comida en la mesa.",
+      "festividades": [
+        "Chuseok (otoño)",
+        "Festival de linternas de loto (mayo)"
+      ],
+      "consejo": "El transporte público es excelente. Consigue una tarjeta T-money al llegar.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Emiratos Árabes Unidos",
+      "iso": "AE",
+      "bandera": "🇦🇪",
+      "subregion": "Asia Occidental",
+      "capital": "Abu Dhabi",
+      "lat": 24,
+      "lon": 54,
+      "poblacion": 11513149,
+      "area_km2": 83600,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dírham de los Emiratos Árabes Unidos (AED)"
+      ],
+      "imagen": "ae.png",
+      "viaje_recomendado": true,
+      "resumen": "Rascacielos récord, lujo, desierto y centros comerciales enormes.",
+      "ideal_para": [
+        "lujo",
+        "ciudades",
+        "compras",
+        "desierto"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Burj Khalifa (Dubái)",
+        "Mezquita Sheikh Zayed (Abu Dabi)",
+        "Safari por el desierto",
+        "Louvre Abu Dabi"
+      ],
+      "gastronomia": [
+        "Shawarma",
+        "Al harees",
+        "Luqaimat"
+      ],
+      "cultura": "Más del 80 % de la población es extranjera.",
+      "festividades": [
+        "Festival de Compras de Dubái (invierno)",
+        "Ramadán"
+      ],
+      "consejo": "Las muestras de afecto en público y el alcohol en la calle están mal vistos o prohibidos.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Filipinas",
+      "iso": "PH",
+      "bandera": "🇵🇭",
+      "subregion": "Sudeste Asiático",
+      "capital": "Manila",
+      "lat": 13,
+      "lon": 122,
+      "poblacion": 116786962,
+      "area_km2": 342353,
+      "idiomas": [
+        "inglés",
+        "filipino"
+      ],
+      "monedas": [
+        "peso filipino (PHP)"
+      ],
+      "imagen": "ph.png",
+      "viaje_recomendado": true,
+      "resumen": "Más de 7.000 islas con playas de postal, arrozales y buceo de primer nivel.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "islas",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Diciembre a mayo.",
+      "imperdibles": [
+        "Palawan (El Nido, Coron)",
+        "Bohol y las Colinas de Chocolate",
+        "Terrazas de arroz de Banaue (UNESCO)",
+        "Siargao"
+      ],
+      "gastronomia": [
+        "Adobo",
+        "Lechón",
+        "Halo-halo",
+        "Sinigang"
+      ],
+      "cultura": "Mezcla de raíces austronesias, española y estadounidense. Muy católico.",
+      "festividades": [
+        "Sinulog (Cebú, enero)",
+        "Navidad, que empieza en septiembre"
+      ],
+      "consejo": "Casi todos hablan inglés, lo que facilita moverse.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Georgia",
+      "iso": "GE",
+      "bandera": "🇬🇪",
+      "subregion": "Asia Occidental",
+      "capital": "Tiflis",
+      "lat": 42,
+      "lon": 43.5,
+      "poblacion": 3935766,
+      "area_km2": 69700,
+      "idiomas": [
+        "georgiano"
+      ],
+      "monedas": [
+        "lari georgiano (GEL)"
+      ],
+      "imagen": "ge.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas del Cáucaso, iglesias antiguas y la tradición vinícola más antigua conocida.",
+      "ideal_para": [
+        "montaña",
+        "vino",
+        "gastronomía",
+        "senderismo"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Tiflis",
+        "Kazbegi y la iglesia de Gergeti",
+        "Svaneti (UNESCO)",
+        "Región vinícola de Kajetia"
+      ],
+      "gastronomia": [
+        "Khachapuri",
+        "Khinkali",
+        "Vino en qvevri (UNESCO)"
+      ],
+      "cultura": "Las supras, banquetes con brindis guiados por un tamada, son parte central de la cultura.",
+      "festividades": [
+        "Tbilisoba (octubre)",
+        "Rtveli, la vendimia"
+      ],
+      "consejo": "Los brindis en una supra son largos y en serio. No bebas antes del brindis.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "India",
+      "iso": "IN",
+      "bandera": "🇮🇳",
+      "subregion": "Asia del Sur",
+      "capital": "Nueva Delhi",
+      "lat": 20,
+      "lon": 77,
+      "poblacion": 1463865525,
+      "area_km2": 3287590,
+      "idiomas": [
+        "inglés",
+        "hindi",
+        "tamil"
+      ],
+      "monedas": [
+        "rupia india (INR)"
+      ],
+      "imagen": "in.png",
+      "viaje_recomendado": true,
+      "resumen": "Un subcontinente de palacios, templos, desiertos, montañas y una intensidad que no deja indiferente.",
+      "ideal_para": [
+        "cultura",
+        "religión",
+        "historia",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Octubre a marzo.",
+      "imperdibles": [
+        "Taj Mahal",
+        "Rajastán: Jaipur, Udaipur y Jodhpur",
+        "Varanasi",
+        "Kerala",
+        "Himalaya en Ladakh"
+      ],
+      "gastronomia": [
+        "Curry",
+        "Biryani",
+        "Masala dosa",
+        "Chai"
+      ],
+      "cultura": "Conviven hinduismo, islam, sijismo, budismo y más. Se come con la mano derecha.",
+      "festividades": [
+        "Diwali (octubre o noviembre)",
+        "Holi (marzo)"
+      ],
+      "consejo": "Tómate con calma el ritmo del país. Bebe solo agua embotellada.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Indonesia",
+      "iso": "ID",
+      "bandera": "🇮🇩",
+      "subregion": "Sudeste Asiático",
+      "capital": "Yakarta",
+      "lat": -5,
+      "lon": 120,
+      "poblacion": 285721236,
+      "area_km2": 1904569,
+      "idiomas": [
+        "indonesio"
+      ],
+      "monedas": [
+        "rupia indonesia (IDR)"
+      ],
+      "imagen": "id.png",
+      "viaje_recomendado": true,
+      "resumen": "El mayor archipiélago del mundo: volcanes, templos, selvas y playas.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "cultura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Bali",
+        "Templo de Borobudur (UNESCO)",
+        "Parque Nacional de Komodo",
+        "Raja Ampat",
+        "Volcán Bromo"
+      ],
+      "gastronomia": [
+        "Nasi goreng",
+        "Rendang",
+        "Satay",
+        "Gado-gado"
+      ],
+      "cultura": "El país con más musulmanes del mundo, aunque Bali es mayoritariamente hindú.",
+      "festividades": [
+        "Nyepi, día del silencio en Bali (marzo)"
+      ],
+      "consejo": "En Nyepi Bali se detiene por completo: ni el aeropuerto funciona.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Irak",
+      "iso": "IQ",
+      "bandera": "🇮🇶",
+      "subregion": "Asia Occidental",
+      "capital": "Bagdad",
+      "lat": 33,
+      "lon": 44,
+      "poblacion": 47020774,
+      "area_km2": 438317,
+      "idiomas": [
+        "árabe",
+        "arameo",
+        "kurdo sorani"
+      ],
+      "monedas": [
+        "dinar iraquí (IQD)"
+      ],
+      "imagen": "iq.png",
+      "viaje_recomendado": false,
+      "resumen": "Mesopotamia, cuna de la escritura y de las primeras ciudades.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Babilonia (UNESCO)",
+        "Ciudadela de Erbil (UNESCO)",
+        "Marismas del sur"
+      ],
+      "gastronomia": [
+        "Masgouf (pescado asado)",
+        "Dolma"
+      ],
+      "cultura": "Tierra de Sumeria, Babilonia y Asiria.",
+      "festividades": [
+        "Nowruz en el Kurdistán (marzo)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Irán",
+      "iso": "IR",
+      "bandera": "🇮🇷",
+      "subregion": "Asia del Sur",
+      "capital": "Teherán",
+      "lat": 32,
+      "lon": 53,
+      "poblacion": 92417681,
+      "area_km2": 1648195,
+      "idiomas": [
+        "persa"
+      ],
+      "monedas": [
+        "rial iraní (IRR)"
+      ],
+      "imagen": "ir.png",
+      "viaje_recomendado": true,
+      "resumen": "Antigua Persia: mezquitas de azulejos, desiertos y una hospitalidad famosa.",
+      "ideal_para": [
+        "historia",
+        "arquitectura",
+        "cultura"
+      ],
+      "mejor_epoca": "Marzo a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Plaza Naqsh-e Jahan (Isfahán)",
+        "Persépolis",
+        "Shiraz",
+        "Yazd"
+      ],
+      "gastronomia": [
+        "Chelo kebab",
+        "Ghormeh sabzi",
+        "Tahdig"
+      ],
+      "cultura": "La poesía persa se cita en la vida diaria. El 'taarof' es un código de cortesía complejo.",
+      "festividades": [
+        "Nowruz (marzo)"
+      ],
+      "consejo": "Hay fuertes tensiones políticas y restricciones. Revisa las alertas de viaje de tu país.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Israel",
+      "iso": "IL",
+      "bandera": "🇮🇱",
+      "subregion": "Asia Occidental",
+      "capital": "Jerusalén (reconocimiento internacional limitado)",
+      "lat": 31.47,
+      "lon": 35.13,
+      "poblacion": 10122800,
+      "area_km2": 20770,
+      "idiomas": [
+        "árabe",
+        "hebreo"
+      ],
+      "monedas": [
+        "nuevo séquel israelí (ILS)"
+      ],
+      "imagen": "il.png",
+      "viaje_recomendado": true,
+      "resumen": "Tierra Santa para tres religiones, con el mar Muerto y playas mediterráneas.",
+      "ideal_para": [
+        "religión",
+        "historia",
+        "playa"
+      ],
+      "mejor_epoca": "Marzo a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Ciudad Vieja de Jerusalén (UNESCO)",
+        "Mar Muerto",
+        "Masada",
+        "Tel Aviv"
+      ],
+      "gastronomia": [
+        "Falafel",
+        "Hummus",
+        "Shakshuka"
+      ],
+      "cultura": "Mezcla de culturas judía, árabe y de inmigrantes de todo el mundo.",
+      "festividades": [
+        "Pésaj",
+        "Janucá"
+      ],
+      "consejo": "La situación de seguridad por el conflicto regional cambia rápido. Revisa las alertas antes de viajar.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Japón",
+      "iso": "JP",
+      "bandera": "🇯🇵",
+      "subregion": "Asia Oriental",
+      "capital": "Tokio",
+      "lat": 36,
+      "lon": 138,
+      "poblacion": 123366734,
+      "area_km2": 377930,
+      "idiomas": [
+        "japonés"
+      ],
+      "monedas": [
+        "yen japonés (JPY)"
+      ],
+      "imagen": "jp.png",
+      "viaje_recomendado": true,
+      "resumen": "Templos milenarios y ciudades futuristas, con una cultura de respeto y cuidado por los detalles.",
+      "ideal_para": [
+        "cultura",
+        "gastronomía",
+        "ciudades",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Marzo a mayo (cerezos) y octubre a noviembre (otoño).",
+      "imperdibles": [
+        "Tokio",
+        "Kioto",
+        "Monte Fuji",
+        "Nara",
+        "Hiroshima y Miyajima"
+      ],
+      "gastronomia": [
+        "Sushi",
+        "Ramen",
+        "Tempura",
+        "Okonomiyaki"
+      ],
+      "cultura": "No se deja propina. Se habla bajo en el transporte y se quitan los zapatos en casas y templos.",
+      "festividades": [
+        "Hanami, cerezos en flor (primavera)",
+        "Gion Matsuri (Kioto, julio)"
+      ],
+      "consejo": "Los trenes son puntuales al minuto. Revisa si te conviene el Japan Rail Pass para tu ruta.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Jordania",
+      "iso": "JO",
+      "bandera": "🇯🇴",
+      "subregion": "Asia Occidental",
+      "capital": "Amán",
+      "lat": 31,
+      "lon": 36,
+      "poblacion": 11520684,
+      "area_km2": 89342,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar jordano (JOD)"
+      ],
+      "imagen": "jo.png",
+      "viaje_recomendado": true,
+      "resumen": "Petra, el desierto de Wadi Rum y el mar Muerto en un país pequeño y seguro para la región.",
+      "ideal_para": [
+        "historia",
+        "desierto",
+        "aventura"
+      ],
+      "mejor_epoca": "Marzo a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Petra (UNESCO)",
+        "Wadi Rum",
+        "Mar Muerto",
+        "Jerash"
+      ],
+      "gastronomia": [
+        "Mansaf",
+        "Falafel",
+        "Knafeh"
+      ],
+      "cultura": "La hospitalidad beduina incluye ofrecer café o té a los visitantes.",
+      "festividades": [
+        "Festival de Jerash (verano)"
+      ],
+      "consejo": "El Jordan Pass incluye la visa y la entrada a Petra. Suele salir a cuenta.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Kazajistán",
+      "iso": "KZ",
+      "bandera": "🇰🇿",
+      "subregion": "Asia Central",
+      "capital": "Astaná",
+      "lat": 48,
+      "lon": 68,
+      "poblacion": 20843754,
+      "area_km2": 2724900,
+      "idiomas": [
+        "kazajo",
+        "ruso"
+      ],
+      "monedas": [
+        "tengue kazajo (KZT)"
+      ],
+      "imagen": "kz.png",
+      "viaje_recomendado": true,
+      "resumen": "El país sin litoral más grande del mundo: estepas, montañas y ciudades modernas.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "ciudades"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Almaty y las montañas Tian Shan",
+        "Cañón de Charyn",
+        "Astaná",
+        "Lagos Kolsai"
+      ],
+      "gastronomia": [
+        "Beshbarmak",
+        "Kumis (leche de yegua fermentada)"
+      ],
+      "cultura": "Herencia nómada con yurtas y caza con águilas.",
+      "festividades": [
+        "Nauryz (marzo)"
+      ],
+      "consejo": "Las distancias son gigantescas. Los trenes nocturnos son una buena opción.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Kirguistán",
+      "iso": "KG",
+      "bandera": "🇰🇬",
+      "subregion": "Asia Central",
+      "capital": "Biskek",
+      "lat": 41,
+      "lon": 75,
+      "poblacion": 7343064,
+      "area_km2": 199951,
+      "idiomas": [
+        "kirguís",
+        "ruso"
+      ],
+      "monedas": [
+        "som kirguís (KGS)"
+      ],
+      "imagen": "kg.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas, lagos alpinos y vida nómada en yurtas.",
+      "ideal_para": [
+        "montaña",
+        "senderismo",
+        "aventura"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Lago Issyk-Kul",
+        "Lago Son-Kul",
+        "Cañón de Skazka",
+        "Valle de Karakol"
+      ],
+      "gastronomia": [
+        "Beshbarmak",
+        "Plov",
+        "Kumis"
+      ],
+      "cultura": "La cultura nómada sigue viva. Dormir en yurta es parte del viaje.",
+      "festividades": [
+        "Juegos Mundiales Nómadas (septiembre, en algunos años)"
+      ],
+      "consejo": "La red de turismo comunitario (CBT) organiza alojamientos y guías locales.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Kuwait",
+      "iso": "KW",
+      "bandera": "🇰🇼",
+      "subregion": "Asia Occidental",
+      "capital": "Ciudad de Kuwait",
+      "lat": 29.5,
+      "lon": 45.75,
+      "poblacion": 4865298,
+      "area_km2": 17818,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar kuwaití (KWD)"
+      ],
+      "imagen": "kw.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño país del golfo, más orientado a negocios que al turismo.",
+      "ideal_para": [
+        "ciudades"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Torres de Kuwait",
+        "Gran Mezquita",
+        "Souk Al-Mubarakiya"
+      ],
+      "gastronomia": [
+        "Machboos",
+        "Gers ogaily"
+      ],
+      "cultura": "País rico en petróleo y muy conservador.",
+      "festividades": [
+        "Día Nacional (25 de febrero)"
+      ],
+      "consejo": "Se ve en uno o dos días. No se vende alcohol.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Laos",
+      "iso": "LA",
+      "bandera": "🇱🇦",
+      "subregion": "Sudeste Asiático",
+      "capital": "Vientián",
+      "lat": 18,
+      "lon": 105,
+      "poblacion": 7873046,
+      "area_km2": 236800,
+      "idiomas": [
+        "lao"
+      ],
+      "monedas": [
+        "kip laosiano (LAK)"
+      ],
+      "imagen": "la.png",
+      "viaje_recomendado": true,
+      "resumen": "Ritmo lento, templos budistas y el río Mekong.",
+      "ideal_para": [
+        "cultura",
+        "naturaleza",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Luang Prabang (UNESCO)",
+        "Cascadas Kuang Si",
+        "Vang Vieng",
+        "4.000 islas (Si Phan Don)"
+      ],
+      "gastronomia": [
+        "Larb",
+        "Arroz glutinoso",
+        "Khao piak sen"
+      ],
+      "cultura": "Budismo muy presente. La entrega de limosnas a los monjes se hace al amanecer.",
+      "festividades": [
+        "Pi Mai Lao, año nuevo (abril)"
+      ],
+      "consejo": "Durante la ceremonia de limosnas, observa en silencio y sin flash.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Líbano",
+      "iso": "LB",
+      "bandera": "🇱🇧",
+      "subregion": "Asia Occidental",
+      "capital": "Beirut",
+      "lat": 33.83,
+      "lon": 35.83,
+      "poblacion": 5849421,
+      "area_km2": 10452,
+      "idiomas": [
+        "árabe",
+        "francés"
+      ],
+      "monedas": [
+        "libra libanesa (LBP)"
+      ],
+      "imagen": "lb.png",
+      "viaje_recomendado": true,
+      "resumen": "Ruinas romanas, montañas con cedros y una de las mejores cocinas de Oriente Medio.",
+      "ideal_para": [
+        "historia",
+        "gastronomía",
+        "cultura"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a noviembre.",
+      "imperdibles": [
+        "Baalbek (UNESCO)",
+        "Biblos",
+        "Beirut",
+        "Valle de Qadisha y sus cedros"
+      ],
+      "gastronomia": [
+        "Tabulé",
+        "Kibbeh",
+        "Manaqish",
+        "Meze"
+      ],
+      "cultura": "Mezcla de 18 comunidades religiosas reconocidas.",
+      "festividades": [
+        "Festival de Baalbek (verano)"
+      ],
+      "consejo": "La situación económica y de seguridad es frágil. Revisa las alertas vigentes.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Malasia",
+      "iso": "MY",
+      "bandera": "🇲🇾",
+      "subregion": "Sudeste Asiático",
+      "capital": "Kuala Lumpur / Putrajaya",
+      "lat": 2.5,
+      "lon": 112.5,
+      "poblacion": 35977838,
+      "area_km2": 330803,
+      "idiomas": [
+        "inglés",
+        "malayo"
+      ],
+      "monedas": [
+        "ringit malasio (MYR)"
+      ],
+      "imagen": "my.png",
+      "viaje_recomendado": true,
+      "resumen": "Selvas antiguas, rascacielos, islas y una comida que mezcla lo malayo, chino e indio.",
+      "ideal_para": [
+        "gastronomía",
+        "naturaleza",
+        "playa",
+        "ciudades"
+      ],
+      "mejor_epoca": "Marzo a octubre en la costa oeste.",
+      "imperdibles": [
+        "Torres Petronas (Kuala Lumpur)",
+        "George Town, en Penang (UNESCO)",
+        "Borneo malasio y orangutanes",
+        "Islas Perhentian",
+        "Cameron Highlands"
+      ],
+      "gastronomia": [
+        "Nasi lemak",
+        "Laksa",
+        "Roti canai",
+        "Satay"
+      ],
+      "cultura": "Tres culturas grandes conviven: malaya, china e india.",
+      "festividades": [
+        "Hari Raya Aidilfitri (fin del Ramadán)",
+        "Thaipusam (enero o febrero)"
+      ],
+      "consejo": "Las lluvias cambian según la costa. Revisa la temporada de la zona que visites.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Maldivas",
+      "iso": "MV",
+      "bandera": "🇲🇻",
+      "subregion": "Asia del Sur",
+      "capital": "Malé",
+      "lat": 3.25,
+      "lon": 73,
+      "poblacion": 529676,
+      "area_km2": 300,
+      "idiomas": [
+        "divehi"
+      ],
+      "monedas": [
+        "rufiya maldiva (MVR)"
+      ],
+      "imagen": "mv.png",
+      "viaje_recomendado": true,
+      "resumen": "Atolones de arena blanca y bungalós sobre el agua en el océano Índico.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "lujo",
+        "romántico"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Resorts en islas privadas",
+        "Buceo con mantas y tiburones ballena",
+        "Malé",
+        "Islas locales como Maafushi"
+      ],
+      "gastronomia": [
+        "Garudhiya (sopa de pescado)",
+        "Mas huni"
+      ],
+      "cultura": "País musulmán. El país más bajo del mundo sobre el nivel del mar.",
+      "festividades": [
+        "Día de la Independencia (26 de julio)"
+      ],
+      "consejo": "Las islas locales ofrecen hospedajes mucho más baratos que los resorts.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Mongolia",
+      "iso": "MN",
+      "bandera": "🇲🇳",
+      "subregion": "Asia Oriental",
+      "capital": "Ulán Bator",
+      "lat": 46,
+      "lon": 105,
+      "poblacion": 3568978,
+      "area_km2": 1564110,
+      "idiomas": [
+        "mongol"
+      ],
+      "monedas": [
+        "tugrik mongol (MNT)"
+      ],
+      "imagen": "mn.png",
+      "viaje_recomendado": true,
+      "resumen": "Estepas infinitas, el desierto de Gobi y tradición nómada.",
+      "ideal_para": [
+        "aventura",
+        "naturaleza",
+        "cultura nómada"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Desierto de Gobi",
+        "Lago Khövsgöl",
+        "Parque Nacional Terelj",
+        "Karakórum"
+      ],
+      "gastronomia": [
+        "Buuz (empanadillas)",
+        "Khorkhog",
+        "Airag"
+      ],
+      "cultura": "Casi un tercio de la población sigue viviendo de forma nómada o seminómada.",
+      "festividades": [
+        "Naadam (julio)"
+      ],
+      "consejo": "Fuera de Ulán Bator hay muy pocas carreteras. Viaja con operador y conductor local.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Myanmar",
+      "iso": "MM",
+      "bandera": "🇲🇲",
+      "subregion": "Sudeste Asiático",
+      "capital": "Naipyidó",
+      "lat": 22,
+      "lon": 98,
+      "poblacion": 54850648,
+      "area_km2": 676578,
+      "idiomas": [
+        "birmano"
+      ],
+      "monedas": [
+        "kiat de Myanmar (MMK)"
+      ],
+      "imagen": "mm.png",
+      "viaje_recomendado": false,
+      "resumen": "Miles de pagodas y una cultura budista muy rica, hoy en conflicto.",
+      "ideal_para": [
+        "historia",
+        "religión"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Bagan (UNESCO)",
+        "Pagoda Shwedagon (Rangún)",
+        "Lago Inle"
+      ],
+      "gastronomia": [
+        "Mohinga",
+        "Ensalada de hojas de té"
+      ],
+      "cultura": "Budismo theravada muy presente en la vida diaria.",
+      "festividades": [
+        "Thingyan (abril)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Nepal",
+      "iso": "NP",
+      "bandera": "🇳🇵",
+      "subregion": "Asia del Sur",
+      "capital": "Katmandú",
+      "lat": 28,
+      "lon": 84,
+      "poblacion": 29618118,
+      "area_km2": 147181,
+      "idiomas": [
+        "nepalí"
+      ],
+      "monedas": [
+        "rupia nepalí (NPR)"
+      ],
+      "imagen": "np.png",
+      "viaje_recomendado": true,
+      "resumen": "El Everest y ocho de las diez montañas más altas del mundo.",
+      "ideal_para": [
+        "montaña",
+        "trekking",
+        "religión"
+      ],
+      "mejor_epoca": "Octubre a noviembre y marzo a mayo.",
+      "imperdibles": [
+        "Campo base del Everest",
+        "Circuito del Annapurna",
+        "Valle de Katmandú (UNESCO)",
+        "Pokhara",
+        "Parque Nacional Chitwan"
+      ],
+      "gastronomia": [
+        "Dal bhat",
+        "Momos"
+      ],
+      "cultura": "Conviven hinduismo y budismo. El saludo es 'namasté'.",
+      "festividades": [
+        "Dashain (otoño)",
+        "Tihar"
+      ],
+      "consejo": "El mal de altura es serio. Sube despacio y respeta los días de aclimatación.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Omán",
+      "iso": "OM",
+      "bandera": "🇴🇲",
+      "subregion": "Asia Occidental",
+      "capital": "Mascate",
+      "lat": 21,
+      "lon": 57,
+      "poblacion": 5494691,
+      "area_km2": 309500,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "rial omaní (OMR)"
+      ],
+      "imagen": "om.png",
+      "viaje_recomendado": true,
+      "resumen": "Fuertes, desiertos, fiordos y montañas en uno de los países más tranquilos del golfo.",
+      "ideal_para": [
+        "desierto",
+        "naturaleza",
+        "aventura"
+      ],
+      "mejor_epoca": "Octubre a abril.",
+      "imperdibles": [
+        "Mascate y la Gran Mezquita",
+        "Desierto de Wahiba",
+        "Wadi Shab",
+        "Nizwa y su fuerte"
+      ],
+      "gastronomia": [
+        "Shuwa",
+        "Halwa omaní"
+      ],
+      "cultura": "Hospitalidad tradicional con café de cardamomo y dátiles.",
+      "festividades": [
+        "Festival de Mascate (enero-febrero)"
+      ],
+      "consejo": "Alquilar auto es la mejor forma de recorrer el país; los wadis son accesibles.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Pakistán",
+      "iso": "PK",
+      "bandera": "🇵🇰",
+      "subregion": "Asia del Sur",
+      "capital": "Islamabad",
+      "lat": 30,
+      "lon": 70,
+      "poblacion": 255219554,
+      "area_km2": 881912,
+      "idiomas": [
+        "inglés",
+        "urdu"
+      ],
+      "monedas": [
+        "rupia pakistaní (PKR)"
+      ],
+      "imagen": "pk.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas gigantes del Karakórum y ciudades mogolas.",
+      "ideal_para": [
+        "montaña",
+        "aventura",
+        "historia"
+      ],
+      "mejor_epoca": "Mayo a octubre para el norte.",
+      "imperdibles": [
+        "Valle de Hunza",
+        "Carretera del Karakórum",
+        "Lahore",
+        "K2 y el glaciar Baltoro"
+      ],
+      "gastronomia": [
+        "Biryani",
+        "Nihari",
+        "Karahi"
+      ],
+      "cultura": "La hospitalidad es famosa, sobre todo en el norte.",
+      "festividades": [
+        "Basant (primavera)"
+      ],
+      "consejo": "Algunas regiones tienen alertas de seguridad. Revisa cuáles antes de planificar la ruta.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Palestina",
+      "iso": "PS",
+      "bandera": "🇵🇸",
+      "subregion": "Asia Occidental",
+      "capital": "Jerusalén Este (proclamada) / Ramala (sede administrativa)",
+      "lat": 31.9,
+      "lon": 35.2,
+      "poblacion": 5413596,
+      "area_km2": 6220,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "libra egipcia (EGP)",
+        "nuevo séquel israelí (ILS)",
+        "dinar jordano (JOD)"
+      ],
+      "imagen": "ps.png",
+      "viaje_recomendado": false,
+      "resumen": "Tierra de lugares sagrados para cristianos y musulmanes, hoy en conflicto.",
+      "ideal_para": [
+        "religión",
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Belén y la Basílica de la Natividad (UNESCO)",
+        "Jericó",
+        "Hebrón"
+      ],
+      "gastronomia": [
+        "Musakhan",
+        "Maqluba",
+        "Knafeh de Nablus"
+      ],
+      "cultura": "El bordado tradicional palestino es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Navidad en Belén"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Singapur",
+      "iso": "SG",
+      "bandera": "🇸🇬",
+      "subregion": "Sudeste Asiático",
+      "capital": "Singapur",
+      "lat": 1.37,
+      "lon": 103.8,
+      "poblacion": 6111175,
+      "area_km2": 710,
+      "idiomas": [
+        "inglés",
+        "malayo",
+        "tamil",
+        "chino"
+      ],
+      "monedas": [
+        "dólar singapurense (SGD)"
+      ],
+      "imagen": "sg.png",
+      "viaje_recomendado": true,
+      "resumen": "Ciudad-estado moderna, limpia y verde, con una comida callejera excelente.",
+      "ideal_para": [
+        "ciudades",
+        "gastronomía",
+        "compras"
+      ],
+      "mejor_epoca": "Febrero a abril.",
+      "imperdibles": [
+        "Gardens by the Bay",
+        "Marina Bay Sands",
+        "Barrio chino y Little India",
+        "Isla de Sentosa"
+      ],
+      "gastronomia": [
+        "Pollo con arroz hainanés",
+        "Chili crab",
+        "Laksa"
+      ],
+      "cultura": "Los hawker centres, mercados de comida, son Patrimonio de la UNESCO.",
+      "festividades": [
+        "Año Nuevo Chino",
+        "Gran Premio de F1 (septiembre)"
+      ],
+      "consejo": "Las multas son estrictas: no comas en el metro ni tires basura.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Siria",
+      "iso": "SY",
+      "bandera": "🇸🇾",
+      "subregion": "Asia Occidental",
+      "capital": "Damasco",
+      "lat": 35,
+      "lon": 38,
+      "poblacion": 25620427,
+      "area_km2": 185180,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "libra siria (SYP)"
+      ],
+      "imagen": "sy.png",
+      "viaje_recomendado": false,
+      "resumen": "Ciudades de miles de años como Damasco y Alepo, afectadas por la guerra.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Damasco",
+        "Palmira (UNESCO)",
+        "Krak de los Caballeros"
+      ],
+      "gastronomia": [
+        "Shawarma",
+        "Kibbeh",
+        "Fattoush"
+      ],
+      "cultura": "Damasco se considera una de las ciudades habitadas más antiguas del mundo.",
+      "festividades": [
+        "Ramadán"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Sri Lanka",
+      "iso": "LK",
+      "bandera": "🇱🇰",
+      "subregion": "Asia del Sur",
+      "capital": "Colombo / Sri Jayawardenapura Kotte",
+      "lat": 7,
+      "lon": 81,
+      "poblacion": 21756000,
+      "area_km2": 65610,
+      "idiomas": [
+        "cingalés",
+        "tamil"
+      ],
+      "monedas": [
+        "rupia esrilanquesa (LKR)"
+      ],
+      "imagen": "lk.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla con templos, plantaciones de té, elefantes y playas en poco espacio.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura",
+        "playa",
+        "fauna"
+      ],
+      "mejor_epoca": "Diciembre a marzo en la costa oeste y sur.",
+      "imperdibles": [
+        "Roca de Sigiriya (UNESCO)",
+        "Kandy y el Templo del Diente",
+        "Ella y el tren de montaña",
+        "Parque Nacional Yala",
+        "Galle"
+      ],
+      "gastronomia": [
+        "Rice and curry",
+        "Hoppers",
+        "Kottu roti"
+      ],
+      "cultura": "Budismo mayoritario. Hay que cubrir hombros y rodillas en los templos.",
+      "festividades": [
+        "Esala Perahera (Kandy, julio-agosto)"
+      ],
+      "consejo": "El tren de Kandy a Ella es famoso por sus vistas. Reserva con tiempo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Tailandia",
+      "iso": "TH",
+      "bandera": "🇹🇭",
+      "subregion": "Sudeste Asiático",
+      "capital": "Bangkok",
+      "lat": 15,
+      "lon": 100,
+      "poblacion": 71619863,
+      "area_km2": 513120,
+      "idiomas": [
+        "tailandés"
+      ],
+      "monedas": [
+        "bat tailandés (THB)"
+      ],
+      "imagen": "th.png",
+      "viaje_recomendado": true,
+      "resumen": "Templos dorados, playas, islas y comida callejera legendaria.",
+      "ideal_para": [
+        "playa",
+        "cultura",
+        "gastronomía",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Bangkok y el Gran Palacio",
+        "Chiang Mai",
+        "Ayutthaya (UNESCO)",
+        "Phuket, Krabi y Phi Phi"
+      ],
+      "gastronomia": [
+        "Pad thai",
+        "Tom yum",
+        "Curry verde",
+        "Mango sticky rice"
+      ],
+      "cultura": "Se respeta mucho a la monarquía. Tocar la cabeza de alguien es de mala educación.",
+      "festividades": [
+        "Songkran, año nuevo con guerra de agua (abril)",
+        "Loy Krathong (noviembre)"
+      ],
+      "consejo": "Evita los 'santuarios' de elefantes donde los montan; elige los que solo permiten observarlos.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Tayikistán",
+      "iso": "TJ",
+      "bandera": "🇹🇯",
+      "subregion": "Asia Central",
+      "capital": "Dusambé",
+      "lat": 39,
+      "lon": 71,
+      "poblacion": 10786734,
+      "area_km2": 143100,
+      "idiomas": [
+        "ruso",
+        "tayiko"
+      ],
+      "monedas": [
+        "somoni tayiko (TJS)"
+      ],
+      "imagen": "tj.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas del Pamir, llamadas el 'techo del mundo'.",
+      "ideal_para": [
+        "montaña",
+        "aventura",
+        "senderismo"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Carretera del Pamir (M41)",
+        "Lagos Iskanderkul y Siete Lagos",
+        "Duchanbé",
+        "Valle del Wakhan"
+      ],
+      "gastronomia": [
+        "Plov",
+        "Qurutob"
+      ],
+      "cultura": "Cultura de raíz persa. Muy hospitalaria.",
+      "festividades": [
+        "Nowruz (marzo)"
+      ],
+      "consejo": "Para la región del Pamir necesitas un permiso especial (GBAO).",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Timor Oriental",
+      "iso": "TL",
+      "bandera": "🇹🇱",
+      "subregion": "Sudeste Asiático",
+      "capital": "Dili",
+      "lat": -8.83,
+      "lon": 125.92,
+      "poblacion": 1418517,
+      "area_km2": 14874,
+      "idiomas": [
+        "portugués",
+        "tetún"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "tl.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países más jóvenes del mundo, con arrecifes casi vírgenes.",
+      "ideal_para": [
+        "buceo",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a noviembre.",
+      "imperdibles": [
+        "Isla de Atauro",
+        "Dili y el Cristo Rei",
+        "Monte Ramelau"
+      ],
+      "gastronomia": [
+        "Ikan sabuko (pescado)",
+        "Batar da'an"
+      ],
+      "cultura": "Se hablan tetún y portugués. Mayoría católica.",
+      "festividades": [
+        "Día de la Independencia (20 de mayo)"
+      ],
+      "consejo": "La infraestructura turística es mínima. Ve con planes flexibles.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Turkmenistán",
+      "iso": "TM",
+      "bandera": "🇹🇲",
+      "subregion": "Asia Central",
+      "capital": "Asjabad",
+      "lat": 40,
+      "lon": 60,
+      "poblacion": 7618847,
+      "area_km2": 488100,
+      "idiomas": [
+        "ruso",
+        "turcomano"
+      ],
+      "monedas": [
+        "manat turcomano (TMT)"
+      ],
+      "imagen": "tm.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países más cerrados de Asia Central, con un cráter en llamas en el desierto.",
+      "ideal_para": [
+        "desierto",
+        "curiosidades"
+      ],
+      "mejor_epoca": "Abril a mayo y septiembre a octubre.",
+      "imperdibles": [
+        "Cráter de Darvaza, la 'Puerta del Infierno'",
+        "Asjabad y sus edificios de mármol",
+        "Merv (UNESCO)"
+      ],
+      "gastronomia": [
+        "Plov",
+        "Chorek"
+      ],
+      "cultura": "Régimen muy autoritario con fuerte culto al líder.",
+      "festividades": [
+        "Día del Caballo Ajal-Teké (abril)"
+      ],
+      "consejo": "Obtener visa es difícil y suele requerir una agencia.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Turquía",
+      "iso": "TR",
+      "bandera": "🇹🇷",
+      "subregion": "Asia Occidental",
+      "capital": "Ankara",
+      "lat": 39,
+      "lon": 35,
+      "poblacion": 85878556,
+      "area_km2": 783562,
+      "idiomas": [
+        "turco"
+      ],
+      "monedas": [
+        "lira turca (TRY)"
+      ],
+      "imagen": "tr.png",
+      "viaje_recomendado": true,
+      "resumen": "Puente entre Europa y Asia: Estambul, Capadocia y costas turquesas.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "playa",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Estambul: Santa Sofía y Gran Bazar",
+        "Capadocia y sus globos",
+        "Pamukkale",
+        "Éfeso",
+        "Costa turquesa"
+      ],
+      "gastronomia": [
+        "Kebab",
+        "Baklava",
+        "Meze",
+        "Té turco"
+      ],
+      "cultura": "El té se ofrece en todas partes como gesto de amistad.",
+      "festividades": [
+        "Ramadán y Bayram"
+      ],
+      "consejo": "Los vuelos en globo en Capadocia se cancelan si hay viento. Deja un día extra de margen.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Uzbekistán",
+      "iso": "UZ",
+      "bandera": "🇺🇿",
+      "subregion": "Asia Central",
+      "capital": "Taskent",
+      "lat": 41,
+      "lon": 64,
+      "poblacion": 37053428,
+      "area_km2": 447400,
+      "idiomas": [
+        "ruso",
+        "uzbeko"
+      ],
+      "monedas": [
+        "sum uzbeko (UZS)"
+      ],
+      "imagen": "uz.png",
+      "viaje_recomendado": true,
+      "resumen": "Ciudades de la Ruta de la Seda cubiertas de azulejos azules.",
+      "ideal_para": [
+        "historia",
+        "arquitectura",
+        "cultura"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Samarcanda y el Registán (UNESCO)",
+        "Bujará",
+        "Jiva",
+        "Taskent"
+      ],
+      "gastronomia": [
+        "Plov (UNESCO)",
+        "Samsa",
+        "Lagman"
+      ],
+      "cultura": "El plov se cocina en enormes calderos y se comparte.",
+      "festividades": [
+        "Nowruz (marzo)"
+      ],
+      "consejo": "El tren rápido Afrosiyob une Taskent, Samarcanda y Bujará. Reserva por adelantado.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Vietnam",
+      "iso": "VN",
+      "bandera": "🇻🇳",
+      "subregion": "Sudeste Asiático",
+      "capital": "Hanói",
+      "lat": 16.17,
+      "lon": 107.83,
+      "poblacion": 101598527,
+      "area_km2": 331212,
+      "idiomas": [
+        "vietnamita"
+      ],
+      "monedas": [
+        "dong vietnamita (VND)"
+      ],
+      "imagen": "vn.png",
+      "viaje_recomendado": true,
+      "resumen": "Bahías de piedra caliza, arrozales, historia reciente y comida fresca y barata.",
+      "ideal_para": [
+        "naturaleza",
+        "gastronomía",
+        "historia",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Varía por región: el norte en primavera y otoño, el sur de diciembre a abril.",
+      "imperdibles": [
+        "Bahía de Ha Long (UNESCO)",
+        "Hoi An",
+        "Hanói",
+        "Ciudad Ho Chi Minh",
+        "Sapa"
+      ],
+      "gastronomia": [
+        "Pho",
+        "Banh mi",
+        "Bun cha",
+        "Café vietnamita con leche condensada"
+      ],
+      "cultura": "El tráfico de motos es parte del paisaje. Hay que cruzar la calle a paso constante.",
+      "festividades": [
+        "Tết, año nuevo lunar (enero o febrero)"
+      ],
+      "consejo": "El país es largo y el clima cambia mucho de norte a sur. Planifica según la región.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Yemen",
+      "iso": "YE",
+      "bandera": "🇾🇪",
+      "subregion": "Asia Occidental",
+      "capital": "Saná",
+      "lat": 15,
+      "lon": 48,
+      "poblacion": 41773878,
+      "area_km2": 527968,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "rial yemení (YER)"
+      ],
+      "imagen": "ye.png",
+      "viaje_recomendado": false,
+      "resumen": "Arquitectura única de rascacielos de barro y la isla de Socotra, hoy en guerra.",
+      "ideal_para": [
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Ciudad vieja de Saná (UNESCO)",
+        "Shibam (UNESCO)",
+        "Isla de Socotra"
+      ],
+      "gastronomia": [
+        "Saltah",
+        "Mandi"
+      ],
+      "cultura": "El café moca debe su nombre al puerto yemení de Moca.",
+      "festividades": [
+        "Ramadán"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    }
+  ]
+}

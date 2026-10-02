@@ -1,0 +1,2410 @@
+{
+  "continente": {
+    "nombre": "África",
+    "resumen": "La cuna de la humanidad. Safaris con la fauna más famosa del planeta, el Sahara, el antiguo Egipto, playas del océano Índico y una enorme diversidad de pueblos y lenguas.",
+    "cantidad_paises": 54,
+    "poblacion_total": 1546877498,
+    "area_km2_total": 30049078,
+    "clima": "Mediterráneo en el norte, desértico en el Sahara, tropical en el centro y templado en el extremo sur.",
+    "mejor_epoca": "Mayo a octubre (temporada seca) para safaris en el este y sur. Octubre a abril para el norte y el Sahara.",
+    "perfil_viajero": "Safari y fauna, desierto, historia antigua, playas del Índico y turismo de aventura.",
+    "idiomas": "Árabe, suajili, francés, inglés y portugués, más de 1.500 lenguas locales.",
+    "destinos_estrella": [
+      "Pirámides de Guiza (Egipto)",
+      "Serengeti (Tanzania)",
+      "Cataratas Victoria (Zambia y Zimbabue)",
+      "Marrakech (Marruecos)",
+      "Ciudad del Cabo (Sudáfrica)",
+      "Gorilas de Ruanda y Uganda"
+    ],
+    "consejos_generales": [
+      "Muchos países exigen vacuna contra la fiebre amarilla; confirma los requisitos sanitarios.",
+      "Varias regiones del Sahel y del centro tienen conflictos; revisa alertas por país.",
+      "Los safaris de temporada alta se reservan con meses de anticipación."
+    ],
+    "regiones": {
+      "África Central": [
+        "Angola",
+        "Camerún",
+        "Chad",
+        "Gabón",
+        "Guinea Ecuatorial",
+        "República Centroafricana",
+        "República Democrática del Congo",
+        "República del Congo",
+        "Santo Tomé y Príncipe",
+        "Sudán del Sur"
+      ],
+      "África del Norte": [
+        "Argelia",
+        "Egipto",
+        "Libia",
+        "Marruecos",
+        "Sudán",
+        "Túnez"
+      ],
+      "África Occidental": [
+        "Benín",
+        "Burkina Faso",
+        "Cabo Verde",
+        "Costa de Marfil",
+        "Gambia",
+        "Ghana",
+        "Guinea",
+        "Guinea-Bisáu",
+        "Liberia",
+        "Malí",
+        "Mauritania",
+        "Nigeria",
+        "Níger",
+        "Senegal",
+        "Sierra Leona",
+        "Togo"
+      ],
+      "África Austral": [
+        "Botsuana",
+        "Esuatini",
+        "Lesoto",
+        "Namibia",
+        "Sudáfrica"
+      ],
+      "África Oriental": [
+        "Burundi",
+        "Comoras",
+        "Eritrea",
+        "Etiopía",
+        "Kenia",
+        "Madagascar",
+        "Malaui",
+        "Mauricio",
+        "Mozambique",
+        "Ruanda",
+        "Seychelles",
+        "Somalia",
+        "Tanzania",
+        "Uganda",
+        "Yibuti",
+        "Zambia",
+        "Zimbabue"
+      ]
+    },
+    "paises_no_recomendados_actualmente": [
+      "Burkina Faso",
+      "Chad",
+      "Libia",
+      "Malí",
+      "Níger",
+      "República Centroafricana",
+      "Somalia",
+      "Sudán",
+      "Sudán del Sur"
+    ]
+  },
+  "notas": {
+    "fuentes": "Población: Banco Mundial (2025). Capitales: Wikidata. Idiomas, monedas y coordenadas: dataset mledoze/countries. Guía turística: redactada para este proyecto.",
+    "aviso": "Visas, precios y seguridad cambian. Verifícalos antes de recomendar un viaje.",
+    "costo": "Escala relativa: económico, moderado o caro."
+  },
+  "paises": [
+    {
+      "nombre": "Angola",
+      "iso": "AO",
+      "bandera": "🇦🇴",
+      "subregion": "África Central",
+      "capital": "Luanda",
+      "lat": -12.5,
+      "lon": 18.5,
+      "poblacion": 39040039,
+      "area_km2": 1246700,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "kuanza angoleño (AOA)"
+      ],
+      "imagen": "ao.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa atlántica, desiertos y cascadas enormes, todavía poco explorado por turistas.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura"
+      ],
+      "mejor_epoca": "Mayo a septiembre, temporada seca.",
+      "imperdibles": [
+        "Cataratas de Kalandula",
+        "Luanda y su bahía",
+        "Desierto de Namibe",
+        "Miradouro da Lua"
+      ],
+      "gastronomia": [
+        "Muamba de galinha",
+        "Funge"
+      ],
+      "cultura": "Se habla portugués. La música kizomba y el semba nacieron aquí.",
+      "festividades": [
+        "Carnaval de Luanda"
+      ],
+      "consejo": "La visa y los costos de viaje suelen ser altos. Luanda es una ciudad cara.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Argelia",
+      "iso": "DZ",
+      "bandera": "🇩🇿",
+      "subregion": "África del Norte",
+      "capital": "Argel",
+      "lat": 28,
+      "lon": 3,
+      "poblacion": 47435312,
+      "area_km2": 2381741,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar argelino (DZD)"
+      ],
+      "imagen": "dz.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más grande de África, con buena parte del Sahara y ruinas romanas muy bien conservadas.",
+      "ideal_para": [
+        "desierto",
+        "historia"
+      ],
+      "mejor_epoca": "Octubre a abril.",
+      "imperdibles": [
+        "Tassili n'Ajjer (UNESCO)",
+        "Casba de Argel (UNESCO)",
+        "Ruinas de Timgad y Djémila",
+        "Valle del M'zab"
+      ],
+      "gastronomia": [
+        "Cuscús",
+        "Chorba",
+        "Makroud"
+      ],
+      "cultura": "Mezcla de culturas árabe y amazigh (bereber).",
+      "festividades": [
+        "Sbiba (Djanet)"
+      ],
+      "consejo": "Para el sur desértico se suele exigir viajar con agencia autorizada.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Benín",
+      "iso": "BJ",
+      "bandera": "🇧🇯",
+      "subregion": "África Occidental",
+      "capital": "Porto Novo / Cotonú",
+      "lat": 9.5,
+      "lon": 2.25,
+      "poblacion": 14814460,
+      "area_km2": 112622,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "bj.png",
+      "viaje_recomendado": true,
+      "resumen": "Cuna del vudú y de uno de los reinos africanos más poderosos, Dahomey.",
+      "ideal_para": [
+        "cultura",
+        "historia"
+      ],
+      "mejor_epoca": "Noviembre a febrero.",
+      "imperdibles": [
+        "Ouidah y la Ruta de los Esclavos",
+        "Palacios reales de Abomey (UNESCO)",
+        "Ganvié, pueblo lacustre",
+        "Parque Nacional Pendjari"
+      ],
+      "gastronomia": [
+        "Amiwo",
+        "Akassa"
+      ],
+      "cultura": "El vudú es religión oficial reconocida.",
+      "festividades": [
+        "Festival Vudú (10 de enero)"
+      ],
+      "consejo": "El norte del país tiene alertas de seguridad. Revisa antes de ir a Pendjari.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Botsuana",
+      "iso": "BW",
+      "bandera": "🇧🇼",
+      "subregion": "África Austral",
+      "capital": "Gaborone",
+      "lat": -22,
+      "lon": 24,
+      "poblacion": 2562122,
+      "area_km2": 582000,
+      "idiomas": [
+        "inglés",
+        "setsuana"
+      ],
+      "monedas": [
+        "pula botsuano (BWP)"
+      ],
+      "imagen": "bw.png",
+      "viaje_recomendado": true,
+      "resumen": "Safaris de alta calidad con poca gente, gracias a un turismo de bajo impacto.",
+      "ideal_para": [
+        "safari",
+        "naturaleza",
+        "fauna"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Delta del Okavango (UNESCO)",
+        "Parque Nacional Chobe",
+        "Salinas de Makgadikgadi",
+        "Reserva del Kalahari Central"
+      ],
+      "gastronomia": [
+        "Seswaa",
+        "Pap"
+      ],
+      "cultura": "País estable y democrático, con una de las mayores poblaciones de elefantes.",
+      "festividades": [
+        "Día de la Independencia (30 de septiembre)"
+      ],
+      "consejo": "El modelo de turismo de lujo lo hace caro, pero hay campings para presupuestos menores.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Burkina Faso",
+      "iso": "BF",
+      "bandera": "🇧🇫",
+      "subregion": "África Occidental",
+      "capital": "Uagadugú",
+      "lat": 13,
+      "lon": -2,
+      "poblacion": 24074580,
+      "area_km2": 272967,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "bf.png",
+      "viaje_recomendado": false,
+      "resumen": "Tierra de máscaras, arquitectura de barro y festivales de cine, hoy con graves problemas de seguridad.",
+      "ideal_para": [
+        "cultura"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Uagadugú",
+        "Casas pintadas de Tiébélé",
+        "Ruinas de Loropéni (UNESCO)"
+      ],
+      "gastronomia": [
+        "Tô",
+        "Riz gras"
+      ],
+      "cultura": "Sede del FESPACO, el mayor festival de cine africano.",
+      "festividades": [
+        "FESPACO (cada dos años)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Burundi",
+      "iso": "BI",
+      "bandera": "🇧🇮",
+      "subregion": "África Oriental",
+      "capital": "Guitega",
+      "lat": -3.5,
+      "lon": 30,
+      "poblacion": 14390003,
+      "area_km2": 27834,
+      "idiomas": [
+        "francés",
+        "kirundi"
+      ],
+      "monedas": [
+        "franco burundés (BIF)"
+      ],
+      "imagen": "bi.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño país de colinas junto al lago Tanganica, fuera del circuito turístico.",
+      "ideal_para": [
+        "naturaleza"
+      ],
+      "mejor_epoca": "Junio a agosto.",
+      "imperdibles": [
+        "Lago Tanganica",
+        "Parque Nacional Kibira",
+        "Fuente más al sur del Nilo"
+      ],
+      "gastronomia": [
+        "Brochettes",
+        "Isombe"
+      ],
+      "cultura": "Los tambores reales de Burundi son Patrimonio de la UNESCO.",
+      "festividades": [
+        "Día de la Independencia (1 de julio)"
+      ],
+      "consejo": "La infraestructura es limitada y hay alertas en algunas zonas. Consulta antes de viajar.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Cabo Verde",
+      "iso": "CV",
+      "bandera": "🇨🇻",
+      "subregion": "África Occidental",
+      "capital": "Praia",
+      "lat": 16,
+      "lon": -24,
+      "poblacion": 527326,
+      "area_km2": 4033,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "escudo de Cabo Verde (CVE)"
+      ],
+      "imagen": "cv.png",
+      "viaje_recomendado": true,
+      "resumen": "Islas atlánticas con música morna, volcanes y playas de viento.",
+      "ideal_para": [
+        "playa",
+        "música",
+        "surf"
+      ],
+      "mejor_epoca": "Noviembre a junio.",
+      "imperdibles": [
+        "Isla de Sal",
+        "Isla de Santo Antão para senderismo",
+        "Volcán Fogo",
+        "Mindelo"
+      ],
+      "gastronomia": [
+        "Cachupa",
+        "Pescado a la parrilla"
+      ],
+      "cultura": "La morna, música de nostalgia, es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Carnaval de Mindelo (febrero)"
+      ],
+      "consejo": "Cada isla es distinta. Elige por lo que quieres hacer: playa, montaña o música.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Camerún",
+      "iso": "CM",
+      "bandera": "🇨🇲",
+      "subregion": "África Central",
+      "capital": "Yaundé",
+      "lat": 6,
+      "lon": 12,
+      "poblacion": 29879337,
+      "area_km2": 475442,
+      "idiomas": [
+        "inglés",
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "cm.png",
+      "viaje_recomendado": true,
+      "resumen": "Llamado 'África en miniatura' por su variedad de paisajes y culturas.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura"
+      ],
+      "mejor_epoca": "Noviembre a febrero.",
+      "imperdibles": [
+        "Monte Camerún",
+        "Playas de Kribi",
+        "Parque Nacional Waza",
+        "Montes Mandara"
+      ],
+      "gastronomia": [
+        "Ndolé",
+        "Poulet DG"
+      ],
+      "cultura": "Más de 250 grupos étnicos y dos idiomas oficiales: francés e inglés.",
+      "festividades": [
+        "Ngondo (Duala, diciembre)"
+      ],
+      "consejo": "Las regiones del noroeste, suroeste y extremo norte tienen alertas de seguridad.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Chad",
+      "iso": "TD",
+      "bandera": "🇹🇩",
+      "subregion": "África Central",
+      "capital": "Yamena",
+      "lat": 15,
+      "lon": 19,
+      "poblacion": 21003705,
+      "area_km2": 1284000,
+      "idiomas": [
+        "árabe",
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "td.png",
+      "viaje_recomendado": false,
+      "resumen": "Desierto del Sahara, lagos en medio de la arena y un parque de fauna recuperado.",
+      "ideal_para": [
+        "desierto",
+        "aventura"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Parque Nacional Zakouma",
+        "Macizo de Ennedi (UNESCO)",
+        "Lagos de Ounianga (UNESCO)"
+      ],
+      "gastronomia": [
+        "Boule",
+        "Daraba"
+      ],
+      "cultura": "País con más de 200 grupos étnicos.",
+      "festividades": [
+        "Gerewol (en algunas zonas)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Comoras",
+      "iso": "KM",
+      "bandera": "🇰🇲",
+      "subregion": "África Oriental",
+      "capital": "Moroni",
+      "lat": -12.17,
+      "lon": 44.25,
+      "poblacion": 882847,
+      "area_km2": 1862,
+      "idiomas": [
+        "árabe",
+        "francés",
+        "comorense"
+      ],
+      "monedas": [
+        "franco comorense (KMF)"
+      ],
+      "imagen": "km.png",
+      "viaje_recomendado": true,
+      "resumen": "Archipiélago volcánico del Índico, poco visitado, con aroma a ylang-ylang y vainilla.",
+      "ideal_para": [
+        "playa",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Volcán Karthala",
+        "Moroni y su medina",
+        "Isla de Mohéli y sus tortugas"
+      ],
+      "gastronomia": [
+        "Langouste à la vanille",
+        "Mataba"
+      ],
+      "cultura": "Cultura suajili e islámica. El 'gran matrimonio' es un evento social enorme.",
+      "festividades": [
+        "Gran matrimonio (verano)"
+      ],
+      "consejo": "La infraestructura turística es escasa. Ve con reservas confirmadas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Costa de Marfil",
+      "iso": "CI",
+      "bandera": "🇨🇮",
+      "subregion": "África Occidental",
+      "capital": "Yamusukro",
+      "lat": 8,
+      "lon": -5,
+      "poblacion": 32711547,
+      "area_km2": 322463,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "ci.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas, basílicas monumentales y una Abiyán moderna y animada.",
+      "ideal_para": [
+        "playa",
+        "ciudades",
+        "cultura"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Basílica de Nuestra Señora de la Paz (Yamusukro)",
+        "Abiyán",
+        "Grand-Bassam (UNESCO)",
+        "Parque Nacional Taï"
+      ],
+      "gastronomia": [
+        "Attiéké con pescado",
+        "Aloco"
+      ],
+      "cultura": "Uno de los mayores productores de cacao del mundo.",
+      "festividades": [
+        "Fête du Dipri",
+        "Festival de Máscaras de Man"
+      ],
+      "consejo": "Revisa las alertas para el norte del país, cerca de la frontera.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Egipto",
+      "iso": "EG",
+      "bandera": "🇪🇬",
+      "subregion": "África del Norte",
+      "capital": "El Cairo",
+      "lat": 27,
+      "lon": 30,
+      "poblacion": 118365995,
+      "area_km2": 1002450,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "libra egipcia (EGP)"
+      ],
+      "imagen": "eg.png",
+      "viaje_recomendado": true,
+      "resumen": "Pirámides, templos faraónicos, el Nilo y buceo en el mar Rojo.",
+      "ideal_para": [
+        "historia",
+        "buceo",
+        "cultura"
+      ],
+      "mejor_epoca": "Octubre a abril.",
+      "imperdibles": [
+        "Pirámides de Guiza",
+        "Luxor y el Valle de los Reyes",
+        "Abu Simbel",
+        "Crucero por el Nilo",
+        "Mar Rojo (Hurgada, Dahab)"
+      ],
+      "gastronomia": [
+        "Koshari",
+        "Ful medames",
+        "Falafel (taameya)"
+      ],
+      "cultura": "La hospitalidad es grande, pero el regateo es parte de cada compra.",
+      "festividades": [
+        "Ramadán",
+        "Festival del Sol de Abu Simbel (22 de febrero y 22 de octubre)"
+      ],
+      "consejo": "Negocia siempre el precio antes de subir a un taxi o camello.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Eritrea",
+      "iso": "ER",
+      "bandera": "🇪🇷",
+      "subregion": "África Oriental",
+      "capital": "Asmara",
+      "lat": 15,
+      "lon": 39,
+      "poblacion": 3607003,
+      "area_km2": 117600,
+      "idiomas": [
+        "árabe",
+        "inglés",
+        "tigriña"
+      ],
+      "monedas": [
+        "nakfa eritreo (ERN)"
+      ],
+      "imagen": "er.png",
+      "viaje_recomendado": true,
+      "resumen": "Asmara, una ciudad modernista italiana casi intacta, en un país muy cerrado.",
+      "ideal_para": [
+        "arquitectura",
+        "historia"
+      ],
+      "mejor_epoca": "Octubre a abril.",
+      "imperdibles": [
+        "Asmara (UNESCO)",
+        "Islas Dahlak",
+        "Massawa"
+      ],
+      "gastronomia": [
+        "Zigni con injera"
+      ],
+      "cultura": "País muy aislado y con fuertes restricciones de movimiento.",
+      "festividades": [
+        "Día de la Independencia (24 de mayo)"
+      ],
+      "consejo": "Se necesitan permisos para viajar fuera de Asmara.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Esuatini",
+      "iso": "SZ",
+      "bandera": "🇸🇿",
+      "subregion": "África Austral",
+      "capital": "Mbabane / Lobamba",
+      "lat": -26.5,
+      "lon": 31.5,
+      "poblacion": 1256174,
+      "area_km2": 17364,
+      "idiomas": [
+        "inglés",
+        "suazi"
+      ],
+      "monedas": [
+        "lilangeni esuatiní (SZL)",
+        "rand sudafricano (ZAR)"
+      ],
+      "imagen": "sz.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño reino con reservas de fauna y ceremonias tradicionales vivas.",
+      "ideal_para": [
+        "safari",
+        "cultura"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Reserva Hlane",
+        "Santuario Mlilwane",
+        "Valle de Ezulwini"
+      ],
+      "gastronomia": [
+        "Sishwala",
+        "Umncweba"
+      ],
+      "cultura": "Una de las últimas monarquías absolutas del mundo.",
+      "festividades": [
+        "Umhlanga, danza de las cañas (agosto)"
+      ],
+      "consejo": "Se combina fácilmente con un viaje a Sudáfrica o Mozambique.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Etiopía",
+      "iso": "ET",
+      "bandera": "🇪🇹",
+      "subregion": "África Oriental",
+      "capital": "Adís Abeba",
+      "lat": 8,
+      "lon": 38,
+      "poblacion": 135472051,
+      "area_km2": 1104300,
+      "idiomas": [
+        "amárico"
+      ],
+      "monedas": [
+        "bir etíope (ETB)"
+      ],
+      "imagen": "et.png",
+      "viaje_recomendado": true,
+      "resumen": "Iglesias talladas en roca, montañas altas y una historia cristiana milenaria.",
+      "ideal_para": [
+        "historia",
+        "religión",
+        "senderismo"
+      ],
+      "mejor_epoca": "Octubre a marzo.",
+      "imperdibles": [
+        "Iglesias de Lalibela (UNESCO)",
+        "Montañas Simien",
+        "Depresión de Danakil",
+        "Gondar"
+      ],
+      "gastronomia": [
+        "Injera con wot",
+        "Café etíope"
+      ],
+      "cultura": "Aquí nació el café. Usa su propio calendario, con 13 meses.",
+      "festividades": [
+        "Timkat (19 de enero)",
+        "Meskel (septiembre)"
+      ],
+      "consejo": "Algunas regiones tienen conflictos. Revisa las alertas por zona.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Gabón",
+      "iso": "GA",
+      "bandera": "🇬🇦",
+      "subregion": "África Central",
+      "capital": "Libreville",
+      "lat": -1,
+      "lon": 11.75,
+      "poblacion": 2593130,
+      "area_km2": 267668,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "ga.png",
+      "viaje_recomendado": true,
+      "resumen": "Selva ecuatorial con elefantes que caminan por la playa.",
+      "ideal_para": [
+        "naturaleza",
+        "fauna"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Parque Nacional Loango",
+        "Parque Nacional Lopé (UNESCO)",
+        "Libreville"
+      ],
+      "gastronomia": [
+        "Poulet nyembwe"
+      ],
+      "cultura": "Cerca del 88 % del territorio es selva.",
+      "festividades": [
+        "Día de la Independencia (17 de agosto)"
+      ],
+      "consejo": "Un destino caro y con poca infraestructura. Organízalo con operador.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Gambia",
+      "iso": "GM",
+      "bandera": "🇬🇲",
+      "subregion": "África Occidental",
+      "capital": "Banjul",
+      "lat": 13.47,
+      "lon": -16.57,
+      "poblacion": 2822093,
+      "area_km2": 10689,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dalasi gambiano (GMD)"
+      ],
+      "imagen": "gm.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más pequeño de África continental, con playas y aves por montones.",
+      "ideal_para": [
+        "playa",
+        "aves",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Noviembre a mayo.",
+      "imperdibles": [
+        "Río Gambia",
+        "Isla Kunta Kinteh (UNESCO)",
+        "Playas de Kololi",
+        "Reserva de Abuko"
+      ],
+      "gastronomia": [
+        "Domoda",
+        "Benachin"
+      ],
+      "cultura": "Conocida como 'la costa sonriente de África'.",
+      "festividades": [
+        "Festival Roots"
+      ],
+      "consejo": "Es un buen destino para observar aves, incluso para principiantes.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Ghana",
+      "iso": "GH",
+      "bandera": "🇬🇭",
+      "subregion": "África Occidental",
+      "capital": "Acra",
+      "lat": 8,
+      "lon": -2,
+      "poblacion": 35064272,
+      "area_km2": 238533,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "cedi ghanés (GHS)"
+      ],
+      "imagen": "gh.png",
+      "viaje_recomendado": true,
+      "resumen": "Castillos coloniales, selvas y una cultura muy abierta con los visitantes.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "playa"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Castillo de Cape Coast (UNESCO)",
+        "Parque Nacional Kakum",
+        "Acra",
+        "Kumasi y la cultura ashanti"
+      ],
+      "gastronomia": [
+        "Jollof rice",
+        "Fufu",
+        "Kelewele"
+      ],
+      "cultura": "La tela kente es uno de sus grandes símbolos culturales.",
+      "festividades": [
+        "Homowo (agosto)",
+        "Panafest"
+      ],
+      "consejo": "Los castillos de esclavos son visitas intensas; tómate tiempo para asimilarlas.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Guinea",
+      "iso": "GN",
+      "bandera": "🇬🇳",
+      "subregion": "África Occidental",
+      "capital": "Conakri",
+      "lat": 11,
+      "lon": -10,
+      "poblacion": 15099727,
+      "area_km2": 245857,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco guineano (GNF)"
+      ],
+      "imagen": "gn.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas, cascadas y el nacimiento de grandes ríos de África occidental.",
+      "ideal_para": [
+        "naturaleza",
+        "senderismo"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Fouta Djallon",
+        "Islas de Los",
+        "Conakri"
+      ],
+      "gastronomia": [
+        "Poulet yassa",
+        "Fouti"
+      ],
+      "cultura": "Tierra de grandes músicos de kora y balafón.",
+      "festividades": [
+        "Día de la Independencia (2 de octubre)"
+      ],
+      "consejo": "Revisa la situación política antes de viajar.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Guinea Ecuatorial",
+      "iso": "GQ",
+      "bandera": "🇬🇶",
+      "subregion": "África Central",
+      "capital": "Ciudad de la Paz",
+      "lat": 2,
+      "lon": 10,
+      "poblacion": 1938431,
+      "area_km2": 28051,
+      "idiomas": [
+        "francés",
+        "portugués",
+        "español"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "gq.png",
+      "viaje_recomendado": true,
+      "resumen": "El único país de África con el español como idioma oficial.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura"
+      ],
+      "mejor_epoca": "Diciembre a febrero.",
+      "imperdibles": [
+        "Isla de Bioko",
+        "Malabo",
+        "Playas de Annobón"
+      ],
+      "gastronomia": [
+        "Pepesup (sopa de pescado)"
+      ],
+      "cultura": "Mezcla de culturas fang, bubi y herencia española.",
+      "festividades": [
+        "Día de la Independencia (12 de octubre)"
+      ],
+      "consejo": "La visa es difícil de obtener. Consulta en la embajada con tiempo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Guinea-Bisáu",
+      "iso": "GW",
+      "bandera": "🇬🇼",
+      "subregion": "África Occidental",
+      "capital": "Bisáu",
+      "lat": 12,
+      "lon": -15,
+      "poblacion": 2249515,
+      "area_km2": 36125,
+      "idiomas": [
+        "portugués",
+        "criollo de Alta Guinea"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "gw.png",
+      "viaje_recomendado": true,
+      "resumen": "Archipiélago de los Bijagós, con hipopótamos que nadan en el mar.",
+      "ideal_para": [
+        "naturaleza",
+        "fauna"
+      ],
+      "mejor_epoca": "Noviembre a mayo.",
+      "imperdibles": [
+        "Archipiélago de los Bijagós",
+        "Bisáu"
+      ],
+      "gastronomia": [
+        "Caldo de mancarra"
+      ],
+      "cultura": "Se habla portugués y criollo.",
+      "festividades": [
+        "Carnaval de Bisáu"
+      ],
+      "consejo": "La inestabilidad política es frecuente. Revisa las alertas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Kenia",
+      "iso": "KE",
+      "bandera": "🇰🇪",
+      "subregion": "África Oriental",
+      "capital": "Nairobi",
+      "lat": 1,
+      "lon": 38,
+      "poblacion": 57532493,
+      "area_km2": 580367,
+      "idiomas": [
+        "inglés",
+        "suajili"
+      ],
+      "monedas": [
+        "chelín keniano (KES)"
+      ],
+      "imagen": "ke.png",
+      "viaje_recomendado": true,
+      "resumen": "Safaris en la sabana, la gran migración y playas del Índico.",
+      "ideal_para": [
+        "safari",
+        "fauna",
+        "playa"
+      ],
+      "mejor_epoca": "Julio a octubre para la migración. Enero a febrero también es seco.",
+      "imperdibles": [
+        "Reserva Masái Mara",
+        "Parque Nacional Amboseli y el Kilimanjaro",
+        "Lamu (UNESCO)",
+        "Diani Beach"
+      ],
+      "gastronomia": [
+        "Nyama choma",
+        "Ugali",
+        "Chapati"
+      ],
+      "cultura": "Cultura masái muy visible. Kenia es tierra de grandes corredores de fondo.",
+      "festividades": [
+        "Festival Cultural de Lamu (noviembre)"
+      ],
+      "consejo": "Reserva los safaris en temporada de migración con meses de anticipación.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Lesoto",
+      "iso": "LS",
+      "bandera": "🇱🇸",
+      "subregion": "África Austral",
+      "capital": "Maseru",
+      "lat": -29.5,
+      "lon": 28.5,
+      "poblacion": 2363325,
+      "area_km2": 30355,
+      "idiomas": [
+        "inglés",
+        "sotho meridional"
+      ],
+      "monedas": [
+        "loti lesotense (LSL)",
+        "rand sudafricano (ZAR)"
+      ],
+      "imagen": "ls.png",
+      "viaje_recomendado": true,
+      "resumen": "El 'reino en el cielo': todo su territorio está por encima de los 1.000 m.",
+      "ideal_para": [
+        "montaña",
+        "senderismo",
+        "aventura"
+      ],
+      "mejor_epoca": "Septiembre a abril.",
+      "imperdibles": [
+        "Paso de Sani",
+        "Cascada Maletsunyane",
+        "Parque Nacional Sehlabathebe (UNESCO)"
+      ],
+      "gastronomia": [
+        "Papa (polenta)",
+        "Moroho"
+      ],
+      "cultura": "Los jinetes basotho con su manta tradicional son un símbolo nacional.",
+      "festividades": [
+        "Morija Arts Festival"
+      ],
+      "consejo": "Está rodeado por Sudáfrica. El paso de Sani requiere vehículo 4x4.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Liberia",
+      "iso": "LR",
+      "bandera": "🇱🇷",
+      "subregion": "África Occidental",
+      "capital": "Monrovia",
+      "lat": 6.5,
+      "lon": -9.5,
+      "poblacion": 5731206,
+      "area_km2": 111369,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar liberiano (LRD)"
+      ],
+      "imagen": "lr.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas de surf y selvas poco tocadas en África occidental.",
+      "ideal_para": [
+        "surf",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Robertsport",
+        "Parque Nacional Sapo",
+        "Monrovia"
+      ],
+      "gastronomia": [
+        "Arroz con salsa palm butter"
+      ],
+      "cultura": "Fundada por esclavos liberados de Estados Unidos.",
+      "festividades": [
+        "Día de la Independencia (26 de julio)"
+      ],
+      "consejo": "La infraestructura es básica. Viaja con planes flexibles.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Libia",
+      "iso": "LY",
+      "bandera": "🇱🇾",
+      "subregion": "África del Norte",
+      "capital": "Trípoli",
+      "lat": 25,
+      "lon": 17,
+      "poblacion": 7458555,
+      "area_km2": 1759540,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar libio (LYD)"
+      ],
+      "imagen": "ly.png",
+      "viaje_recomendado": false,
+      "resumen": "Algunas de las ruinas romanas mejor conservadas del mundo, en un país inestable.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Leptis Magna (UNESCO)",
+        "Sabratha",
+        "Ghadamés"
+      ],
+      "gastronomia": [
+        "Bazeen",
+        "Cuscús"
+      ],
+      "cultura": "Mezcla de culturas árabe, amazigh y tuareg.",
+      "festividades": [
+        "Festival de Ghadamés"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Madagascar",
+      "iso": "MG",
+      "bandera": "🇲🇬",
+      "subregion": "África Oriental",
+      "capital": "Antananarivo",
+      "lat": -20,
+      "lon": 47,
+      "poblacion": 32740678,
+      "area_km2": 587041,
+      "idiomas": [
+        "francés",
+        "malgache"
+      ],
+      "monedas": [
+        "ariari malgache (MGA)"
+      ],
+      "imagen": "mg.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla gigante con fauna que no existe en ningún otro lugar, como los lémures.",
+      "ideal_para": [
+        "naturaleza",
+        "fauna",
+        "aventura"
+      ],
+      "mejor_epoca": "Abril a noviembre.",
+      "imperdibles": [
+        "Avenida de los Baobabs",
+        "Tsingy de Bemaraha (UNESCO)",
+        "Parque Andasibe",
+        "Nosy Be"
+      ],
+      "gastronomia": [
+        "Romazava",
+        "Zebu"
+      ],
+      "cultura": "Alrededor del 90 % de su fauna es endémica.",
+      "festividades": [
+        "Famadihana, ceremonia de los ancestros"
+      ],
+      "consejo": "Las carreteras son lentas. Calcula mucho más tiempo del que marca el mapa.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Malaui",
+      "iso": "MW",
+      "bandera": "🇲🇼",
+      "subregion": "África Oriental",
+      "capital": "Lilongüe",
+      "lat": -13.5,
+      "lon": 34,
+      "poblacion": 22216120,
+      "area_km2": 118484,
+      "idiomas": [
+        "inglés",
+        "nyanja"
+      ],
+      "monedas": [
+        "kuacha malauí (MWK)"
+      ],
+      "imagen": "mw.png",
+      "viaje_recomendado": true,
+      "resumen": "El 'corazón cálido de África', con un lago enorme de agua dulce.",
+      "ideal_para": [
+        "naturaleza",
+        "lago",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Lago Malaui (UNESCO)",
+        "Parque Nacional Liwonde",
+        "Meseta de Zomba",
+        "Monte Mulanje"
+      ],
+      "gastronomia": [
+        "Chambo (pescado)",
+        "Nsima"
+      ],
+      "cultura": "Famoso por la amabilidad de su gente.",
+      "festividades": [
+        "Lake of Stars Festival"
+      ],
+      "consejo": "El lago tiene cientos de especies de peces cíclidos; bucear con snorkel es fácil.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Malí",
+      "iso": "ML",
+      "bandera": "🇲🇱",
+      "subregion": "África Occidental",
+      "capital": "Bamako",
+      "lat": 17,
+      "lon": -4,
+      "poblacion": 25198821,
+      "area_km2": 1240192,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "ml.png",
+      "viaje_recomendado": false,
+      "resumen": "Tombuctú, mezquitas de barro y música del desierto, hoy en conflicto.",
+      "ideal_para": [
+        "historia",
+        "música"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Gran Mezquita de Djenné (UNESCO)",
+        "Tombuctú",
+        "País Dogón"
+      ],
+      "gastronomia": [
+        "Tiguadege na",
+        "Riz au gras"
+      ],
+      "cultura": "Gran tradición de griots, músicos y narradores.",
+      "festividades": [
+        "Festival en el Desierto (suspendido)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Marruecos",
+      "iso": "MA",
+      "bandera": "🇲🇦",
+      "subregion": "África del Norte",
+      "capital": "Rabat",
+      "lat": 32,
+      "lon": -5,
+      "poblacion": 38430770,
+      "area_km2": 446550,
+      "idiomas": [
+        "árabe",
+        "bereber"
+      ],
+      "monedas": [
+        "dírham marroquí (MAD)"
+      ],
+      "imagen": "ma.png",
+      "viaje_recomendado": true,
+      "resumen": "Medinas, desierto, montañas del Atlas y costa atlántica, cerca de Europa.",
+      "ideal_para": [
+        "cultura",
+        "desierto",
+        "gastronomía",
+        "historia"
+      ],
+      "mejor_epoca": "Marzo a mayo y septiembre a noviembre.",
+      "imperdibles": [
+        "Marrakech",
+        "Fez y su medina (UNESCO)",
+        "Desierto de Merzouga",
+        "Chefchaouen",
+        "Montañas del Atlas"
+      ],
+      "gastronomia": [
+        "Tajín",
+        "Cuscús",
+        "Té de menta"
+      ],
+      "cultura": "El té de menta es símbolo de hospitalidad. El regateo es parte de la compra.",
+      "festividades": [
+        "Festival de Música Sagrada de Fez (junio)",
+        "Ramadán"
+      ],
+      "consejo": "En la medina de Fez es fácil perderse. Un guía oficial ahorra tiempo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Mauricio",
+      "iso": "MU",
+      "bandera": "🇲🇺",
+      "subregion": "África Oriental",
+      "capital": "Port Louis",
+      "lat": -20.28,
+      "lon": 57.55,
+      "poblacion": 1243741,
+      "area_km2": 2040,
+      "idiomas": [
+        "inglés",
+        "francés",
+        "criollo mauriciano"
+      ],
+      "monedas": [
+        "rupia mauriciana (MUR)"
+      ],
+      "imagen": "mu.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla del Índico con lagunas, montañas volcánicas y mezcla de culturas.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "romántico"
+      ],
+      "mejor_epoca": "Mayo a diciembre.",
+      "imperdibles": [
+        "Le Morne (UNESCO)",
+        "Tierra de siete colores de Chamarel",
+        "Isla de los Ciervos",
+        "Port Louis"
+      ],
+      "gastronomia": [
+        "Dholl puri",
+        "Rougaille"
+      ],
+      "cultura": "Mezcla de culturas india, africana, china y francesa.",
+      "festividades": [
+        "Maha Shivaratri",
+        "Divali"
+      ],
+      "consejo": "Es un destino de lujo, pero también hay hospedajes locales más baratos.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Mauritania",
+      "iso": "MR",
+      "bandera": "🇲🇷",
+      "subregion": "África Occidental",
+      "capital": "Nuakchot",
+      "lat": 20,
+      "lon": -12,
+      "poblacion": 5315065,
+      "area_km2": 1030700,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "uguiya mauritano (MRU)"
+      ],
+      "imagen": "mr.png",
+      "viaje_recomendado": true,
+      "resumen": "Sahara, ciudades de caravanas y uno de los trenes más largos del mundo.",
+      "ideal_para": [
+        "desierto",
+        "aventura"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Chinguetti (UNESCO)",
+        "Banc d'Arguin (UNESCO)",
+        "Tren del hierro",
+        "Ojo del Sahara (estructura de Richat)"
+      ],
+      "gastronomia": [
+        "Thieboudienne",
+        "Té mauritano"
+      ],
+      "cultura": "Cultura nómada y hassaní.",
+      "festividades": [
+        "Festival de las Ciudades Antiguas"
+      ],
+      "consejo": "Algunas zonas fronterizas tienen alertas. Revisa la ruta.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Mozambique",
+      "iso": "MZ",
+      "bandera": "🇲🇿",
+      "subregion": "África Oriental",
+      "capital": "Maputo",
+      "lat": -18.25,
+      "lon": 35,
+      "poblacion": 35631653,
+      "area_km2": 801590,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "metical mozambiqueño (MZN)"
+      ],
+      "imagen": "mz.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas e islas del Índico con buceo excelente.",
+      "ideal_para": [
+        "playa",
+        "buceo"
+      ],
+      "mejor_epoca": "Mayo a noviembre.",
+      "imperdibles": [
+        "Archipiélago de Bazaruto",
+        "Isla de Mozambique (UNESCO)",
+        "Tofo y los tiburones ballena",
+        "Maputo"
+      ],
+      "gastronomia": [
+        "Gambas piri-piri",
+        "Matapa"
+      ],
+      "cultura": "Mezcla de culturas africana, portuguesa y árabe.",
+      "festividades": [
+        "Festival de Marrabenta (febrero)"
+      ],
+      "consejo": "El norte (Cabo Delgado) tiene alertas de seguridad; el sur es la zona turística.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Namibia",
+      "iso": "NA",
+      "bandera": "🇳🇦",
+      "subregion": "África Austral",
+      "capital": "Windhoek",
+      "lat": -22,
+      "lon": 17,
+      "poblacion": 3092816,
+      "area_km2": 825615,
+      "idiomas": [
+        "afrikáans",
+        "alemán",
+        "inglés",
+        "herero",
+        "khoekhoe",
+        "kwangali",
+        "lozi",
+        "ndonga",
+        "setsuana"
+      ],
+      "monedas": [
+        "dólar namibio (NAD)",
+        "rand sudafricano (ZAR)"
+      ],
+      "imagen": "na.png",
+      "viaje_recomendado": true,
+      "resumen": "Dunas rojas, desiertos y fauna en paisajes enormes y vacíos.",
+      "ideal_para": [
+        "desierto",
+        "safari",
+        "fotografía"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Sossusvlei y Deadvlei",
+        "Parque Nacional Etosha",
+        "Costa de los Esqueletos",
+        "Cañón del río Fish"
+      ],
+      "gastronomia": [
+        "Kapana",
+        "Potjiekos"
+      ],
+      "cultura": "Uno de los países menos densamente poblados del mundo. Hogar del pueblo himba.",
+      "festividades": [
+        "Carnaval de Windhoek (abril)"
+      ],
+      "consejo": "Se recorre en auto. Lleva agua y combustible de sobra; las distancias son largas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Nigeria",
+      "iso": "NG",
+      "bandera": "🇳🇬",
+      "subregion": "África Occidental",
+      "capital": "Abuya",
+      "lat": 10,
+      "lon": 8,
+      "poblacion": 237527782,
+      "area_km2": 923768,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "naira nigeriano (NGN)"
+      ],
+      "imagen": "ng.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más poblado de África, con Lagos como centro de música y cine.",
+      "ideal_para": [
+        "cultura",
+        "música",
+        "ciudades"
+      ],
+      "mejor_epoca": "Noviembre a febrero.",
+      "imperdibles": [
+        "Lagos",
+        "Arboleda Sagrada de Osun-Osogbo (UNESCO)",
+        "Meseta de Obudu",
+        "Colinas de Idanre"
+      ],
+      "gastronomia": [
+        "Jollof rice",
+        "Suya",
+        "Egusi"
+      ],
+      "cultura": "Nollywood es una de las mayores industrias de cine del mundo. El afrobeats nació aquí.",
+      "festividades": [
+        "Festival Osun-Osogbo (agosto)",
+        "Carnaval de Calabar (diciembre)"
+      ],
+      "consejo": "Varias regiones tienen alertas de seguridad. Consulta por zona antes de viajar.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Níger",
+      "iso": "NE",
+      "bandera": "🇳🇪",
+      "subregion": "África Occidental",
+      "capital": "Niamey",
+      "lat": 16,
+      "lon": 8,
+      "poblacion": 27917831,
+      "area_km2": 1267000,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "ne.png",
+      "viaje_recomendado": false,
+      "resumen": "Sahara, arquitectura de barro de Agadez y cultura tuareg, hoy inseguro.",
+      "ideal_para": [
+        "desierto",
+        "cultura"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Agadez (UNESCO)",
+        "Montes Aïr",
+        "Reserva de jirafas de Kouré"
+      ],
+      "gastronomia": [
+        "Dambou",
+        "Fura"
+      ],
+      "cultura": "Cultura tuareg y peul.",
+      "festividades": [
+        "Cure Salée (septiembre)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "República Centroafricana",
+      "iso": "CF",
+      "bandera": "🇨🇫",
+      "subregion": "África Central",
+      "capital": "Bangui",
+      "lat": 7,
+      "lon": 21,
+      "poblacion": 5513282,
+      "area_km2": 622984,
+      "idiomas": [
+        "francés",
+        "sango"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "cf.png",
+      "viaje_recomendado": false,
+      "resumen": "Selvas con gorilas y elefantes, en un país con conflicto prolongado.",
+      "ideal_para": [
+        "fauna"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Reserva Dzanga-Sangha",
+        "Bangui"
+      ],
+      "gastronomia": [
+        "Kanda",
+        "Ngukassa"
+      ],
+      "cultura": "Pueblos aka conocidos por su canto polifónico (UNESCO).",
+      "festividades": [
+        "Día Nacional (1 de diciembre)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "República Democrática del Congo",
+      "iso": "CD",
+      "bandera": "🇨🇩",
+      "subregion": "África Central",
+      "capital": "Kinsasa",
+      "lat": 0,
+      "lon": 25,
+      "poblacion": 112832473,
+      "area_km2": 2344858,
+      "idiomas": [
+        "francés",
+        "kongo",
+        "lingala",
+        "luba-lulua",
+        "suajili"
+      ],
+      "monedas": [
+        "franco congoleño (CDF)"
+      ],
+      "imagen": "cd.png",
+      "viaje_recomendado": true,
+      "resumen": "Selvas inmensas, volcanes activos y gorilas de montaña, con zonas en conflicto.",
+      "ideal_para": [
+        "fauna",
+        "aventura"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Parque Nacional Virunga (UNESCO)",
+        "Volcán Nyiragongo",
+        "Río Congo"
+      ],
+      "gastronomia": [
+        "Pondu",
+        "Moambé"
+      ],
+      "cultura": "La rumba y la música soukous han marcado a toda África.",
+      "festividades": [
+        "Festival Amani (Goma)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "República del Congo",
+      "iso": "CG",
+      "bandera": "🇨🇬",
+      "subregion": "África Central",
+      "capital": "Brazzaville",
+      "lat": -1,
+      "lon": 15,
+      "poblacion": 6484437,
+      "area_km2": 342000,
+      "idiomas": [
+        "francés",
+        "kongo",
+        "lingala"
+      ],
+      "monedas": [
+        "franco CFA de África Central (XAF)"
+      ],
+      "imagen": "cg.png",
+      "viaje_recomendado": true,
+      "resumen": "Selva tropical con gorilas y uno de los parques más salvajes de África.",
+      "ideal_para": [
+        "naturaleza",
+        "fauna"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Parque Nacional Odzala-Kokoua",
+        "Brazzaville",
+        "Parque Nacional Nouabalé-Ndoki"
+      ],
+      "gastronomia": [
+        "Moambé",
+        "Saka-saka"
+      ],
+      "cultura": "La rumba congoleña es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Festival Panafricano de Música (FESPAM)"
+      ],
+      "consejo": "Viajar a los parques exige logística cara y organizada con operadores.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Ruanda",
+      "iso": "RW",
+      "bandera": "🇷🇼",
+      "subregion": "África Oriental",
+      "capital": "Kigali",
+      "lat": -2,
+      "lon": 30,
+      "poblacion": 14569341,
+      "area_km2": 26338,
+      "idiomas": [
+        "inglés",
+        "francés",
+        "kinyarwanda"
+      ],
+      "monedas": [
+        "franco ruandés (RWF)"
+      ],
+      "imagen": "rw.png",
+      "viaje_recomendado": true,
+      "resumen": "Gorilas de montaña, colinas verdes y una capital muy limpia y ordenada.",
+      "ideal_para": [
+        "fauna",
+        "naturaleza",
+        "senderismo"
+      ],
+      "mejor_epoca": "Junio a septiembre y diciembre a febrero.",
+      "imperdibles": [
+        "Parque Nacional de los Volcanes (gorilas)",
+        "Bosque de Nyungwe",
+        "Lago Kivu",
+        "Memorial del Genocidio en Kigali"
+      ],
+      "gastronomia": [
+        "Brochettes",
+        "Isombe"
+      ],
+      "cultura": "El último sábado de cada mes se hace umuganda, trabajo comunitario obligatorio.",
+      "festividades": [
+        "Kwita Izina, bautizo de gorilas (septiembre)"
+      ],
+      "consejo": "El permiso para ver gorilas es caro y limitado. Resérvalo con meses de anticipación.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Santo Tomé y Príncipe",
+      "iso": "ST",
+      "bandera": "🇸🇹",
+      "subregion": "África Central",
+      "capital": "Santo Tomé",
+      "lat": 1,
+      "lon": 7,
+      "poblacion": 240254,
+      "area_km2": 964,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "dobra santotomense (STN)"
+      ],
+      "imagen": "st.png",
+      "viaje_recomendado": true,
+      "resumen": "Islas volcánicas en el ecuador, con plantaciones de cacao y playas vacías.",
+      "ideal_para": [
+        "naturaleza",
+        "playa",
+        "tranquilidad"
+      ],
+      "mejor_epoca": "Junio a septiembre.",
+      "imperdibles": [
+        "Pico Cão Grande",
+        "Isla de Príncipe (reserva de biosfera UNESCO)",
+        "Roças (antiguas plantaciones)"
+      ],
+      "gastronomia": [
+        "Calulu",
+        "Chocolate local"
+      ],
+      "cultura": "Fue uno de los mayores productores de cacao del mundo.",
+      "festividades": [
+        "Auto de Floripes (agosto)"
+      ],
+      "consejo": "El lema local es 'leve-leve' (despacio). Ve sin prisa.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Senegal",
+      "iso": "SN",
+      "bandera": "🇸🇳",
+      "subregion": "África Occidental",
+      "capital": "Dakar",
+      "lat": 14,
+      "lon": -14,
+      "poblacion": 18931966,
+      "area_km2": 196722,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "sn.png",
+      "viaje_recomendado": true,
+      "resumen": "Música, playas, islas históricas y la ciudad colonial de Saint-Louis.",
+      "ideal_para": [
+        "cultura",
+        "música",
+        "playa"
+      ],
+      "mejor_epoca": "Noviembre a mayo.",
+      "imperdibles": [
+        "Isla de Gorea (UNESCO)",
+        "Dakar",
+        "Saint-Louis (UNESCO)",
+        "Lago Rosa (Retba)",
+        "Delta del Saloum"
+      ],
+      "gastronomia": [
+        "Thieboudienne (UNESCO)",
+        "Yassa",
+        "Bissap"
+      ],
+      "cultura": "La 'teranga', la hospitalidad senegalesa, es un orgullo nacional.",
+      "festividades": [
+        "Festival de Jazz de Saint-Louis (mayo)"
+      ],
+      "consejo": "Acepta el té ataya si te lo ofrecen: se sirve en tres rondas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Seychelles",
+      "iso": "SC",
+      "bandera": "🇸🇨",
+      "subregion": "África Oriental",
+      "capital": "Victoria",
+      "lat": -4.58,
+      "lon": 55.67,
+      "poblacion": 122730,
+      "area_km2": 452,
+      "idiomas": [
+        "criollo seychelense",
+        "inglés",
+        "francés"
+      ],
+      "monedas": [
+        "rupia seychellense (SCR)"
+      ],
+      "imagen": "sc.png",
+      "viaje_recomendado": true,
+      "resumen": "Islas de granito y arena blanca en el Índico, entre las playas más famosas del mundo.",
+      "ideal_para": [
+        "playa",
+        "lujo",
+        "romántico",
+        "buceo"
+      ],
+      "mejor_epoca": "Abril a mayo y octubre a noviembre.",
+      "imperdibles": [
+        "Anse Source d'Argent (La Digue)",
+        "Vallée de Mai y el coco de mer (UNESCO)",
+        "Praslin",
+        "Mahé"
+      ],
+      "gastronomia": [
+        "Curry de pulpo",
+        "Pescado a la parrilla"
+      ],
+      "cultura": "Cultura criolla con influencia africana, francesa e india.",
+      "festividades": [
+        "Festival Kreol (octubre)"
+      ],
+      "consejo": "En La Digue la gente se mueve en bicicleta. Alquila una al llegar.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Sierra Leona",
+      "iso": "SL",
+      "bandera": "🇸🇱",
+      "subregion": "África Occidental",
+      "capital": "Freetown",
+      "lat": 8.5,
+      "lon": -11.5,
+      "poblacion": 8819794,
+      "area_km2": 71740,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "leona sierraleonesa (SLE)"
+      ],
+      "imagen": "sl.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas de palmeras junto a montañas y una historia de recuperación.",
+      "ideal_para": [
+        "playa",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Península de Freetown y sus playas",
+        "Isla Tiwai",
+        "Isla Bunce"
+      ],
+      "gastronomia": [
+        "Cassava leaf",
+        "Groundnut soup"
+      ],
+      "cultura": "Freetown fue fundada para esclavos liberados.",
+      "festividades": [
+        "Día de la Independencia (27 de abril)"
+      ],
+      "consejo": "La infraestructura es limitada. Lleva efectivo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Somalia",
+      "iso": "SO",
+      "bandera": "🇸🇴",
+      "subregion": "África Oriental",
+      "capital": "Mogadiscio",
+      "lat": 10,
+      "lon": 49,
+      "poblacion": 19654739,
+      "area_km2": 637657,
+      "idiomas": [
+        "árabe",
+        "somalí"
+      ],
+      "monedas": [
+        "chelín somalí (SOS)"
+      ],
+      "imagen": "so.png",
+      "viaje_recomendado": false,
+      "resumen": "Costa larga del Índico, en un país con conflicto armado.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Pinturas rupestres de Laas Geel (Somalilandia)",
+        "Mogadiscio"
+      ],
+      "gastronomia": [
+        "Canjeero",
+        "Bariis iskukaris"
+      ],
+      "cultura": "Fuerte tradición oral y poesía.",
+      "festividades": [
+        "Día de la Independencia (1 de julio)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Sudáfrica",
+      "iso": "ZA",
+      "bandera": "🇿🇦",
+      "subregion": "África Austral",
+      "capital": "Ciudad del Cabo / Pretoria / Bloemfontein",
+      "lat": -29,
+      "lon": 24,
+      "poblacion": 64747319,
+      "area_km2": 1221037,
+      "idiomas": [
+        "afrikáans",
+        "inglés",
+        "ndebele meridional",
+        "sotho septentrional",
+        "sotho meridional",
+        "suazi",
+        "setsuana",
+        "tsonga",
+        "venda",
+        "xhosa",
+        "zulú"
+      ],
+      "monedas": [
+        "rand sudafricano (ZAR)"
+      ],
+      "imagen": "za.png",
+      "viaje_recomendado": true,
+      "resumen": "Safaris, viñedos, costa espectacular y ciudades con historia política intensa.",
+      "ideal_para": [
+        "safari",
+        "vino",
+        "naturaleza",
+        "historia"
+      ],
+      "mejor_epoca": "Mayo a septiembre para safari. Noviembre a marzo para Ciudad del Cabo.",
+      "imperdibles": [
+        "Parque Nacional Kruger",
+        "Ciudad del Cabo y la Montaña de la Mesa",
+        "Ruta Jardín (Garden Route)",
+        "Viñedos de Stellenbosch",
+        "Isla Robben (UNESCO)"
+      ],
+      "gastronomia": [
+        "Braai",
+        "Bobotie",
+        "Biltong"
+      ],
+      "cultura": "Llamada 'nación arcoíris' por su diversidad. Tiene 12 idiomas oficiales.",
+      "festividades": [
+        "Festival de Jazz de Ciudad del Cabo",
+        "Día de la Herencia (24 de septiembre)"
+      ],
+      "consejo": "Infórmate sobre qué zonas evitar en las ciudades, sobre todo de noche.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Sudán",
+      "iso": "SD",
+      "bandera": "🇸🇩",
+      "subregion": "África del Norte",
+      "capital": "Jartum",
+      "lat": 15,
+      "lon": 30,
+      "poblacion": 51662147,
+      "area_km2": 1886068,
+      "idiomas": [
+        "árabe",
+        "inglés"
+      ],
+      "monedas": [
+        "libra sudanesa (SDG)"
+      ],
+      "imagen": "sd.png",
+      "viaje_recomendado": false,
+      "resumen": "Tiene más pirámides que Egipto, pero hoy vive una guerra.",
+      "ideal_para": [
+        "historia"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Pirámides de Meroe (UNESCO)",
+        "Confluencia del Nilo en Jartum"
+      ],
+      "gastronomia": [
+        "Ful medames",
+        "Kisra"
+      ],
+      "cultura": "Herencia del antiguo reino de Kush.",
+      "festividades": [
+        "Ramadán"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Sudán del Sur",
+      "iso": "SS",
+      "bandera": "🇸🇸",
+      "subregion": "África Central",
+      "capital": "Yuba",
+      "lat": 7,
+      "lon": 30,
+      "poblacion": 12188788,
+      "area_km2": 619745,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "libra sursudanesa (SSP)"
+      ],
+      "imagen": "ss.png",
+      "viaje_recomendado": false,
+      "resumen": "El país más joven del mundo (2011), con grandes migraciones de antílopes, hoy muy inestable.",
+      "ideal_para": [
+        "fauna"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Parque Nacional Boma",
+        "Río Nilo Blanco"
+      ],
+      "gastronomia": [
+        "Kisra",
+        "Asida"
+      ],
+      "cultura": "Pueblos ganaderos como los dinka y nuer.",
+      "festividades": [
+        "Día de la Independencia (9 de julio)"
+      ],
+      "consejo": "Muchos gobiernos desaconsejan viajar por conflicto o inseguridad. Revisa las alertas vigentes antes de considerarlo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Tanzania",
+      "iso": "TZ",
+      "bandera": "🇹🇿",
+      "subregion": "África Oriental",
+      "capital": "Dodoma",
+      "lat": -6,
+      "lon": 35,
+      "poblacion": 70545865,
+      "area_km2": 945087,
+      "idiomas": [
+        "inglés",
+        "suajili"
+      ],
+      "monedas": [
+        "chelín tanzano (TZS)"
+      ],
+      "imagen": "tz.png",
+      "viaje_recomendado": true,
+      "resumen": "El Kilimanjaro, el Serengeti y las playas de Zanzíbar en un mismo país.",
+      "ideal_para": [
+        "safari",
+        "montaña",
+        "playa"
+      ],
+      "mejor_epoca": "Junio a octubre. Enero a febrero para ver los partos de ñus.",
+      "imperdibles": [
+        "Parque Nacional Serengeti (UNESCO)",
+        "Cráter del Ngorongoro",
+        "Kilimanjaro",
+        "Zanzíbar y Stone Town (UNESCO)"
+      ],
+      "gastronomia": [
+        "Ugali",
+        "Pilau",
+        "Mishkaki"
+      ],
+      "cultura": "Se habla suajili. 'Hakuna matata' es una expresión real.",
+      "festividades": [
+        "Festival de Cine de Zanzíbar (julio)"
+      ],
+      "consejo": "Subir el Kilimanjaro requiere guía obligatorio y de 6 a 8 días para aclimatarse bien.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Togo",
+      "iso": "TG",
+      "bandera": "🇹🇬",
+      "subregion": "África Occidental",
+      "capital": "Lomé",
+      "lat": 8,
+      "lon": 1.17,
+      "poblacion": 8591626,
+      "area_km2": 56785,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "franco CFA de África Occidental (XOF)"
+      ],
+      "imagen": "tg.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño país con playas, montañas y mercados de fetiches.",
+      "ideal_para": [
+        "cultura",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Noviembre a febrero.",
+      "imperdibles": [
+        "Koutammakou, país de los batammariba (UNESCO)",
+        "Lomé y su mercado",
+        "Kpalimé"
+      ],
+      "gastronomia": [
+        "Fufu",
+        "Akoumé"
+      ],
+      "cultura": "Tradiciones vudú muy vivas.",
+      "festividades": [
+        "Festival Evala (julio)"
+      ],
+      "consejo": "El norte tiene alertas de seguridad cerca de la frontera con Burkina Faso.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Túnez",
+      "iso": "TN",
+      "bandera": "🇹🇳",
+      "subregion": "África del Norte",
+      "capital": "Túnez",
+      "lat": 34,
+      "lon": 9,
+      "poblacion": 12348573,
+      "area_km2": 163610,
+      "idiomas": [
+        "árabe"
+      ],
+      "monedas": [
+        "dinar tunecino (TND)"
+      ],
+      "imagen": "tn.png",
+      "viaje_recomendado": true,
+      "resumen": "Ruinas de Cartago, pueblos blancos y azules, y el Sahara.",
+      "ideal_para": [
+        "historia",
+        "playa",
+        "desierto"
+      ],
+      "mejor_epoca": "Marzo a junio y septiembre a noviembre.",
+      "imperdibles": [
+        "Cartago (UNESCO)",
+        "Sidi Bou Said",
+        "Anfiteatro de El Djem (UNESCO)",
+        "Sahara y Tozeur",
+        "Isla de Djerba"
+      ],
+      "gastronomia": [
+        "Cuscús",
+        "Brik",
+        "Harissa"
+      ],
+      "cultura": "Aquí se filmaron escenas de 'Star Wars' en el desierto.",
+      "festividades": [
+        "Festival Internacional del Sahara (Douz, diciembre)"
+      ],
+      "consejo": "Negocia los precios en los zocos y pide siempre taxi con taxímetro.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Uganda",
+      "iso": "UG",
+      "bandera": "🇺🇬",
+      "subregion": "África Oriental",
+      "capital": "Kampala",
+      "lat": 1,
+      "lon": 32,
+      "poblacion": 51384894,
+      "area_km2": 241550,
+      "idiomas": [
+        "inglés",
+        "suajili"
+      ],
+      "monedas": [
+        "chelín ugandés (UGX)"
+      ],
+      "imagen": "ug.png",
+      "viaje_recomendado": true,
+      "resumen": "La 'perla de África': gorilas, chimpancés y el nacimiento del Nilo.",
+      "ideal_para": [
+        "fauna",
+        "naturaleza",
+        "aventura"
+      ],
+      "mejor_epoca": "Junio a agosto y diciembre a febrero.",
+      "imperdibles": [
+        "Bosque Impenetrable de Bwindi (gorilas)",
+        "Parque Nacional Queen Elizabeth",
+        "Cataratas Murchison",
+        "Rafting en Jinja"
+      ],
+      "gastronomia": [
+        "Rolex (huevo enrollado en chapati)",
+        "Matoke"
+      ],
+      "cultura": "Más de 50 grupos étnicos.",
+      "festividades": [
+        "Día de los Mártires (3 de junio)"
+      ],
+      "consejo": "El permiso de gorilas es algo más barato que en Ruanda. Resérvalo con tiempo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Yibuti",
+      "iso": "DJ",
+      "bandera": "🇩🇯",
+      "subregion": "África Oriental",
+      "capital": "Ciudad de Yibuti",
+      "lat": 11.5,
+      "lon": 43,
+      "poblacion": 1184076,
+      "area_km2": 23200,
+      "idiomas": [
+        "árabe",
+        "francés"
+      ],
+      "monedas": [
+        "franco yibutiano (DJF)"
+      ],
+      "imagen": "dj.png",
+      "viaje_recomendado": true,
+      "resumen": "Paisajes lunares, lagos salados y tiburones ballena.",
+      "ideal_para": [
+        "naturaleza",
+        "buceo"
+      ],
+      "mejor_epoca": "Octubre a febrero.",
+      "imperdibles": [
+        "Lago Assal, el punto más bajo de África",
+        "Lago Abbe",
+        "Tiburones ballena en el golfo de Tadjoura"
+      ],
+      "gastronomia": [
+        "Skoudehkaris"
+      ],
+      "cultura": "Cultura afar y somalí, con influencia francesa.",
+      "festividades": [
+        "Día de la Independencia (27 de junio)"
+      ],
+      "consejo": "La temporada de tiburones ballena es de noviembre a enero.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Zambia",
+      "iso": "ZM",
+      "bandera": "🇿🇲",
+      "subregion": "África Oriental",
+      "capital": "Lusaka",
+      "lat": -15,
+      "lon": 30,
+      "poblacion": 21913874,
+      "area_km2": 752612,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "kuacha zambiano (ZMW)"
+      ],
+      "imagen": "zm.png",
+      "viaje_recomendado": true,
+      "resumen": "Cataratas Victoria, safaris a pie y el río Zambeze.",
+      "ideal_para": [
+        "safari",
+        "aventura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Cataratas Victoria (UNESCO)",
+        "Parque Nacional South Luangwa",
+        "Bajo Zambeze",
+        "Piscina del Diablo"
+      ],
+      "gastronomia": [
+        "Nshima",
+        "Ifisashi"
+      ],
+      "cultura": "Pionero de los safaris a pie.",
+      "festividades": [
+        "Kuomboka (marzo o abril)"
+      ],
+      "consejo": "La Piscina del Diablo solo se visita cuando el río baja, más o menos de agosto a enero.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Zimbabue",
+      "iso": "ZW",
+      "bandera": "🇿🇼",
+      "subregion": "África Oriental",
+      "capital": "Harare",
+      "lat": -20,
+      "lon": 30,
+      "poblacion": 16950795,
+      "area_km2": 390757,
+      "idiomas": [
+        "chibarwe",
+        "inglés",
+        "kalanga",
+        "joisán",
+        "ndau",
+        "ndebele septentrional",
+        "nyanja",
+        "shona",
+        "sotho meridional",
+        "tonga",
+        "setsuana",
+        "tsonga",
+        "venda",
+        "xhosa",
+        "lengua de señas zimbabuense"
+      ],
+      "monedas": [
+        "pula botsuano (BWP)",
+        "yuan renminbi (CNY)",
+        "euro (EUR)",
+        "libra esterlina (GBP)",
+        "rupia india (INR)",
+        "yen japonés (JPY)",
+        "dólar estadounidense (USD)",
+        "rand sudafricano (ZAR)",
+        "Zimbabwean bonds (ZWB)"
+      ],
+      "imagen": "zw.png",
+      "viaje_recomendado": true,
+      "resumen": "Cataratas Victoria, ruinas de piedra antiguas y buenos parques de fauna.",
+      "ideal_para": [
+        "safari",
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Cataratas Victoria",
+        "Gran Zimbabue (UNESCO)",
+        "Parque Nacional Hwange",
+        "Mana Pools"
+      ],
+      "gastronomia": [
+        "Sadza",
+        "Nyama"
+      ],
+      "cultura": "El nombre del país viene de las ruinas de Gran Zimbabue, 'casas de piedra'.",
+      "festividades": [
+        "Harare International Festival of the Arts"
+      ],
+      "consejo": "Lleva dólares en billetes pequeños; el sistema de pagos cambia con frecuencia.",
+      "costo": "moderado"
+    }
+  ]
+}

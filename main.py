@@ -28,9 +28,13 @@ class Information(ttk.Frame):
         self.pais = ttk.StringVar()
         self.info_top = ttk.StringVar()
         self.info_bottom = ttk.StringVar()
-        self.info_top.set("Empieza por escogiendo un continente.")
+        self.capital = ttk.StringVar()
+        self.idioma = ttk.StringVar()
+        self.mejor_epoca = ttk.StringVar()
+        self.costo = ttk.StringVar()
+        self.info_top.set("Mediante su voz, mencione el país a visitar.\n\n\n\n\n\n Información por ver:")
         self.info_bottom.set("")
-        self.pais.set("Bienvenido!")
+        self.pais.set("Bienvenido al Sistema Turístico")
         # --
 
         self.master = master
@@ -45,17 +49,33 @@ class Information(ttk.Frame):
         frame = self.frame
         frame.columnconfigure(0, weight=1, uniform="cols")
         frame.columnconfigure(1, weight=1, uniform="cols")
-        frame.rowconfigure(1, weight=1)
-        frame.rowconfigure(2, weight=1)
+        frame.rowconfigure([1,2,3], weight=1)
         frame.pack(fill='both', expand=True)
 
-        ttk.Label(frame, textvariable=self.pais, font=("Arial", 100, "bold"), anchor="center").grid(row=0, column=0, columnspan=2, sticky='ew')
-        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=1, column=0, sticky='ew', padx=20)
+        ttk.Label(frame, textvariable=self.pais, font=("Arial", 50, "bold"), anchor="w", wraplength=1200).grid(row=0, column=0, columnspan=2, sticky='w', pady=40, padx=80)
+        ttk.Label(frame, textvariable=self.info_top, font=("Arial", 18), anchor="center", wraplength=self.WIDTH/2).grid(row=1, column=0, sticky='ew', padx=20)
+        
+        info_frame = ttk.Frame(self.frame).grid(row=2, column=0)
+        info_frame.columnconfigure([1,2], weight=1)
+        info_frame.rowconfigure([0,1,2,3], weight=1)
+        ttk.Label(info_frame, text="Capital:", font=("Arial", 18, "bold"), anchor="w").grid(row=0, column=0)
+        ttk.Label(info_frame, textvariable=self.capital, font=("Arial", 18), anchor="e").grid(row=0, column=1)
 
+        ttk.Label(info_frame, text="Idioma:", font=("Arial", 18, "bold"), anchor="w").grid(row=1, column=0)
+        ttk.Label(info_frame, textvariable=self.idioma, font=("Arial", 18), anchor="e").grid(row=1, column=1)
+
+        ttk.Label(info_frame, text="Mejor época:", font=("Arial", 18, "bold"), anchor="w").grid(row=2, column=0)
+        ttk.Label(info_frame, textvariable=self.mejor_epoca, font=("Arial", 18), anchor="e", wraplength=self.WIDTH/2 - 40).grid(row=2, column=1)
+
+        ttk.Label(info_frame, text="Costo:", font=("Arial", 18, "bold"), anchor="w").grid(row=3, column=0)
+        ttk.Label(info_frame, textvariable=self.costo, font=("Arial", 18), anchor="e", wraplength=self.WIDTH/2 - 40).grid(row=3, column=1)
+                
+        
         self.label_imagen = ttk.Label(self.frame, anchor="center")
         self.label_imagen.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=20, pady=10)
+        self.__load_image("images/default.png")
 
-        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 30), anchor="center", wraplength=self.WIDTH/2 - 80).grid(row=2, column=0, padx=20)
+        ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 18), anchor="center", wraplength=self.WIDTH/2).grid(row=3, column=0, padx=20)
 
 
     def __load_image(self, path):
@@ -75,9 +95,15 @@ class Information(ttk.Frame):
             if pais and pais in self.datos:
                 self.pais.set(self.datos[pais]["nombre"])
                 self.info_top.set(self.datos[pais]["info_top"])
+                self.capital.set(self.datos[pais]["capital"])
+                self.idioma.set(self.datos[pais]["idioma"])
+                self.mejor_epoca.set(self.datos[pais]["mejor_epoca"])
+                self.costo.set(self.datos[pais]["costo"])
                 self.info_bottom.set(self.datos[pais]["info_bottom"])
                 self.__load_image(self.datos[pais]["imagen"])
                 self.serial.writeLine(self.datos[pais].get("angulo"))
+            if pais == "cero":
+                self.serial.writeLine(0)
         except Empty:
             pass
         self.master.after(200, self.__update_country)

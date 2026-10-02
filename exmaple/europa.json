@@ -1,0 +1,2079 @@
+{
+  "continente": {
+    "nombre": "Europa",
+    "resumen": "Un continente pequeño y muy denso en historia, arte y ciudades. Buen transporte, fronteras abiertas dentro del espacio Schengen y cambios de idioma y cultura cada pocas horas de viaje.",
+    "cantidad_paises": 45,
+    "poblacion_total": 744329577,
+    "area_km2_total": 23008245,
+    "clima": "Templado en su mayoría. Mediterráneo cálido en el sur, frío y con pocas horas de luz en invierno en el norte.",
+    "mejor_epoca": "Mayo, junio y septiembre para evitar el calor y las multitudes del verano. Diciembre para mercados navideños y enero a marzo para esquí.",
+    "perfil_viajero": "Historia, arte, museos, ciudades, gastronomía y viajes en tren.",
+    "idiomas": "Más de 20 idiomas oficiales. El inglés funciona como idioma de viaje en casi todo el continente.",
+    "destinos_estrella": [
+      "París (Francia)",
+      "Roma (Italia)",
+      "Barcelona (España)",
+      "Islas griegas",
+      "Fiordos de Noruega",
+      "Praga (Chequia)"
+    ],
+    "consejos_generales": [
+      "Muchos países comparten el euro y el espacio Schengen, lo que simplifica cruzar fronteras.",
+      "El tren suele ser la mejor forma de moverse entre ciudades.",
+      "En julio y agosto los destinos famosos se llenan y suben los precios."
+    ],
+    "regiones": {
+      "Europa del Sureste": [
+        "Albania",
+        "Bosnia y Herzegovina",
+        "Bulgaria",
+        "Croacia",
+        "Macedonia del Norte",
+        "Montenegro",
+        "Rumania",
+        "Serbia"
+      ],
+      "Europa Occidental": [
+        "Alemania",
+        "Bélgica",
+        "Francia",
+        "Liechtenstein",
+        "Luxemburgo",
+        "Mónaco",
+        "Países Bajos",
+        "Suiza"
+      ],
+      "Europa del Sur": [
+        "Andorra",
+        "Chipre",
+        "Ciudad del Vaticano",
+        "España",
+        "Grecia",
+        "Italia",
+        "Malta",
+        "Portugal",
+        "San Marino"
+      ],
+      "Europa Central": [
+        "Austria",
+        "Chequia",
+        "Eslovaquia",
+        "Eslovenia",
+        "Hungría",
+        "Polonia"
+      ],
+      "Europa del Este": [
+        "Bielorrusia",
+        "Moldavia",
+        "Rusia",
+        "Ucrania"
+      ],
+      "Europa del Norte": [
+        "Dinamarca",
+        "Estonia",
+        "Finlandia",
+        "Irlanda",
+        "Islandia",
+        "Letonia",
+        "Lituania",
+        "Noruega",
+        "Reino Unido",
+        "Suecia"
+      ]
+    },
+    "paises_no_recomendados_actualmente": [
+      "Ucrania"
+    ]
+  },
+  "notas": {
+    "fuentes": "Población: Banco Mundial (2025). Capitales: Wikidata. Idiomas, monedas y coordenadas: dataset mledoze/countries. Guía turística: redactada para este proyecto.",
+    "aviso": "Visas, precios y seguridad cambian. Verifícalos antes de recomendar un viaje.",
+    "costo": "Escala relativa: económico, moderado o caro."
+  },
+  "paises": [
+    {
+      "nombre": "Albania",
+      "iso": "AL",
+      "bandera": "🇦🇱",
+      "subregion": "Europa del Sureste",
+      "capital": "Tirana",
+      "lat": 41,
+      "lon": 20,
+      "poblacion": 2349580,
+      "area_km2": 28748,
+      "idiomas": [
+        "albanés"
+      ],
+      "monedas": [
+        "lek albanés (ALL)"
+      ],
+      "imagen": "al.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa del Jónico con playas de agua transparente, montañas salvajes y precios bajos. Uno de los secretos mejor guardados de Europa.",
+      "ideal_para": [
+        "playa",
+        "montaña",
+        "historia",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a junio y septiembre, con buen clima y menos gente.",
+      "imperdibles": [
+        "Riviera albanesa (Ksamil, Himarë)",
+        "Berat y Gjirokastër, ciudades otomanas (UNESCO)",
+        "Parque Nacional de Theth y los Alpes albaneses",
+        "Ojo Azul (Syri i Kaltër)"
+      ],
+      "gastronomia": [
+        "Tavë kosi (cordero con yogur)",
+        "Byrek",
+        "Fërgesë"
+      ],
+      "cultura": "Asentir con la cabeza puede significar 'no' y negar puede ser 'sí'. Los búnkeres de la época comunista siguen por todo el país.",
+      "festividades": [
+        "Día de Verano (Dita e Verës, 14 de marzo)"
+      ],
+      "consejo": "Los autobuses no siempre tienen horario fijo. Pregunta en la estación el día anterior.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Alemania",
+      "iso": "DE",
+      "bandera": "🇩🇪",
+      "subregion": "Europa Occidental",
+      "capital": "Berlín",
+      "lat": 51,
+      "lon": 9,
+      "poblacion": 83491249,
+      "area_km2": 357114,
+      "idiomas": [
+        "alemán"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "de.png",
+      "viaje_recomendado": true,
+      "resumen": "Ciudades con mucha historia reciente, castillos de cuento y bosques. Muy organizada para el viajero.",
+      "ideal_para": [
+        "ciudades",
+        "historia",
+        "castillos",
+        "cerveza"
+      ],
+      "mejor_epoca": "Mayo a septiembre. Diciembre para los mercados navideños.",
+      "imperdibles": [
+        "Berlín: Puerta de Brandeburgo y restos del Muro",
+        "Castillo de Neuschwanstein",
+        "Múnich",
+        "Valle del Rin",
+        "Selva Negra"
+      ],
+      "gastronomia": [
+        "Salchichas (bratwurst, currywurst)",
+        "Pretzel",
+        "Codillo de cerdo",
+        "Tarta Selva Negra"
+      ],
+      "cultura": "Se valora mucho la puntualidad y el orden. Los domingos casi todas las tiendas cierran.",
+      "festividades": [
+        "Oktoberfest (Múnich, finales de septiembre a inicios de octubre)",
+        "Mercados de Navidad (diciembre)"
+      ],
+      "consejo": "Los pases regionales de tren salen mucho más baratos que los billetes sueltos.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Andorra",
+      "iso": "AD",
+      "bandera": "🇦🇩",
+      "subregion": "Europa del Sur",
+      "capital": "Andorra la Vieja",
+      "lat": 42.5,
+      "lon": 1.5,
+      "poblacion": 82904,
+      "area_km2": 468,
+      "idiomas": [
+        "catalán"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "ad.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño país en los Pirineos entre España y Francia, conocido por el esquí y las compras libres de muchos impuestos.",
+      "ideal_para": [
+        "esquí",
+        "montaña",
+        "compras"
+      ],
+      "mejor_epoca": "Diciembre a marzo para esquí. Julio y agosto para senderismo.",
+      "imperdibles": [
+        "Estación de Grandvalira",
+        "Valle del Madriu (UNESCO)",
+        "Iglesias románicas",
+        "Caldea, centro termal"
+      ],
+      "gastronomia": [
+        "Trinxat",
+        "Escudella"
+      ],
+      "cultura": "El idioma oficial es el catalán, aunque se entiende español y francés.",
+      "festividades": [
+        "Fiestas mayores de cada parroquia (verano)"
+      ],
+      "consejo": "No tiene aeropuerto ni tren. Se llega por carretera desde Barcelona o Toulouse.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Austria",
+      "iso": "AT",
+      "bandera": "🇦🇹",
+      "subregion": "Europa Central",
+      "capital": "Viena",
+      "lat": 47.33,
+      "lon": 13.33,
+      "poblacion": 9208163,
+      "area_km2": 83871,
+      "idiomas": [
+        "austro-bávaro"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "at.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas alpinas, lagos y la Viena imperial de la música clásica.",
+      "ideal_para": [
+        "música",
+        "montaña",
+        "esquí",
+        "historia"
+      ],
+      "mejor_epoca": "Mayo a septiembre para montaña. Diciembre a marzo para esquí.",
+      "imperdibles": [
+        "Viena: Palacio de Schönbrunn y Ópera",
+        "Salzburgo, ciudad de Mozart",
+        "Hallstatt",
+        "Innsbruck y el Tirol"
+      ],
+      "gastronomia": [
+        "Wiener schnitzel",
+        "Apfelstrudel",
+        "Tarta Sacher"
+      ],
+      "cultura": "La cultura del café vienés es Patrimonio de la UNESCO. Tomarse el tiempo es parte del ritual.",
+      "festividades": [
+        "Temporada de bailes de Viena (enero-febrero)",
+        "Festival de Salzburgo (julio-agosto)"
+      ],
+      "consejo": "En Hallstatt hay límites para los grupos turísticos. Ve temprano o quédate a dormir.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Bielorrusia",
+      "iso": "BY",
+      "bandera": "🇧🇾",
+      "subregion": "Europa del Este",
+      "capital": "Minsk",
+      "lat": 53,
+      "lon": 28,
+      "poblacion": 9085991,
+      "area_km2": 207600,
+      "idiomas": [
+        "bielorruso",
+        "ruso"
+      ],
+      "monedas": [
+        "rublo bielorruso (BYN)"
+      ],
+      "imagen": "by.png",
+      "viaje_recomendado": true,
+      "resumen": "Bosques, lagos y ciudades de arquitectura soviética. Hoy es un destino poco recomendable.",
+      "ideal_para": [
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Minsk",
+        "Castillo de Mir (UNESCO)",
+        "Bosque de Białowieża (UNESCO)",
+        "Fortaleza de Brest"
+      ],
+      "gastronomia": [
+        "Draniki (tortitas de papa)",
+        "Machanka"
+      ],
+      "cultura": "Fuerte herencia soviética y eslava.",
+      "festividades": [
+        "Kupalle (noche de San Juan, julio)"
+      ],
+      "consejo": "Por su papel en la guerra de Ucrania, muchos gobiernos desaconsejan viajar. Revisa las alertas vigentes.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Bosnia y Herzegovina",
+      "iso": "BA",
+      "bandera": "🇧🇦",
+      "subregion": "Europa del Sureste",
+      "capital": "Sarajevo",
+      "lat": 44,
+      "lon": 18,
+      "poblacion": 3140095,
+      "area_km2": 51209,
+      "idiomas": [
+        "bosnio",
+        "croata",
+        "serbio"
+      ],
+      "monedas": [
+        "marco convertible de Bosnia y Herzegovina (BAM)"
+      ],
+      "imagen": "ba.png",
+      "viaje_recomendado": true,
+      "resumen": "Donde Oriente y Occidente se cruzan: mezquitas, iglesias y un pasado reciente que se siente en las calles.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a junio y septiembre.",
+      "imperdibles": [
+        "Puente Viejo de Mostar (UNESCO)",
+        "Sarajevo y su barrio Baščaršija",
+        "Cascadas de Kravica",
+        "Blagaj"
+      ],
+      "gastronomia": [
+        "Ćevapi",
+        "Burek",
+        "Café bosnio"
+      ],
+      "cultura": "Conviven musulmanes, ortodoxos y católicos. El café se toma despacio, en taza pequeña.",
+      "festividades": [
+        "Festival de Cine de Sarajevo (agosto)",
+        "Saltos desde el Puente de Mostar (verano)"
+      ],
+      "consejo": "No salgas de caminos marcados en zonas rurales: aún quedan minas de la guerra.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Bulgaria",
+      "iso": "BG",
+      "bandera": "🇧🇬",
+      "subregion": "Europa del Sureste",
+      "capital": "Sofía",
+      "lat": 43,
+      "lon": 25,
+      "poblacion": 6433302,
+      "area_km2": 110879,
+      "idiomas": [
+        "búlgaro"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "bg.png",
+      "viaje_recomendado": true,
+      "resumen": "Monasterios ortodoxos, montañas y playas en el mar Negro a precios bajos.",
+      "ideal_para": [
+        "playa",
+        "historia",
+        "montaña",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre. Invierno para esquí en Bansko.",
+      "imperdibles": [
+        "Monasterio de Rila (UNESCO)",
+        "Plovdiv, una de las ciudades más antiguas de Europa",
+        "Sofía",
+        "Costa del mar Negro"
+      ],
+      "gastronomia": [
+        "Ensalada shopska",
+        "Banitsa",
+        "Yogur búlgaro"
+      ],
+      "cultura": "Aquí mover la cabeza de lado a lado significa 'sí' y asentir, 'no'.",
+      "festividades": [
+        "Baba Marta (1 de marzo)",
+        "Festival de la Rosa (Kazanlak, junio)"
+      ],
+      "consejo": "El alfabeto es cirílico; una app de traducción con cámara ayuda a leer carteles.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Bélgica",
+      "iso": "BE",
+      "bandera": "🇧🇪",
+      "subregion": "Europa Occidental",
+      "capital": "Bruselas",
+      "lat": 50.83,
+      "lon": 4,
+      "poblacion": 11941781,
+      "area_km2": 30528,
+      "idiomas": [
+        "alemán",
+        "francés",
+        "neerlandés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "be.png",
+      "viaje_recomendado": true,
+      "resumen": "Ciudades medievales, chocolate, cerveza y cómics en un país pequeño y fácil de recorrer en tren.",
+      "ideal_para": [
+        "ciudades",
+        "gastronomía",
+        "arte"
+      ],
+      "mejor_epoca": "Abril a septiembre.",
+      "imperdibles": [
+        "Grand-Place de Bruselas (UNESCO)",
+        "Brujas",
+        "Gante",
+        "Amberes"
+      ],
+      "gastronomia": [
+        "Mejillones con papas fritas",
+        "Waffles",
+        "Chocolate belga",
+        "Cerveza trapense"
+      ],
+      "cultura": "Se hablan neerlandés, francés y alemán según la región. La cultura cervecera es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Carnaval de Binche (UNESCO)",
+        "Alfombra de flores de Bruselas (agosto, años pares)"
+      ],
+      "consejo": "Brujas llena de excursiones de un día. Quédate a dormir para verla de noche y sin multitudes.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Chequia",
+      "iso": "CZ",
+      "bandera": "🇨🇿",
+      "subregion": "Europa Central",
+      "capital": "Praga",
+      "lat": 49.75,
+      "lon": 15.5,
+      "poblacion": 10886878,
+      "area_km2": 78865,
+      "idiomas": [
+        "checo",
+        "eslovaco"
+      ],
+      "monedas": [
+        "corona checa (CZK)"
+      ],
+      "imagen": "cz.png",
+      "viaje_recomendado": true,
+      "resumen": "Praga es la estrella, con un centro medieval casi intacto, pero los pueblos bohemios también valen el viaje.",
+      "ideal_para": [
+        "ciudades",
+        "historia",
+        "cerveza"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre. Diciembre para mercados navideños.",
+      "imperdibles": [
+        "Praga: Puente de Carlos, castillo y reloj astronómico",
+        "Český Krumlov (UNESCO)",
+        "Kutná Hora y su osario",
+        "Karlovy Vary"
+      ],
+      "gastronomia": [
+        "Svíčková",
+        "Trdelník",
+        "Cerveza pilsner"
+      ],
+      "cultura": "Tiene el mayor consumo de cerveza por persona del mundo. La pilsner nació en Plzeň.",
+      "festividades": [
+        "Mercados de Navidad de Praga (diciembre)"
+      ],
+      "consejo": "Cambia dinero solo en casas de cambio confiables; en Praga hay muchas con comisiones abusivas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Chipre",
+      "iso": "CY",
+      "bandera": "🇨🇾",
+      "subregion": "Europa del Sur",
+      "capital": "Nicosia",
+      "lat": 35,
+      "lon": 33,
+      "poblacion": 1370754,
+      "area_km2": 9251,
+      "idiomas": [
+        "griego",
+        "turco"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "cy.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla mediterránea de playas, ruinas griegas y romanas, y leyendas de Afrodita.",
+      "ideal_para": [
+        "playa",
+        "historia",
+        "sol"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a noviembre.",
+      "imperdibles": [
+        "Roca de Afrodita",
+        "Mosaicos de Pafos (UNESCO)",
+        "Montes Troodos y sus iglesias pintadas",
+        "Laguna Azul de Akamas"
+      ],
+      "gastronomia": [
+        "Halloumi",
+        "Meze chipriota",
+        "Souvla"
+      ],
+      "cultura": "La isla está dividida desde 1974 entre el sur grecochipriota y el norte turcochipriota.",
+      "festividades": [
+        "Kataklysmos (festival del agua, junio)"
+      ],
+      "consejo": "Se conduce por la izquierda, herencia británica.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Ciudad del Vaticano",
+      "iso": "VA",
+      "bandera": "🇻🇦",
+      "subregion": "Europa del Sur",
+      "capital": "Ciudad del Vaticano",
+      "lat": 41.9,
+      "lon": 12.45,
+      "poblacion": null,
+      "area_km2": 0.44,
+      "idiomas": [
+        "italiano",
+        "latín"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "va.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más pequeño del mundo, dentro de Roma y sede de la Iglesia católica.",
+      "ideal_para": [
+        "arte",
+        "historia",
+        "religión"
+      ],
+      "mejor_epoca": "Noviembre a febrero, fuera de temporada alta.",
+      "imperdibles": [
+        "Basílica de San Pedro",
+        "Museos Vaticanos y Capilla Sixtina",
+        "Plaza de San Pedro",
+        "Cúpula de Miguel Ángel"
+      ],
+      "gastronomia": [
+        "Se come en Roma: carbonara, cacio e pepe"
+      ],
+      "cultura": "Es un país completo dentro de una ciudad, con su propia guardia suiza y sistema postal.",
+      "festividades": [
+        "Semana Santa",
+        "Navidad con la misa del papa"
+      ],
+      "consejo": "Hombros y rodillas cubiertos para entrar a la basílica. Compra la entrada a los museos por internet.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Croacia",
+      "iso": "HR",
+      "bandera": "🇭🇷",
+      "subregion": "Europa del Sureste",
+      "capital": "Zagreb",
+      "lat": 45.17,
+      "lon": 15.5,
+      "poblacion": 3876200,
+      "area_km2": 56594,
+      "idiomas": [
+        "croata"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "hr.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa adriática con islas, ciudades amuralladas y lagos turquesa.",
+      "ideal_para": [
+        "playa",
+        "navegación",
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a junio y septiembre. Julio y agosto están llenos.",
+      "imperdibles": [
+        "Dubrovnik",
+        "Lagos de Plitvice (UNESCO)",
+        "Split y el Palacio de Diocleciano",
+        "Islas Hvar y Korčula"
+      ],
+      "gastronomia": [
+        "Peka",
+        "Black risotto (risotto negro)",
+        "Pršut"
+      ],
+      "cultura": "Fuerte vida de terraza junto al mar. Aquí se filmaron escenas de 'Juego de Tronos'.",
+      "festividades": [
+        "Festival de Verano de Dubrovnik (julio-agosto)"
+      ],
+      "consejo": "Los ferris entre islas se llenan en verano. Compra billetes con anticipación.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Dinamarca",
+      "iso": "DK",
+      "bandera": "🇩🇰",
+      "subregion": "Europa del Norte",
+      "capital": "Copenhague",
+      "lat": 56,
+      "lon": 10,
+      "poblacion": 6009169,
+      "area_km2": 43094,
+      "idiomas": [
+        "danés"
+      ],
+      "monedas": [
+        "corona danesa (DKK)"
+      ],
+      "imagen": "dk.png",
+      "viaje_recomendado": true,
+      "resumen": "Diseño, bicicletas y la famosa idea del 'hygge'. Copenhague es una de las ciudades más cómodas de Europa.",
+      "ideal_para": [
+        "ciudades",
+        "diseño",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Mayo a agosto.",
+      "imperdibles": [
+        "Copenhague: Nyhavn y Tivoli",
+        "Castillo de Kronborg (UNESCO)",
+        "Legoland en Billund",
+        "Skagen"
+      ],
+      "gastronomia": [
+        "Smørrebrød",
+        "Pastelería danesa",
+        "Hot dog danés"
+      ],
+      "cultura": "El 'hygge' es la idea de lo acogedor: velas, buena compañía y calma.",
+      "festividades": [
+        "Noche de San Juan (Sankthans, 23 de junio)"
+      ],
+      "consejo": "Alquila bicicleta. Así se mueven los daneses y es la forma más rápida de conocer Copenhague.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Eslovaquia",
+      "iso": "SK",
+      "bandera": "🇸🇰",
+      "subregion": "Europa Central",
+      "capital": "Bratislava",
+      "lat": 48.67,
+      "lon": 19.5,
+      "poblacion": 5413813,
+      "area_km2": 49037,
+      "idiomas": [
+        "eslovaco"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "sk.png",
+      "viaje_recomendado": true,
+      "resumen": "Castillos, montañas Tatras y una capital pequeña a una hora de Viena.",
+      "ideal_para": [
+        "montaña",
+        "castillos",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre. Invierno para esquí.",
+      "imperdibles": [
+        "Castillo de Spiš (UNESCO)",
+        "Bratislava",
+        "Altos Tatras",
+        "Banská Štiavnica"
+      ],
+      "gastronomia": [
+        "Bryndzové halušky",
+        "Kapustnica"
+      ],
+      "cultura": "Tiene una de las mayores cantidades de castillos por habitante del mundo.",
+      "festividades": [
+        "Festival Folclórico de Východná (julio)"
+      ],
+      "consejo": "Se combina fácilmente con Viena y Budapest en un mismo viaje.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Eslovenia",
+      "iso": "SI",
+      "bandera": "🇸🇮",
+      "subregion": "Europa Central",
+      "capital": "Liubliana",
+      "lat": 46.12,
+      "lon": 14.82,
+      "poblacion": 2130986,
+      "area_km2": 20273,
+      "idiomas": [
+        "esloveno"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "si.png",
+      "viaje_recomendado": true,
+      "resumen": "País pequeño y verde entre los Alpes y el Adriático. Ideal para naturaleza y turismo tranquilo.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "senderismo"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Lago Bled",
+        "Cuevas de Postojna y Škocjan",
+        "Liubliana",
+        "Valle del Soča"
+      ],
+      "gastronomia": [
+        "Potica",
+        "Kranjska klobasa",
+        "Kremšnita de Bled"
+      ],
+      "cultura": "Más de la mitad del país está cubierta de bosques. Se toma muy en serio la sostenibilidad.",
+      "festividades": [
+        "Festival de Liubliana (verano)"
+      ],
+      "consejo": "Para conducir por autopistas necesitas comprar una viñeta electrónica.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "España",
+      "iso": "ES",
+      "bandera": "🇪🇸",
+      "subregion": "Europa del Sur",
+      "capital": "Madrid",
+      "lat": 40,
+      "lon": -4,
+      "poblacion": 49355143,
+      "area_km2": 505992,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "es.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas, ciudades con siglos de historia, arte de primer nivel y una vida en la calle que dura hasta tarde.",
+      "ideal_para": [
+        "cultura",
+        "playa",
+        "gastronomía",
+        "fiesta"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Sagrada Familia (Barcelona)",
+        "Alhambra de Granada",
+        "Madrid y el Museo del Prado",
+        "Sevilla",
+        "Islas Baleares y Canarias"
+      ],
+      "gastronomia": [
+        "Paella",
+        "Tortilla de patatas",
+        "Jamón ibérico",
+        "Tapas"
+      ],
+      "cultura": "Se come tarde: almuerzo a las 14 h y cena después de las 21 h. El flamenco es Patrimonio de la UNESCO.",
+      "festividades": [
+        "San Fermín (Pamplona, julio)",
+        "Las Fallas (Valencia, marzo)",
+        "Feria de Abril (Sevilla)"
+      ],
+      "consejo": "La Alhambra agota entradas con semanas de anticipación. Resérvala antes que el vuelo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Estonia",
+      "iso": "EE",
+      "bandera": "🇪🇪",
+      "subregion": "Europa del Norte",
+      "capital": "Tallin",
+      "lat": 59,
+      "lon": 26,
+      "poblacion": 1366475,
+      "area_km2": 45227,
+      "idiomas": [
+        "estonio"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "ee.png",
+      "viaje_recomendado": true,
+      "resumen": "Una capital medieval impecable y uno de los países más digitales del mundo.",
+      "ideal_para": [
+        "historia",
+        "naturaleza",
+        "ciudades"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Casco antiguo de Tallin (UNESCO)",
+        "Parque Nacional Lahemaa",
+        "Isla de Saaremaa",
+        "Tartu"
+      ],
+      "gastronomia": [
+        "Pan de centeno negro",
+        "Kama",
+        "Arenques"
+      ],
+      "cultura": "Las fiestas de la canción impulsaron su independencia, la 'Revolución Cantada'.",
+      "festividades": [
+        "Festival de la Canción (cada 5 años)",
+        "Noche de San Juan (Jaanipäev, 23-24 de junio)"
+      ],
+      "consejo": "Desde Tallin hay ferris a Helsinki en unas dos horas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Finlandia",
+      "iso": "FI",
+      "bandera": "🇫🇮",
+      "subregion": "Europa del Norte",
+      "capital": "Helsinki",
+      "lat": 64,
+      "lon": 26,
+      "poblacion": 5646436,
+      "area_km2": 338424,
+      "idiomas": [
+        "finés",
+        "sueco"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "fi.png",
+      "viaje_recomendado": true,
+      "resumen": "Tierra de miles de lagos, saunas y la Laponia de las auroras boreales.",
+      "ideal_para": [
+        "naturaleza",
+        "auroras",
+        "invierno",
+        "diseño"
+      ],
+      "mejor_epoca": "Diciembre a marzo para auroras y nieve. Junio a agosto para el sol de medianoche.",
+      "imperdibles": [
+        "Laponia y Rovaniemi",
+        "Helsinki",
+        "Región de los Lagos",
+        "Fortaleza de Suomenlinna (UNESCO)"
+      ],
+      "gastronomia": [
+        "Karjalanpiirakka (pastel carelio)",
+        "Salmón",
+        "Reno salteado"
+      ],
+      "cultura": "La sauna es sagrada: hay millones en el país, más o menos una por cada dos habitantes.",
+      "festividades": [
+        "Juhannus, solsticio de verano (junio)"
+      ],
+      "consejo": "Para ver auroras, aléjate de las luces de la ciudad y revisa el pronóstico de actividad solar.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Francia",
+      "iso": "FR",
+      "bandera": "🇫🇷",
+      "subregion": "Europa Occidental",
+      "capital": "París",
+      "lat": 46,
+      "lon": 2,
+      "poblacion": 68720337,
+      "area_km2": 551695,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "fr.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más visitado del mundo: París, castillos, viñedos, Alpes y la Costa Azul.",
+      "ideal_para": [
+        "cultura",
+        "gastronomía",
+        "arte",
+        "vino"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "París: Torre Eiffel, Louvre y Montmartre",
+        "Mont-Saint-Michel",
+        "Castillos del Loira",
+        "Costa Azul",
+        "Provenza"
+      ],
+      "gastronomia": [
+        "Croissant",
+        "Quesos",
+        "Coq au vin",
+        "Crêpes"
+      ],
+      "cultura": "La comida gastronómica francesa es Patrimonio de la UNESCO. Saludar con 'bonjour' al entrar a una tienda es obligado.",
+      "festividades": [
+        "Día de la Bastilla (14 de julio)",
+        "Festival de Cannes (mayo)"
+      ],
+      "consejo": "Muchos museos de París cierran lunes o martes. Revisa antes de armar el itinerario.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Grecia",
+      "iso": "GR",
+      "bandera": "🇬🇷",
+      "subregion": "Europa del Sur",
+      "capital": "Atenas",
+      "lat": 39,
+      "lon": 22,
+      "poblacion": 10413962,
+      "area_km2": 131990,
+      "idiomas": [
+        "griego"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "gr.png",
+      "viaje_recomendado": true,
+      "resumen": "Cuna de la civilización occidental, con islas blancas y mar azul.",
+      "ideal_para": [
+        "historia",
+        "playa",
+        "islas",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Mayo a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Acrópolis de Atenas",
+        "Santorini",
+        "Meteora",
+        "Creta",
+        "Delfos"
+      ],
+      "gastronomia": [
+        "Musaka",
+        "Souvlaki",
+        "Ensalada griega",
+        "Tzatziki"
+      ],
+      "cultura": "La hospitalidad (filoxenía) es parte de la identidad griega. La Semana Santa ortodoxa es la fiesta más grande.",
+      "festividades": [
+        "Semana Santa ortodoxa",
+        "Festival de Atenas y Epidauro (verano)"
+      ],
+      "consejo": "Santorini y Mykonos son caras y concurridas. Naxos o Milos ofrecen algo parecido con menos gente.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Hungría",
+      "iso": "HU",
+      "bandera": "🇭🇺",
+      "subregion": "Europa Central",
+      "capital": "Budapest",
+      "lat": 47,
+      "lon": 20,
+      "poblacion": 9514251,
+      "area_km2": 93028,
+      "idiomas": [
+        "húngaro"
+      ],
+      "monedas": [
+        "forinto húngaro (HUF)"
+      ],
+      "imagen": "hu.png",
+      "viaje_recomendado": true,
+      "resumen": "Budapest a orillas del Danubio, baños termales y una cocina muy propia.",
+      "ideal_para": [
+        "ciudades",
+        "termas",
+        "historia"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Parlamento y Danubio en Budapest",
+        "Baños Széchenyi y Gellért",
+        "Lago Balaton",
+        "Eger"
+      ],
+      "gastronomia": [
+        "Gulash",
+        "Lángos",
+        "Kürtőskalács"
+      ],
+      "cultura": "La cultura termal viene de la época otomana. El húngaro no se parece a ninguna lengua vecina.",
+      "festividades": [
+        "Festival Sziget (agosto)",
+        "Día de San Esteban (20 de agosto)"
+      ],
+      "consejo": "Los baños termales son un plan también en invierno. Lleva sandalias y toalla.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Irlanda",
+      "iso": "IE",
+      "bandera": "🇮🇪",
+      "subregion": "Europa del Norte",
+      "capital": "Dublín",
+      "lat": 53,
+      "lon": -8,
+      "poblacion": 5484367,
+      "area_km2": 70273,
+      "idiomas": [
+        "inglés",
+        "irlandés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "ie.png",
+      "viaje_recomendado": true,
+      "resumen": "Acantilados, verde intenso, pubs con música en vivo y mucha conversación.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura",
+        "música"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Acantilados de Moher",
+        "Dublín",
+        "Anillo de Kerry",
+        "Calzada del Gigante (en Irlanda del Norte)",
+        "Galway"
+      ],
+      "gastronomia": [
+        "Estofado irlandés",
+        "Soda bread",
+        "Cerveza negra"
+      ],
+      "cultura": "Las sesiones de música tradicional en los pubs son abiertas a cualquiera que quiera escuchar.",
+      "festividades": [
+        "Día de San Patricio (17 de marzo)"
+      ],
+      "consejo": "El clima cambia varias veces al día. Lleva siempre impermeable.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Islandia",
+      "iso": "IS",
+      "bandera": "🇮🇸",
+      "subregion": "Europa del Norte",
+      "capital": "Reikiavik",
+      "lat": 65,
+      "lon": -18,
+      "poblacion": 392404,
+      "area_km2": 103000,
+      "idiomas": [
+        "islandés"
+      ],
+      "monedas": [
+        "corona islandesa (ISK)"
+      ],
+      "imagen": "is.png",
+      "viaje_recomendado": true,
+      "resumen": "Volcanes, glaciares, cascadas y auroras en una isla casi vacía.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "auroras",
+        "fotografía"
+      ],
+      "mejor_epoca": "Junio a agosto para rutas. Septiembre a marzo para auroras.",
+      "imperdibles": [
+        "Círculo Dorado",
+        "Laguna glaciar Jökulsárlón",
+        "Laguna Azul",
+        "Cascadas Seljalandsfoss y Skógafoss",
+        "Península de Snæfellsnes"
+      ],
+      "gastronomia": [
+        "Cordero islandés",
+        "Skyr",
+        "Sopa de langosta"
+      ],
+      "cultura": "Hay más ovejas que personas. Muchos islandeses creen, al menos en broma, en los elfos.",
+      "festividades": [
+        "Þorrablót, fiesta de invierno",
+        "Día Nacional (17 de junio)"
+      ],
+      "consejo": "El clima cambia rápido y es peligroso. Revisa el estado de carreteras antes de conducir.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Italia",
+      "iso": "IT",
+      "bandera": "🇮🇹",
+      "subregion": "Europa del Sur",
+      "capital": "Roma",
+      "lat": 42.83,
+      "lon": 12.83,
+      "poblacion": 58915656,
+      "area_km2": 301336,
+      "idiomas": [
+        "italiano"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "it.png",
+      "viaje_recomendado": true,
+      "resumen": "Arte, ruinas romanas, paisajes y una comida que no necesita presentación.",
+      "ideal_para": [
+        "cultura",
+        "historia",
+        "gastronomía",
+        "arte"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Roma: Coliseo y Foro",
+        "Florencia y la Toscana",
+        "Venecia",
+        "Costa Amalfitana",
+        "Cinque Terre"
+      ],
+      "gastronomia": [
+        "Pizza napolitana",
+        "Pasta fresca",
+        "Gelato",
+        "Risotto"
+      ],
+      "cultura": "Es el país con más sitios Patrimonio de la UNESCO del mundo. El café se toma de pie en la barra.",
+      "festividades": [
+        "Carnaval de Venecia (febrero)",
+        "Palio de Siena (julio y agosto)"
+      ],
+      "consejo": "Pedir un cappuccino después del almuerzo te delatará como turista.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Letonia",
+      "iso": "LV",
+      "bandera": "🇱🇻",
+      "subregion": "Europa del Norte",
+      "capital": "Riga",
+      "lat": 57,
+      "lon": 25,
+      "poblacion": 1847785,
+      "area_km2": 64559,
+      "idiomas": [
+        "letón"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "lv.png",
+      "viaje_recomendado": true,
+      "resumen": "Riga, con su arquitectura art nouveau, y costa báltica de playas y bosques.",
+      "ideal_para": [
+        "ciudades",
+        "arquitectura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Casco antiguo de Riga (UNESCO)",
+        "Jūrmala",
+        "Parque Nacional Gauja",
+        "Palacio de Rundāle"
+      ],
+      "gastronomia": [
+        "Pan negro de centeno",
+        "Grey peas con tocino",
+        "Bálsamo negro de Riga"
+      ],
+      "cultura": "Riga tiene una de las mayores concentraciones de edificios art nouveau del mundo.",
+      "festividades": [
+        "Jāņi, solsticio de verano (23-24 de junio)"
+      ],
+      "consejo": "En Jāņi la ciudad se vacía: todos se van al campo a celebrar.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Liechtenstein",
+      "iso": "LI",
+      "bandera": "🇱🇮",
+      "subregion": "Europa Occidental",
+      "capital": "Vaduz",
+      "lat": 47.27,
+      "lon": 9.53,
+      "poblacion": 41024,
+      "area_km2": 160,
+      "idiomas": [
+        "alemán"
+      ],
+      "monedas": [
+        "franco suizo (CHF)"
+      ],
+      "imagen": "li.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño principado alpino entre Suiza y Austria. Se recorre en un día.",
+      "ideal_para": [
+        "montaña",
+        "senderismo"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Vaduz y su castillo",
+        "Museo de Arte de Liechtenstein",
+        "Senderos alpinos de Malbun"
+      ],
+      "gastronomia": [
+        "Käsknöpfle"
+      ],
+      "cultura": "Es uno de los pocos países doblemente sin litoral del mundo.",
+      "festividades": [
+        "Día Nacional (15 de agosto)"
+      ],
+      "consejo": "No tiene aeropuerto. Se llega desde Zúrich en tren y autobús.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Lituania",
+      "iso": "LT",
+      "bandera": "🇱🇹",
+      "subregion": "Europa del Norte",
+      "capital": "Vilna",
+      "lat": 56,
+      "lon": 24,
+      "poblacion": 2888774,
+      "area_km2": 65300,
+      "idiomas": [
+        "lituano"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "lt.png",
+      "viaje_recomendado": true,
+      "resumen": "Casco barroco en Vilna, dunas en la costa y un fuerte orgullo nacional.",
+      "ideal_para": [
+        "historia",
+        "naturaleza",
+        "ciudades"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Casco antiguo de Vilna (UNESCO)",
+        "Istmo de Curlandia (UNESCO)",
+        "Castillo de Trakai",
+        "Colina de las Cruces"
+      ],
+      "gastronomia": [
+        "Cepelinai",
+        "Šaltibarščiai (sopa fría rosada)"
+      ],
+      "cultura": "El baloncesto es casi una religión nacional.",
+      "festividades": [
+        "Kaziuko mugė, feria de San Casimiro (marzo)"
+      ],
+      "consejo": "La Colina de las Cruces está cerca de Šiauliai. Combínala con la visita a la ciudad.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Luxemburgo",
+      "iso": "LU",
+      "bandera": "🇱🇺",
+      "subregion": "Europa Occidental",
+      "capital": "Luxemburgo",
+      "lat": 49.75,
+      "lon": 6.17,
+      "poblacion": 686970,
+      "area_km2": 2586,
+      "idiomas": [
+        "alemán",
+        "francés",
+        "luxemburgués"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "lu.png",
+      "viaje_recomendado": true,
+      "resumen": "País pequeño y rico, con una capital sobre desfiladeros y castillos en el norte.",
+      "ideal_para": [
+        "ciudades",
+        "historia",
+        "senderismo"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Casco antiguo de Luxemburgo (UNESCO)",
+        "Casamatas del Bock",
+        "Castillo de Vianden",
+        "Mullerthal, la 'pequeña Suiza'"
+      ],
+      "gastronomia": [
+        "Judd mat Gaardebounen",
+        "Vino del Mosela"
+      ],
+      "cultura": "Se hablan luxemburgués, francés y alemán a diario.",
+      "festividades": [
+        "Día Nacional (23 de junio)"
+      ],
+      "consejo": "El transporte público es gratis en todo el país.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Macedonia del Norte",
+      "iso": "MK",
+      "bandera": "🇲🇰",
+      "subregion": "Europa del Sureste",
+      "capital": "Skopie",
+      "lat": 41.83,
+      "lon": 22,
+      "poblacion": 1820909,
+      "area_km2": 25713,
+      "idiomas": [
+        "macedonio"
+      ],
+      "monedas": [
+        "dinar macedonio (MKD)"
+      ],
+      "imagen": "mk.png",
+      "viaje_recomendado": true,
+      "resumen": "Lago Ohrid, monasterios bizantinos y precios muy bajos.",
+      "ideal_para": [
+        "historia",
+        "naturaleza",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Lago y ciudad de Ohrid (UNESCO)",
+        "Skopie",
+        "Cañón de Matka",
+        "Monasterio de San Naum"
+      ],
+      "gastronomia": [
+        "Tavče gravče",
+        "Ajvar"
+      ],
+      "cultura": "Mezcla de tradición ortodoxa y huellas otomanas.",
+      "festividades": [
+        "Festival de Verano de Ohrid (julio-agosto)"
+      ],
+      "consejo": "Ohrid es mucho más interesante que la capital. Dale al menos dos días.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Malta",
+      "iso": "MT",
+      "bandera": "🇲🇹",
+      "subregion": "Europa del Sur",
+      "capital": "La Valeta",
+      "lat": 35.83,
+      "lon": 14.58,
+      "poblacion": 579704,
+      "area_km2": 316,
+      "idiomas": [
+        "inglés",
+        "maltés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "mt.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño archipiélago con templos más antiguos que las pirámides y aguas cristalinas.",
+      "ideal_para": [
+        "historia",
+        "buceo",
+        "playa"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "La Valeta (UNESCO)",
+        "Mdina",
+        "Templos megalíticos (UNESCO)",
+        "Laguna Azul de Comino",
+        "Isla de Gozo"
+      ],
+      "gastronomia": [
+        "Pastizzi",
+        "Conejo guisado (fenek)"
+      ],
+      "cultura": "El maltés es la única lengua semítica oficial de la Unión Europea.",
+      "festividades": [
+        "Festas de los pueblos (verano)",
+        "Carnaval (febrero)"
+      ],
+      "consejo": "Se conduce por la izquierda. Los autobuses llegan a casi todas partes.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Moldavia",
+      "iso": "MD",
+      "bandera": "🇲🇩",
+      "subregion": "Europa del Este",
+      "capital": "Chisináu",
+      "lat": 47,
+      "lon": 29,
+      "poblacion": 2360527,
+      "area_km2": 33846,
+      "idiomas": [
+        "rumano"
+      ],
+      "monedas": [
+        "leu moldavo (MDL)"
+      ],
+      "imagen": "md.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países menos visitados de Europa, famoso por sus enormes bodegas.",
+      "ideal_para": [
+        "vino",
+        "presupuesto ajustado",
+        "campo"
+      ],
+      "mejor_epoca": "Mayo a octubre. Octubre para la vendimia.",
+      "imperdibles": [
+        "Bodegas de Mileștii Mici y Cricova",
+        "Monasterio de Orheiul Vechi",
+        "Chisináu"
+      ],
+      "gastronomia": [
+        "Mămăligă",
+        "Plăcintă",
+        "Vino local"
+      ],
+      "cultura": "Tradición rural muy viva y hospitalidad generosa.",
+      "festividades": [
+        "Día Nacional del Vino (octubre)"
+      ],
+      "consejo": "Evita la región separatista de Transnistria sin informarte antes: tiene su propio control.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Montenegro",
+      "iso": "ME",
+      "bandera": "🇲🇪",
+      "subregion": "Europa del Sureste",
+      "capital": "Podgorica",
+      "lat": 42.5,
+      "lon": 19.3,
+      "poblacion": 623129,
+      "area_km2": 13812,
+      "idiomas": [
+        "montenegrino"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "me.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas que caen al mar Adriático en un país muy pequeño.",
+      "ideal_para": [
+        "playa",
+        "montaña",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a junio y septiembre.",
+      "imperdibles": [
+        "Bahía de Kotor (UNESCO)",
+        "Budva",
+        "Parque Nacional Durmitor",
+        "Monasterio de Ostrog"
+      ],
+      "gastronomia": [
+        "Njeguški pršut",
+        "Kačamak"
+      ],
+      "cultura": "Usa el euro aunque no pertenece a la Unión Europea.",
+      "festividades": [
+        "Festival de Mimosa (Herceg Novi, febrero)"
+      ],
+      "consejo": "Sube las murallas de Kotor al amanecer: menos calor y menos gente.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Mónaco",
+      "iso": "MC",
+      "bandera": "🇲🇨",
+      "subregion": "Europa Occidental",
+      "capital": "Mónaco",
+      "lat": 43.73,
+      "lon": 7.4,
+      "poblacion": 38341,
+      "area_km2": 2.02,
+      "idiomas": [
+        "francés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "mc.png",
+      "viaje_recomendado": true,
+      "resumen": "Lujo en la Costa Azul: yates, casino y la Fórmula 1.",
+      "ideal_para": [
+        "lujo",
+        "ciudades"
+      ],
+      "mejor_epoca": "Abril a octubre.",
+      "imperdibles": [
+        "Casino de Montecarlo",
+        "Palacio del Príncipe",
+        "Museo Oceanográfico",
+        "Circuito de Fórmula 1"
+      ],
+      "gastronomia": [
+        "Barbagiuan"
+      ],
+      "cultura": "Segundo país más pequeño del mundo. Gobernado por la familia Grimaldi desde hace siglos.",
+      "festividades": [
+        "Gran Premio de Mónaco (mayo)"
+      ],
+      "consejo": "Alójate en Niza, a 20 minutos en tren, y visita Mónaco por el día.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Noruega",
+      "iso": "NO",
+      "bandera": "🇳🇴",
+      "subregion": "Europa del Norte",
+      "capital": "Oslo",
+      "lat": 62,
+      "lon": 10,
+      "poblacion": 5610870,
+      "area_km2": 323802,
+      "idiomas": [
+        "noruego nynorsk",
+        "noruego bokmal",
+        "sami"
+      ],
+      "monedas": [
+        "corona noruega (NOK)"
+      ],
+      "imagen": "no.png",
+      "viaje_recomendado": true,
+      "resumen": "Fiordos, montañas y auroras. Naturaleza de escala enorme.",
+      "ideal_para": [
+        "naturaleza",
+        "fiordos",
+        "auroras",
+        "senderismo"
+      ],
+      "mejor_epoca": "Junio a agosto para fiordos. Octubre a marzo para auroras.",
+      "imperdibles": [
+        "Geirangerfjord y Nærøyfjord (UNESCO)",
+        "Púlpito (Preikestolen)",
+        "Islas Lofoten",
+        "Tromsø",
+        "Bergen"
+      ],
+      "gastronomia": [
+        "Salmón",
+        "Brunost (queso marrón)",
+        "Bacalao seco"
+      ],
+      "cultura": "El 'friluftsliv', la vida al aire libre, es parte de la identidad noruega.",
+      "festividades": [
+        "Día de la Constitución (17 de mayo)"
+      ],
+      "consejo": "El derecho de acceso libre permite acampar en casi cualquier terreno no cultivado.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Países Bajos",
+      "iso": "NL",
+      "bandera": "🇳🇱",
+      "subregion": "Europa Occidental",
+      "capital": "Ámsterdam / La Haya",
+      "lat": 52.5,
+      "lon": 5.75,
+      "poblacion": 18087633,
+      "area_km2": 41850,
+      "idiomas": [
+        "neerlandés"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "nl.png",
+      "viaje_recomendado": true,
+      "resumen": "Canales, bicicletas, museos de primer nivel y campos de tulipanes.",
+      "ideal_para": [
+        "ciudades",
+        "arte",
+        "ciclismo"
+      ],
+      "mejor_epoca": "Abril y mayo para tulipanes. Junio a septiembre en general.",
+      "imperdibles": [
+        "Canales de Ámsterdam (UNESCO)",
+        "Keukenhof",
+        "Molinos de Kinderdijk",
+        "Róterdam",
+        "Museo Van Gogh y Rijksmuseum"
+      ],
+      "gastronomia": [
+        "Stroopwafel",
+        "Arenque crudo",
+        "Bitterballen",
+        "Queso gouda"
+      ],
+      "cultura": "Hay más bicicletas que personas. La franqueza al hablar es un rasgo cultural.",
+      "festividades": [
+        "Día del Rey (27 de abril)"
+      ],
+      "consejo": "Mira siempre antes de cruzar un carril bici; los ciclistas tienen prioridad y van rápido.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Polonia",
+      "iso": "PL",
+      "bandera": "🇵🇱",
+      "subregion": "Europa Central",
+      "capital": "Varsovia",
+      "lat": 52,
+      "lon": 20,
+      "poblacion": 36435861,
+      "area_km2": 312679,
+      "idiomas": [
+        "polaco"
+      ],
+      "monedas": [
+        "esloti polaco (PLN)"
+      ],
+      "imagen": "pl.png",
+      "viaje_recomendado": true,
+      "resumen": "Ciudades reconstruidas con esmero, historia muy intensa y buenos precios.",
+      "ideal_para": [
+        "historia",
+        "ciudades",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre. Diciembre para mercados navideños.",
+      "imperdibles": [
+        "Cracovia (UNESCO)",
+        "Auschwitz-Birkenau",
+        "Mina de sal de Wieliczka",
+        "Varsovia",
+        "Gdansk"
+      ],
+      "gastronomia": [
+        "Pierogi",
+        "Żurek",
+        "Bigos"
+      ],
+      "cultura": "La religión católica y la memoria histórica pesan mucho en la vida del país.",
+      "festividades": [
+        "Wianki, noche de San Juan (junio)",
+        "Día de Todos los Santos (1 de noviembre)"
+      ],
+      "consejo": "Auschwitz exige reservar entrada. Planifica un día entero con calma.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Portugal",
+      "iso": "PT",
+      "bandera": "🇵🇹",
+      "subregion": "Europa del Sur",
+      "capital": "Lisboa",
+      "lat": 39.5,
+      "lon": -8,
+      "poblacion": 10804871,
+      "area_km2": 92090,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "pt.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa atlántica, ciudades en colinas, azulejos y buena comida a precio justo.",
+      "ideal_para": [
+        "playa",
+        "ciudades",
+        "gastronomía",
+        "surf"
+      ],
+      "mejor_epoca": "Abril a junio y septiembre a octubre.",
+      "imperdibles": [
+        "Lisboa",
+        "Oporto y el valle del Duero",
+        "Sintra (UNESCO)",
+        "Algarve",
+        "Azores y Madeira"
+      ],
+      "gastronomia": [
+        "Pastel de nata",
+        "Bacalao",
+        "Francesinha",
+        "Vino de Oporto"
+      ],
+      "cultura": "El fado, canto melancólico de Lisboa, es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Fiestas de San Antonio (Lisboa, junio)",
+        "San Juan (Oporto, 23-24 de junio)"
+      ],
+      "consejo": "Lisboa y Oporto tienen muchas cuestas. Calzado cómodo sí o sí.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Reino Unido",
+      "iso": "GB",
+      "bandera": "🇬🇧",
+      "subregion": "Europa del Norte",
+      "capital": "Londres",
+      "lat": 54,
+      "lon": -2,
+      "poblacion": 69487000,
+      "area_km2": 242900,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "libra esterlina (GBP)"
+      ],
+      "imagen": "gb.png",
+      "viaje_recomendado": true,
+      "resumen": "Londres, castillos, campiña inglesa y las Tierras Altas de Escocia.",
+      "ideal_para": [
+        "ciudades",
+        "historia",
+        "museos"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Londres",
+        "Edimburgo",
+        "Stonehenge",
+        "Tierras Altas de Escocia",
+        "Bath"
+      ],
+      "gastronomia": [
+        "Fish and chips",
+        "Desayuno inglés",
+        "Té con scones"
+      ],
+      "cultura": "Hacer fila es casi sagrado. Muchos museos nacionales son gratis.",
+      "festividades": [
+        "Festival Fringe de Edimburgo (agosto)",
+        "Notting Hill Carnival (agosto)"
+      ],
+      "consejo": "Se conduce por la izquierda y los enchufes son distintos a los del resto de Europa.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Rumania",
+      "iso": "RO",
+      "bandera": "🇷🇴",
+      "subregion": "Europa del Sureste",
+      "capital": "Bucarest",
+      "lat": 46,
+      "lon": 25,
+      "poblacion": 19020271,
+      "area_km2": 238391,
+      "idiomas": [
+        "rumano"
+      ],
+      "monedas": [
+        "leu rumano (RON)"
+      ],
+      "imagen": "ro.png",
+      "viaje_recomendado": true,
+      "resumen": "Castillos de Transilvania, monasterios pintados y pueblos que parecen detenidos en el tiempo.",
+      "ideal_para": [
+        "historia",
+        "naturaleza",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Castillo de Bran",
+        "Sibiu y Brașov",
+        "Monasterios pintados de Bucovina (UNESCO)",
+        "Delta del Danubio",
+        "Carretera Transfăgărășan"
+      ],
+      "gastronomia": [
+        "Sarmale",
+        "Mici",
+        "Papanași"
+      ],
+      "cultura": "Tradición rural muy viva en Maramureș, con iglesias de madera y artesanía.",
+      "festividades": [
+        "Mărțișor (1 de marzo)"
+      ],
+      "consejo": "La carretera Transfăgărășan solo abre de julio a octubre, aproximadamente.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Rusia",
+      "iso": "RU",
+      "bandera": "🇷🇺",
+      "subregion": "Europa del Este",
+      "capital": "Moscú",
+      "lat": 60,
+      "lon": 100,
+      "poblacion": 143513328,
+      "area_km2": 17098242,
+      "idiomas": [
+        "ruso"
+      ],
+      "monedas": [
+        "rublo ruso (RUB)"
+      ],
+      "imagen": "ru.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más grande del mundo, con ciudades imperiales y el Transiberiano. Hoy es un destino muy complicado.",
+      "ideal_para": [
+        "historia",
+        "arte"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Plaza Roja y Kremlin (Moscú)",
+        "Museo del Hermitage (San Petersburgo)",
+        "Lago Baikal",
+        "Transiberiano"
+      ],
+      "gastronomia": [
+        "Borscht",
+        "Pelmeni",
+        "Blinis"
+      ],
+      "cultura": "Arte, literatura y ballet de enorme tradición.",
+      "festividades": [
+        "Noches Blancas (San Petersburgo, junio)"
+      ],
+      "consejo": "Por la guerra en Ucrania, muchos gobiernos desaconsejan viajar y los pagos con tarjetas extranjeras suelen no funcionar.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "San Marino",
+      "iso": "SM",
+      "bandera": "🇸🇲",
+      "subregion": "Europa del Sur",
+      "capital": "San Marino",
+      "lat": 43.77,
+      "lon": 12.42,
+      "poblacion": 34109,
+      "area_km2": 61,
+      "idiomas": [
+        "italiano"
+      ],
+      "monedas": [
+        "euro (EUR)"
+      ],
+      "imagen": "sm.png",
+      "viaje_recomendado": true,
+      "resumen": "Una de las repúblicas más antiguas del mundo, en lo alto de un monte dentro de Italia.",
+      "ideal_para": [
+        "historia",
+        "vistas"
+      ],
+      "mejor_epoca": "Abril a octubre.",
+      "imperdibles": [
+        "Monte Titano y sus tres torres (UNESCO)",
+        "Centro histórico",
+        "Basílica de San Marino"
+      ],
+      "gastronomia": [
+        "Torta Tre Monti"
+      ],
+      "cultura": "Tiene su propio ejército ceremonial y emite sellos y monedas propias.",
+      "festividades": [
+        "Fiestas Medievales (julio)"
+      ],
+      "consejo": "Se visita en medio día desde Rímini.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Serbia",
+      "iso": "RS",
+      "bandera": "🇷🇸",
+      "subregion": "Europa del Sureste",
+      "capital": "Belgrado",
+      "lat": 44,
+      "lon": 21,
+      "poblacion": 6549143,
+      "area_km2": 88361,
+      "idiomas": [
+        "serbio"
+      ],
+      "monedas": [
+        "dinar serbio (RSD)"
+      ],
+      "imagen": "rs.png",
+      "viaje_recomendado": true,
+      "resumen": "Belgrado es conocida por su vida nocturna. Fuera de la capital hay monasterios y montañas.",
+      "ideal_para": [
+        "fiesta",
+        "historia",
+        "presupuesto ajustado"
+      ],
+      "mejor_epoca": "Mayo a septiembre.",
+      "imperdibles": [
+        "Belgrado y su fortaleza",
+        "Novi Sad",
+        "Monasterio de Studenica (UNESCO)",
+        "Parque Nacional Tara"
+      ],
+      "gastronomia": [
+        "Ćevapi",
+        "Pljeskavica",
+        "Ajvar"
+      ],
+      "cultura": "Las 'splav', discotecas flotantes en el río, son un clásico de Belgrado.",
+      "festividades": [
+        "Festival EXIT (Novi Sad, julio)",
+        "Festival de trompetas de Guča (agosto)"
+      ],
+      "consejo": "Lleva algo de efectivo en dinar; no en todos lados aceptan tarjeta.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Suecia",
+      "iso": "SE",
+      "bandera": "🇸🇪",
+      "subregion": "Europa del Norte",
+      "capital": "Estocolmo",
+      "lat": 62,
+      "lon": 15,
+      "poblacion": 10596620,
+      "area_km2": 450295,
+      "idiomas": [
+        "sueco"
+      ],
+      "monedas": [
+        "corona sueca (SEK)"
+      ],
+      "imagen": "se.png",
+      "viaje_recomendado": true,
+      "resumen": "Diseño, archipiélagos, bosques y Laponia en el norte.",
+      "ideal_para": [
+        "naturaleza",
+        "ciudades",
+        "diseño"
+      ],
+      "mejor_epoca": "Junio a agosto. Invierno para auroras en Laponia.",
+      "imperdibles": [
+        "Estocolmo y su archipiélago",
+        "Hotel de Hielo en Jukkasjärvi",
+        "Gotemburgo",
+        "Isla de Gotland"
+      ],
+      "gastronomia": [
+        "Albóndigas suecas",
+        "Kanelbulle",
+        "Gravlax"
+      ],
+      "cultura": "El 'fika' es la pausa para café y dulce. Casi un ritual diario.",
+      "festividades": [
+        "Midsommar (junio)",
+        "Santa Lucía (13 de diciembre)"
+      ],
+      "consejo": "Muchos lugares ya no aceptan efectivo. Lleva tarjeta.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Suiza",
+      "iso": "CH",
+      "bandera": "🇨🇭",
+      "subregion": "Europa Occidental",
+      "capital": "Berna",
+      "lat": 47,
+      "lon": 8,
+      "poblacion": 9092436,
+      "area_km2": 41284,
+      "idiomas": [
+        "francés",
+        "alemán suizo",
+        "italiano",
+        "romanche"
+      ],
+      "monedas": [
+        "franco suizo (CHF)"
+      ],
+      "imagen": "ch.png",
+      "viaje_recomendado": true,
+      "resumen": "Alpes, lagos y trenes panorámicos, con pueblos que parecen de postal.",
+      "ideal_para": [
+        "montaña",
+        "esquí",
+        "trenes panorámicos"
+      ],
+      "mejor_epoca": "Junio a septiembre para montaña. Diciembre a marzo para esquí.",
+      "imperdibles": [
+        "Zermatt y el Matterhorn",
+        "Interlaken y Jungfraujoch",
+        "Lucerna",
+        "Glacier Express",
+        "Ginebra"
+      ],
+      "gastronomia": [
+        "Fondue",
+        "Raclette",
+        "Chocolate suizo"
+      ],
+      "cultura": "Cuatro idiomas oficiales: alemán, francés, italiano y romanche.",
+      "festividades": [
+        "Fête de l'Escalade (Ginebra, diciembre)",
+        "Día Nacional (1 de agosto)"
+      ],
+      "consejo": "Es de los países más caros del mundo. El Swiss Travel Pass ahorra mucho en transporte.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Ucrania",
+      "iso": "UA",
+      "bandera": "🇺🇦",
+      "subregion": "Europa del Este",
+      "capital": "Kiev",
+      "lat": 49,
+      "lon": 32,
+      "poblacion": 38980376,
+      "area_km2": 603500,
+      "idiomas": [
+        "ucraniano"
+      ],
+      "monedas": [
+        "grivna ucraniana (UAH)"
+      ],
+      "imagen": "ua.png",
+      "viaje_recomendado": false,
+      "resumen": "País de ciudades históricas, iglesias doradas y estepas, hoy en guerra.",
+      "ideal_para": [
+        "historia",
+        "cultura"
+      ],
+      "mejor_epoca": "No recomendado actualmente.",
+      "imperdibles": [
+        "Kiev: Monasterio de las Cuevas (UNESCO)",
+        "Leópolis",
+        "Odesa"
+      ],
+      "gastronomia": [
+        "Borscht (Patrimonio de la UNESCO)",
+        "Varenyky",
+        "Salo"
+      ],
+      "cultura": "El bordado vyshyvanka es un símbolo de identidad nacional.",
+      "festividades": [
+        "Día del Vyshyvanka (mayo)"
+      ],
+      "consejo": "Por la guerra con Rusia, prácticamente todos los gobiernos desaconsejan viajar.",
+      "costo": "económico"
+    }
+  ]
+}

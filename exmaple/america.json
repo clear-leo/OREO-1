@@ -1,0 +1,1668 @@
+{
+  "continente": {
+    "nombre": "América",
+    "resumen": "Se extiende de polo a polo: desde el Ártico canadiense hasta la Patagonia. Reúne selvas, cordilleras, desiertos y el Caribe, junto con culturas indígenas, africanas y europeas mezcladas de maneras muy distintas en cada país.",
+    "cantidad_paises": 35,
+    "poblacion_total": 1046244110,
+    "area_km2_total": 39801210,
+    "clima": "Todos los climas posibles. En el Caribe y Centroamérica manda la diferencia entre temporada seca y de lluvias; en el sur las estaciones son inversas a las del hemisferio norte.",
+    "mejor_epoca": "Diciembre a abril para el Caribe, Centroamérica y México. Noviembre a marzo para la Patagonia. Mayo a septiembre para los Andes centrales.",
+    "perfil_viajero": "Naturaleza y aventura, playas caribeñas, culturas prehispánicas, gastronomía y grandes ciudades.",
+    "idiomas": "Español, inglés y portugués, además de francés, neerlandés y lenguas indígenas como quechua, aimara, guaraní y lenguas mayas.",
+    "destinos_estrella": [
+      "Machu Picchu (Perú)",
+      "Islas Galápagos (Ecuador)",
+      "Nueva York (Estados Unidos)",
+      "Cataratas del Iguazú (Argentina y Brasil)",
+      "Chichén Itzá (México)",
+      "Patagonia (Chile y Argentina)"
+    ],
+    "consejos_generales": [
+      "De junio a noviembre es temporada de huracanes en el Caribe.",
+      "En zonas altas de los Andes hay que aclimatarse antes de hacer esfuerzo.",
+      "Para viajar entre países, los vuelos suelen ser más prácticos que el bus por las distancias."
+    ],
+    "regiones": {
+      "Caribe": [
+        "Antigua y Barbuda",
+        "Bahamas",
+        "Barbados",
+        "Cuba",
+        "Dominica",
+        "Granada",
+        "Haití",
+        "Jamaica",
+        "República Dominicana",
+        "San Cristóbal y Nieves",
+        "San Vicente y las Granadinas",
+        "Santa Lucía",
+        "Trinidad y Tobago"
+      ],
+      "Sudamérica": [
+        "Argentina",
+        "Bolivia",
+        "Brasil",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Guyana",
+        "Paraguay",
+        "Perú",
+        "Surinam",
+        "Uruguay",
+        "Venezuela"
+      ],
+      "Centroamérica": [
+        "Belice",
+        "Costa Rica",
+        "El Salvador",
+        "Guatemala",
+        "Honduras",
+        "Nicaragua",
+        "Panamá"
+      ],
+      "Norteamérica": [
+        "Canadá",
+        "Estados Unidos",
+        "México"
+      ]
+    },
+    "paises_no_recomendados_actualmente": []
+  },
+  "notas": {
+    "fuentes": "Población: Banco Mundial (2025). Capitales: Wikidata. Idiomas, monedas y coordenadas: dataset mledoze/countries. Guía turística: redactada para este proyecto.",
+    "aviso": "Visas, precios y seguridad cambian. Verifícalos antes de recomendar un viaje.",
+    "costo": "Escala relativa: económico, moderado o caro."
+  },
+  "paises": [
+    {
+      "nombre": "Antigua y Barbuda",
+      "iso": "AG",
+      "bandera": "🇦🇬",
+      "subregion": "Caribe",
+      "capital": "Saint John",
+      "lat": 17.05,
+      "lon": -61.8,
+      "poblacion": 94209,
+      "area_km2": 442,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "ag.png",
+      "viaje_recomendado": true,
+      "resumen": "Dos islas del Caribe oriental con fama de tener una playa para cada día del año. Aguas tranquilas, historia naval británica y mucho velero.",
+      "ideal_para": [
+        "playa",
+        "navegación",
+        "descanso"
+      ],
+      "mejor_epoca": "Diciembre a abril, temporada seca. De junio a noviembre es época de huracanes.",
+      "imperdibles": [
+        "Nelson's Dockyard, astillero del siglo XVIII y Patrimonio de la UNESCO",
+        "Mirador y fiesta dominical de Shirley Heights",
+        "Laguna de Codrington en Barbuda, con una gran colonia de fragatas",
+        "Half Moon Bay"
+      ],
+      "gastronomia": [
+        "Fungee y pepperpot (plato nacional)",
+        "Ducana",
+        "Piña negra de Antigua"
+      ],
+      "cultura": "Mezcla de raíces africanas y británicas. El cricket se vive casi como religión.",
+      "festividades": [
+        "Carnaval de Antigua (finales de julio a inicios de agosto)",
+        "Antigua Sailing Week (abril o mayo)"
+      ],
+      "consejo": "Si coincides en domingo, sube a Shirley Heights al atardecer: música en vivo y la mejor vista del puerto.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Argentina",
+      "iso": "AR",
+      "bandera": "🇦🇷",
+      "subregion": "Sudamérica",
+      "capital": "Buenos Aires",
+      "lat": -34,
+      "lon": -64,
+      "poblacion": 45851378,
+      "area_km2": 2780400,
+      "idiomas": [
+        "guaraní",
+        "español"
+      ],
+      "monedas": [
+        "peso argentino (ARS)"
+      ],
+      "imagen": "ar.png",
+      "viaje_recomendado": true,
+      "resumen": "Un país inmenso que va de glaciares patagónicos a quebradas de colores en el norte. Buenos Aires es su gran centro cultural.",
+      "ideal_para": [
+        "naturaleza",
+        "gastronomía",
+        "cultura",
+        "aventura"
+      ],
+      "mejor_epoca": "Depende de la zona: Patagonia de noviembre a marzo, Buenos Aires en primavera (sep-nov) u otoño (mar-may), el norte en invierno.",
+      "imperdibles": [
+        "Cataratas del Iguazú",
+        "Glaciar Perito Moreno, en El Calafate",
+        "Buenos Aires: San Telmo, La Boca y Recoleta",
+        "Quebrada de Humahuaca",
+        "Viñedos de Mendoza"
+      ],
+      "gastronomia": [
+        "Asado",
+        "Empanadas",
+        "Dulce de leche",
+        "Vino malbec"
+      ],
+      "cultura": "Tango, mate compartido entre amigos y cenas que empiezan tarde, a eso de las 21 o 22 horas.",
+      "festividades": [
+        "Fiesta Nacional de la Vendimia (Mendoza, marzo)",
+        "Carnaval en el noroeste"
+      ],
+      "consejo": "Las distancias engañan en el mapa. Para cruzar el país conviene volar entre regiones.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Bahamas",
+      "iso": "BS",
+      "bandera": "🇧🇸",
+      "subregion": "Caribe",
+      "capital": "Nasáu",
+      "lat": 24.25,
+      "lon": -76,
+      "poblacion": 403033,
+      "area_km2": 13943,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar bahameño (BSD)",
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "bs.png",
+      "viaje_recomendado": true,
+      "resumen": "Unas 700 islas y cayos de agua turquesa muy cerca de Florida. Destino de playa, buceo y paseos en bote.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "descanso"
+      ],
+      "mejor_epoca": "Diciembre a abril. Junio a noviembre es temporada de huracanes.",
+      "imperdibles": [
+        "Nassau y Paradise Island",
+        "Cerdos que nadan en Big Major Cay (Exumas)",
+        "Playas de arena rosada en Harbour Island",
+        "Dean's Blue Hole, en Long Island"
+      ],
+      "gastronomia": [
+        "Conch (caracol marino) en ensalada o frito",
+        "Johnnycake",
+        "Guava duff"
+      ],
+      "cultura": "Cultura afrocaribeña con fuerte herencia británica.",
+      "festividades": [
+        "Junkanoo (26 de diciembre y 1 de enero)"
+      ],
+      "consejo": "Entre islas se viaja en ferry o avioneta; planifica esos traslados con tiempo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Barbados",
+      "iso": "BB",
+      "bandera": "🇧🇧",
+      "subregion": "Caribe",
+      "capital": "Bridgetown",
+      "lat": 13.17,
+      "lon": -59.53,
+      "poblacion": 282623,
+      "area_km2": 430,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar barbadense (BBD)"
+      ],
+      "imagen": "bb.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla caribeña de playas tranquilas al oeste y costa salvaje al este. Se la considera la cuna del ron.",
+      "ideal_para": [
+        "playa",
+        "gastronomía",
+        "cultura"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Harrison's Cave",
+        "Bridgetown y su guarnición histórica (UNESCO)",
+        "Bathsheba, en la costa atlántica",
+        "Oistins Fish Fry los viernes"
+      ],
+      "gastronomia": [
+        "Cou-cou con pez volador (plato nacional)",
+        "Ron local"
+      ],
+      "cultura": "Herencia británica y africana. El cricket es el deporte nacional.",
+      "festividades": [
+        "Crop Over, que termina el primer lunes de agosto (Kadooment Day)"
+      ],
+      "consejo": "El viernes por la noche, Oistins es el mejor plan para comer pescado barato y ver cómo se divierten los locales.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Belice",
+      "iso": "BZ",
+      "bandera": "🇧🇿",
+      "subregion": "Centroamérica",
+      "capital": "Belmopán",
+      "lat": 17.25,
+      "lon": -88.75,
+      "poblacion": 422924,
+      "area_km2": 22966,
+      "idiomas": [
+        "criollo beliceño",
+        "inglés",
+        "español"
+      ],
+      "monedas": [
+        "dólar beliceño (BZD)"
+      ],
+      "imagen": "bz.png",
+      "viaje_recomendado": true,
+      "resumen": "El único país de Centroamérica con inglés como idioma oficial. Tiene selva con ruinas mayas y el segundo arrecife de barrera más grande del mundo.",
+      "ideal_para": [
+        "buceo",
+        "aventura",
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Noviembre a abril, temporada seca.",
+      "imperdibles": [
+        "Gran Agujero Azul",
+        "Cayo Caulker",
+        "Ruinas mayas de Caracol y Xunantunich",
+        "Cueva Actun Tunichil Muknal (ATM)"
+      ],
+      "gastronomia": [
+        "Rice and beans con pollo guisado",
+        "Fry jacks",
+        "Hudut garífuna"
+      ],
+      "cultura": "Conviven mayas, mestizos, criollos y garífunas en un país muy pequeño.",
+      "festividades": [
+        "Día del Asentamiento Garífuna (19 de noviembre)"
+      ],
+      "consejo": "En Cayo Caulker el lema es 'go slow'. No vayas con prisa.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Bolivia",
+      "iso": "BO",
+      "bandera": "🇧🇴",
+      "subregion": "Sudamérica",
+      "capital": "La Paz / Sucre",
+      "lat": -17,
+      "lon": -65,
+      "poblacion": 12581843,
+      "area_km2": 1098581,
+      "idiomas": [
+        "aimara",
+        "guaraní",
+        "quechua",
+        "español"
+      ],
+      "monedas": [
+        "boliviano (BOB)"
+      ],
+      "imagen": "bo.png",
+      "viaje_recomendado": true,
+      "resumen": "País andino y amazónico con algunos de los paisajes más extraños del planeta. Tiene una fuerte identidad indígena.",
+      "ideal_para": [
+        "aventura",
+        "cultura",
+        "paisajes"
+      ],
+      "mejor_epoca": "Mayo a octubre para clima seco. Para ver el 'espejo' del Salar de Uyuni, enero a marzo.",
+      "imperdibles": [
+        "Salar de Uyuni",
+        "Lago Titicaca e Isla del Sol",
+        "La Paz y su red de teleféricos",
+        "Potosí y el Cerro Rico",
+        "Sucre, ciudad blanca"
+      ],
+      "gastronomia": [
+        "Salteñas",
+        "Silpancho",
+        "Api con pastel"
+      ],
+      "cultura": "Gran presencia aimara y quechua. Las cholitas con pollera y sombrero son parte de la vida diaria en La Paz.",
+      "festividades": [
+        "Carnaval de Oruro (UNESCO, febrero o marzo)",
+        "Feria de Alasitas (La Paz, 24 de enero)"
+      ],
+      "consejo": "La Paz está a unos 3.600 m. Toma los primeros días con calma para aclimatarte.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Brasil",
+      "iso": "BR",
+      "bandera": "🇧🇷",
+      "subregion": "Sudamérica",
+      "capital": "Brasilia",
+      "lat": -10,
+      "lon": -55,
+      "poblacion": 212812405,
+      "area_km2": 8515767,
+      "idiomas": [
+        "portugués"
+      ],
+      "monedas": [
+        "real brasileño (BRL)"
+      ],
+      "imagen": "br.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más grande de Sudamérica: playas, la mayor parte de la Amazonía y ciudades con mucha música. Aquí se habla portugués.",
+      "ideal_para": [
+        "playa",
+        "naturaleza",
+        "fiesta",
+        "cultura"
+      ],
+      "mejor_epoca": "Septiembre a marzo en general. El nordeste se puede visitar casi todo el año.",
+      "imperdibles": [
+        "Río de Janeiro: Cristo Redentor y Pan de Azúcar",
+        "Cataratas del Iguazú, lado brasileño",
+        "Amazonía desde Manaos",
+        "Pelourinho, en Salvador de Bahía",
+        "Lençóis Maranhenses"
+      ],
+      "gastronomia": [
+        "Feijoada",
+        "Pão de queijo",
+        "Acarajé",
+        "Caipirinha"
+      ],
+      "cultura": "Samba, fútbol y capoeira. La influencia africana es muy fuerte en Bahía.",
+      "festividades": [
+        "Carnaval (febrero o marzo)",
+        "Festas Juninas (junio)",
+        "Año Nuevo en Copacabana"
+      ],
+      "consejo": "Aprender unas frases básicas de portugués ayuda mucho; no todos entienden español.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Canadá",
+      "iso": "CA",
+      "bandera": "🇨🇦",
+      "subregion": "Norteamérica",
+      "capital": "Ottawa",
+      "lat": 60,
+      "lon": -95,
+      "poblacion": 41651653,
+      "area_km2": 9984670,
+      "idiomas": [
+        "inglés",
+        "francés"
+      ],
+      "monedas": [
+        "dólar canadiense (CAD)"
+      ],
+      "imagen": "ca.png",
+      "viaje_recomendado": true,
+      "resumen": "El segundo país más grande del mundo, con montañas, lagos y bosques casi sin fin. Es bilingüe: inglés y francés.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "deportes de invierno",
+        "ciudades"
+      ],
+      "mejor_epoca": "Junio a septiembre para naturaleza. De diciembre a marzo para esquí y auroras.",
+      "imperdibles": [
+        "Parques Banff y Jasper, en las Rocosas",
+        "Cataratas del Niágara",
+        "Ciudad vieja de Quebec (UNESCO)",
+        "Vancouver",
+        "Auroras boreales en Yukón"
+      ],
+      "gastronomia": [
+        "Poutine",
+        "Jarabe de arce",
+        "Butter tarts"
+      ],
+      "cultura": "Sociedad multicultural. El hockey sobre hielo es casi una pasión nacional.",
+      "festividades": [
+        "Carnaval de Invierno de Quebec (febrero)",
+        "Calgary Stampede (julio)"
+      ],
+      "consejo": "En Quebec se habla francés, y un simple 'bonjour' se agradece.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Chile",
+      "iso": "CL",
+      "bandera": "🇨🇱",
+      "subregion": "Sudamérica",
+      "capital": "Santiago de Chile",
+      "lat": -30,
+      "lon": -71,
+      "poblacion": 19859921,
+      "area_km2": 756102,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso chileno (CLP)"
+      ],
+      "imagen": "cl.png",
+      "viaje_recomendado": true,
+      "resumen": "Una franja de más de 4.000 km entre los Andes y el Pacífico: desierto en el norte, lagos al centro-sur y hielo en la Patagonia.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "astronomía",
+        "vino"
+      ],
+      "mejor_epoca": "Octubre a marzo para la Patagonia. Atacama se visita todo el año.",
+      "imperdibles": [
+        "Torres del Paine",
+        "Desierto de Atacama y San Pedro",
+        "Valparaíso",
+        "Isla de Pascua (Rapa Nui)",
+        "Carretera Austral"
+      ],
+      "gastronomia": [
+        "Empanada de pino",
+        "Pastel de choclo",
+        "Curanto",
+        "Vino carmenere"
+      ],
+      "cultura": "Las Fiestas Patrias se viven en fondas con cueca, empanadas y chicha.",
+      "festividades": [
+        "Fiestas Patrias (18 y 19 de septiembre)",
+        "Fiesta de La Tirana (julio)"
+      ],
+      "consejo": "Atacama tiene uno de los cielos más limpios del mundo. Reserva un tour astronómico.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Colombia",
+      "iso": "CO",
+      "bandera": "🇨🇴",
+      "subregion": "Sudamérica",
+      "capital": "Bogotá",
+      "lat": 4,
+      "lon": -72,
+      "poblacion": 53425635,
+      "area_km2": 1141748,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso colombiano (COP)"
+      ],
+      "imagen": "co.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa caribeña, montañas cafeteras y selva, todo en un solo país. Ha crecido muchísimo como destino turístico.",
+      "ideal_para": [
+        "cultura",
+        "naturaleza",
+        "playa",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Diciembre a marzo y julio a agosto son los meses más secos.",
+      "imperdibles": [
+        "Ciudad amurallada de Cartagena",
+        "Eje Cafetero y Valle de Cocora",
+        "Medellín",
+        "Parque Tayrona",
+        "Caño Cristales (junio a noviembre)"
+      ],
+      "gastronomia": [
+        "Bandeja paisa",
+        "Arepas",
+        "Ajiaco",
+        "Café"
+      ],
+      "cultura": "Cumbia, vallenato y salsa. Cali se considera la capital de la salsa.",
+      "festividades": [
+        "Carnaval de Barranquilla (UNESCO, febrero o marzo)",
+        "Feria de las Flores (Medellín, agosto)"
+      ],
+      "consejo": "El clima depende de la altura más que del mes: Bogotá es fresca y Cartagena calurosa el mismo día.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Costa Rica",
+      "iso": "CR",
+      "bandera": "🇨🇷",
+      "subregion": "Centroamérica",
+      "capital": "San José",
+      "lat": 10,
+      "lon": -84,
+      "poblacion": 5152950,
+      "area_km2": 51100,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "colón costarricense (CRC)"
+      ],
+      "imagen": "cr.png",
+      "viaje_recomendado": true,
+      "resumen": "Pequeño en tamaño y enorme en biodiversidad. Abolió su ejército en 1948 y protege gran parte de su territorio.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "ecoturismo",
+        "playa"
+      ],
+      "mejor_epoca": "Diciembre a abril, temporada seca.",
+      "imperdibles": [
+        "Volcán Arenal",
+        "Bosque nuboso de Monteverde",
+        "Parque Nacional Manuel Antonio",
+        "Tortuguero, para ver el desove de tortugas"
+      ],
+      "gastronomia": [
+        "Gallo pinto",
+        "Casado",
+        "Café"
+      ],
+      "cultura": "La frase 'pura vida' sirve de saludo, despedida y filosofía.",
+      "festividades": [
+        "Fiestas de Palmares (enero)"
+      ],
+      "consejo": "Lleva impermeable liviano incluso en temporada seca; en los bosques nubosos llueve igual.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Cuba",
+      "iso": "CU",
+      "bandera": "🇨🇺",
+      "subregion": "Caribe",
+      "capital": "La Habana",
+      "lat": 21.5,
+      "lon": -80,
+      "poblacion": 10937203,
+      "area_km2": 109884,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso cubano convertible (CUC)",
+        "peso cubano (CUP)"
+      ],
+      "imagen": "cu.png",
+      "viaje_recomendado": true,
+      "resumen": "Arquitectura colonial, autos clásicos y música en cada esquina. Es la isla más grande del Caribe.",
+      "ideal_para": [
+        "cultura",
+        "historia",
+        "playa",
+        "música"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "La Habana Vieja (UNESCO)",
+        "Trinidad",
+        "Valle de Viñales",
+        "Varadero y Cayo Coco"
+      ],
+      "gastronomia": [
+        "Ropa vieja",
+        "Moros y cristianos",
+        "Mojito",
+        "Café cubano"
+      ],
+      "cultura": "El son cubano y la salsa suenan en todas partes. Las casas particulares permiten convivir con familias locales.",
+      "festividades": [
+        "Carnaval de Santiago de Cuba (julio)"
+      ],
+      "consejo": "Infórmate antes sobre pagos: muchas tarjetas extranjeras no funcionan y el efectivo sigue mandando.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Dominica",
+      "iso": "DM",
+      "bandera": "🇩🇲",
+      "subregion": "Caribe",
+      "capital": "Roseau",
+      "lat": 15.42,
+      "lon": -61.33,
+      "poblacion": 65871,
+      "area_km2": 751,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "dm.png",
+      "viaje_recomendado": true,
+      "resumen": "La 'isla naturaleza' del Caribe: poca playa de postal, mucha selva, ríos y actividad volcánica.",
+      "ideal_para": [
+        "naturaleza",
+        "senderismo",
+        "buceo"
+      ],
+      "mejor_epoca": "Febrero a mayo.",
+      "imperdibles": [
+        "Boiling Lake, un lago que hierve",
+        "Parque Nacional Morne Trois Pitons (UNESCO)",
+        "Avistamiento de cachalotes",
+        "Champagne Reef, con burbujas volcánicas"
+      ],
+      "gastronomia": [
+        "Callaloo soup",
+        "Bouyon"
+      ],
+      "cultura": "Aquí vive el pueblo kalinago, descendiente de los caribes originarios, en su propio territorio.",
+      "festividades": [
+        "World Creole Music Festival (octubre)"
+      ],
+      "consejo": "La caminata al Boiling Lake dura casi un día completo. Hazla con guía.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Ecuador",
+      "iso": "EC",
+      "bandera": "🇪🇨",
+      "subregion": "Sudamérica",
+      "capital": "Quito",
+      "lat": -2,
+      "lon": -77.5,
+      "poblacion": 18289896,
+      "area_km2": 276841,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "ec.png",
+      "viaje_recomendado": true,
+      "resumen": "Costa, Sierra, Amazonía y Galápagos en un país pequeño, así que puedes cambiar de ecosistema en pocas horas.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura",
+        "aventura",
+        "fauna"
+      ],
+      "mejor_epoca": "Todo el año. En la Sierra, junio a septiembre es más seco.",
+      "imperdibles": [
+        "Islas Galápagos",
+        "Centro histórico de Quito (UNESCO)",
+        "Baños de Agua Santa",
+        "Volcán Cotopaxi",
+        "Cuenca",
+        "Parque Nacional Yasuní"
+      ],
+      "gastronomia": [
+        "Encebollado",
+        "Ceviche ecuatoriano",
+        "Locro de papa",
+        "Hornado",
+        "Fanesca (Semana Santa)"
+      ],
+      "cultura": "Gran diversidad de pueblos indígenas y afroecuatorianos. Los mercados andinos, como el de Otavalo, son muy coloridos.",
+      "festividades": [
+        "Inti Raymi (junio)",
+        "Fiestas de Quito (diciembre)",
+        "Diablada de Píllaro (enero)"
+      ],
+      "consejo": "Se usa el dólar estadounidense, lo que facilita los pagos a muchos viajeros.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "El Salvador",
+      "iso": "SV",
+      "bandera": "🇸🇻",
+      "subregion": "Centroamérica",
+      "capital": "San Salvador",
+      "lat": 13.83,
+      "lon": -88.92,
+      "poblacion": 6365503,
+      "area_km2": 21041,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "sv.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más pequeño de Centroamérica, con volcanes, lagos de cráter y olas famosas entre surfistas.",
+      "ideal_para": [
+        "surf",
+        "naturaleza",
+        "cultura"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Ruta de las Flores",
+        "Lago de Coatepeque",
+        "Playa El Tunco",
+        "Joya de Cerén (UNESCO)",
+        "Suchitoto"
+      ],
+      "gastronomia": [
+        "Pupusas",
+        "Yuca frita",
+        "Horchata de morro"
+      ],
+      "cultura": "Pueblos de tradición artesanal y una comida callejera muy barata.",
+      "festividades": [
+        "Fiestas Agostinas (San Salvador, agosto)",
+        "Bolas de fuego de Nejapa (31 de agosto)"
+      ],
+      "consejo": "Joya de Cerén es un pueblo maya sepultado por ceniza volcánica. Visítalo con guía para entender lo que ves.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Estados Unidos",
+      "iso": "US",
+      "bandera": "🇺🇸",
+      "subregion": "Norteamérica",
+      "capital": "Washington D. C.",
+      "lat": 38,
+      "lon": -97,
+      "poblacion": 341784857,
+      "area_km2": 9372610,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "us.png",
+      "viaje_recomendado": true,
+      "resumen": "Un país de escala continental: grandes ciudades, parques nacionales impresionantes y una cultura pop conocida en todo el mundo.",
+      "ideal_para": [
+        "ciudades",
+        "naturaleza",
+        "parques temáticos",
+        "compras"
+      ],
+      "mejor_epoca": "Primavera y otoño para ciudades. Verano para los parques del oeste.",
+      "imperdibles": [
+        "Nueva York",
+        "Gran Cañón",
+        "Parque Yellowstone",
+        "San Francisco y Los Ángeles",
+        "Parques de Orlando"
+      ],
+      "gastronomia": [
+        "Hamburguesas",
+        "Barbacoa texana",
+        "Pizza neoyorquina",
+        "Comida cajún de Nueva Orleans"
+      ],
+      "cultura": "Cada región tiene su propio carácter: el sur, la costa oeste y Nueva York parecen países distintos.",
+      "festividades": [
+        "Día de la Independencia (4 de julio)",
+        "Acción de Gracias (noviembre)",
+        "Mardi Gras en Nueva Orleans"
+      ],
+      "consejo": "En restaurantes la propina se espera, normalmente entre 15 y 20 %.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Granada",
+      "iso": "GD",
+      "bandera": "🇬🇩",
+      "subregion": "Caribe",
+      "capital": "Saint George",
+      "lat": 12.12,
+      "lon": -61.67,
+      "poblacion": 117303,
+      "area_km2": 344,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "gd.png",
+      "viaje_recomendado": true,
+      "resumen": "La 'isla de las especias', famosa por su nuez moscada. Pequeña, verde y poco masificada.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "gastronomía"
+      ],
+      "mejor_epoca": "Enero a mayo.",
+      "imperdibles": [
+        "Playa Grand Anse",
+        "Parque escultórico submarino de Molinere",
+        "Puerto de St. George's",
+        "Lago Grand Etang y sus cascadas"
+      ],
+      "gastronomia": [
+        "Oil down (plato nacional)",
+        "Helado de nuez moscada"
+      ],
+      "cultura": "La nuez moscada aparece hasta en la bandera nacional.",
+      "festividades": [
+        "Spicemas, el carnaval (agosto)"
+      ],
+      "consejo": "Visita una plantación de cacao o especias para entender la economía de la isla.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Guatemala",
+      "iso": "GT",
+      "bandera": "🇬🇹",
+      "subregion": "Centroamérica",
+      "capital": "Ciudad de Guatemala",
+      "lat": 15.5,
+      "lon": -90.25,
+      "poblacion": 18687881,
+      "area_km2": 108889,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "quetzal guatemalteco (GTQ)"
+      ],
+      "imagen": "gt.png",
+      "viaje_recomendado": true,
+      "resumen": "El corazón del mundo maya: templos en la selva, volcanes y pueblos donde se hablan más de 20 idiomas mayas.",
+      "ideal_para": [
+        "cultura",
+        "historia",
+        "naturaleza",
+        "aventura"
+      ],
+      "mejor_epoca": "Noviembre a abril, temporada seca.",
+      "imperdibles": [
+        "Tikal",
+        "Antigua Guatemala (UNESCO)",
+        "Lago de Atitlán",
+        "Mercado de Chichicastenango",
+        "Semuc Champey"
+      ],
+      "gastronomia": [
+        "Pepián",
+        "Kak'ik",
+        "Tamales",
+        "Café"
+      ],
+      "cultura": "Los textiles mayas cambian de diseño según el pueblo; cada huipil cuenta de dónde viene quien lo lleva.",
+      "festividades": [
+        "Semana Santa en Antigua, con alfombras de aserrín",
+        "Barriletes gigantes de Sumpango (1 de noviembre)"
+      ],
+      "consejo": "En Semana Santa Antigua se llena. Reserva alojamiento con meses de anticipación.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Guyana",
+      "iso": "GY",
+      "bandera": "🇬🇾",
+      "subregion": "Sudamérica",
+      "capital": "Georgetown",
+      "lat": 5,
+      "lon": -59,
+      "poblacion": 835986,
+      "area_km2": 214969,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar guyanés (GYD)"
+      ],
+      "imagen": "gy.png",
+      "viaje_recomendado": true,
+      "resumen": "El único país de Sudamérica de habla inglesa, cubierto casi por completo de selva y sabana.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "fauna"
+      ],
+      "mejor_epoca": "Septiembre a noviembre y febrero a abril, entre las temporadas de lluvia.",
+      "imperdibles": [
+        "Catarata Kaieteur",
+        "Georgetown y su catedral de madera",
+        "Sabanas de Rupununi",
+        "Bosque de Iwokrama"
+      ],
+      "gastronomia": [
+        "Pepperpot",
+        "Curry",
+        "Cook-up rice"
+      ],
+      "cultura": "Mezcla de culturas indígenas, africanas e indias, con templos hindúes y mezquitas junto a iglesias.",
+      "festividades": [
+        "Mashramani (23 de febrero)",
+        "Phagwah, el Holi local"
+      ],
+      "consejo": "A Kaieteur se llega en avioneta. Es la forma más práctica de ver la catarata.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Haití",
+      "iso": "HT",
+      "bandera": "🇭🇹",
+      "subregion": "Caribe",
+      "capital": "Puerto Príncipe",
+      "lat": 19,
+      "lon": -72.42,
+      "poblacion": 11906095,
+      "area_km2": 27750,
+      "idiomas": [
+        "francés",
+        "criollo haitiano"
+      ],
+      "monedas": [
+        "gurde haitiano (HTG)"
+      ],
+      "imagen": "ht.png",
+      "viaje_recomendado": true,
+      "resumen": "Primera república negra independiente del mundo (1804), con un arte y una música muy propios.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "arte"
+      ],
+      "mejor_epoca": "Noviembre a marzo.",
+      "imperdibles": [
+        "Ciudadela Laferrière (UNESCO)",
+        "Palacio Sans-Souci",
+        "Jacmel",
+        "Labadee"
+      ],
+      "gastronomia": [
+        "Griot",
+        "Diri ak djon djon",
+        "Pikliz"
+      ],
+      "cultura": "Pintura naïf, música kompa y una religiosidad donde conviven catolicismo y vudú.",
+      "festividades": [
+        "Carnaval de Jacmel"
+      ],
+      "consejo": "Antes de planear el viaje, revisa las alertas de seguridad vigentes: la situación del país es inestable.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Honduras",
+      "iso": "HN",
+      "bandera": "🇭🇳",
+      "subregion": "Centroamérica",
+      "capital": "Tegucigalpa",
+      "lat": 15,
+      "lon": -86.5,
+      "poblacion": 11005850,
+      "area_km2": 112492,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "lempira hondureño (HNL)"
+      ],
+      "imagen": "hn.png",
+      "viaje_recomendado": true,
+      "resumen": "Ruinas mayas en tierra firme e islas caribeñas con uno de los buceos más baratos del mundo.",
+      "ideal_para": [
+        "buceo",
+        "historia",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Enero a mayo, los meses más secos.",
+      "imperdibles": [
+        "Ruinas de Copán (UNESCO)",
+        "Roatán y Utila",
+        "Lago de Yojoa",
+        "La Mosquitia"
+      ],
+      "gastronomia": [
+        "Baleadas",
+        "Sopa de caracol",
+        "Tapado"
+      ],
+      "cultura": "La cultura garífuna de la costa, con su música y danza punta, es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Feria Juniana (San Pedro Sula)",
+        "Carnaval de La Ceiba (mayo)"
+      ],
+      "consejo": "Utila es famosa por sus cursos de buceo económicos.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Jamaica",
+      "iso": "JM",
+      "bandera": "🇯🇲",
+      "subregion": "Caribe",
+      "capital": "Kingston",
+      "lat": 18.25,
+      "lon": -77.5,
+      "poblacion": 2837077,
+      "area_km2": 10991,
+      "idiomas": [
+        "inglés",
+        "patois jamaiquino"
+      ],
+      "monedas": [
+        "dólar jamaicano (JMD)"
+      ],
+      "imagen": "jm.png",
+      "viaje_recomendado": true,
+      "resumen": "La isla del reggae: playas, cascadas y montañas cafeteras.",
+      "ideal_para": [
+        "playa",
+        "música",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Dunn's River Falls",
+        "Seven Mile Beach, en Negril",
+        "Montañas Azules",
+        "Museo Bob Marley, en Kingston"
+      ],
+      "gastronomia": [
+        "Pollo jerk",
+        "Ackee and saltfish (plato nacional)",
+        "Patties"
+      ],
+      "cultura": "El reggae es Patrimonio Cultural Inmaterial de la UNESCO desde 2018.",
+      "festividades": [
+        "Reggae Sumfest (Montego Bay, julio)",
+        "Carnaval (abril)"
+      ],
+      "consejo": "Prueba el café Blue Mountain en su lugar de origen, uno de los más caros del mundo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "México",
+      "iso": "MX",
+      "bandera": "🇲🇽",
+      "subregion": "Norteamérica",
+      "capital": "Ciudad de México",
+      "lat": 23,
+      "lon": -102,
+      "poblacion": 131946900,
+      "area_km2": 1964375,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso mexicano (MXN)"
+      ],
+      "imagen": "mx.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países más visitados del mundo: pirámides, cenotes, playas y una cocina reconocida por la UNESCO.",
+      "ideal_para": [
+        "cultura",
+        "historia",
+        "gastronomía",
+        "playa"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Chichén Itzá",
+        "Teotihuacán",
+        "Ciudad de México",
+        "Oaxaca",
+        "Riviera Maya y cenotes",
+        "Guanajuato"
+      ],
+      "gastronomia": [
+        "Tacos al pastor",
+        "Mole",
+        "Chiles en nogada",
+        "Cochinita pibil"
+      ],
+      "cultura": "La cocina tradicional mexicana es Patrimonio Inmaterial de la UNESCO desde 2010.",
+      "festividades": [
+        "Día de Muertos (1 y 2 de noviembre)",
+        "Guelaguetza (Oaxaca, julio)"
+      ],
+      "consejo": "Para Día de Muertos, Oaxaca y Michoacán ofrecen celebraciones más tradicionales que las grandes ciudades.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Nicaragua",
+      "iso": "NI",
+      "bandera": "🇳🇮",
+      "subregion": "Centroamérica",
+      "capital": "Managua",
+      "lat": 13,
+      "lon": -85,
+      "poblacion": 7007502,
+      "area_km2": 130373,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "córdoba oro (NIO)"
+      ],
+      "imagen": "ni.png",
+      "viaje_recomendado": true,
+      "resumen": "Tierra de lagos y volcanes, con ciudades coloniales y playas de surf.",
+      "ideal_para": [
+        "aventura",
+        "naturaleza",
+        "historia",
+        "surf"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Ciudad colonial de Granada",
+        "Isla de Ometepe",
+        "León y sandboarding en el Cerro Negro",
+        "San Juan del Sur",
+        "Corn Islands"
+      ],
+      "gastronomia": [
+        "Gallo pinto",
+        "Nacatamal",
+        "Vigorón",
+        "Quesillo"
+      ],
+      "cultura": "El Güegüense, obra de teatro y danza de Diriamba, es Patrimonio de la UNESCO.",
+      "festividades": [
+        "La Gritería (7 de diciembre)",
+        "Fiestas de Santo Domingo (Managua, agosto)"
+      ],
+      "consejo": "Revisa los requisitos de entrada y la situación política antes de viajar; cambian con frecuencia.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Panamá",
+      "iso": "PA",
+      "bandera": "🇵🇦",
+      "subregion": "Centroamérica",
+      "capital": "Ciudad de Panamá",
+      "lat": 9,
+      "lon": -80,
+      "poblacion": 4571189,
+      "area_km2": 75417,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "balboa panameño (PAB)",
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "pa.png",
+      "viaje_recomendado": true,
+      "resumen": "El puente entre dos océanos: el canal, islas indígenas y montañas de café.",
+      "ideal_para": [
+        "ciudades",
+        "playa",
+        "naturaleza",
+        "historia"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Canal de Panamá (Esclusas de Miraflores o Agua Clara)",
+        "Casco Viejo (UNESCO)",
+        "Bocas del Toro",
+        "Guna Yala (San Blas)",
+        "Boquete"
+      ],
+      "gastronomia": [
+        "Sancocho panameño",
+        "Patacones",
+        "Ceviche de corvina"
+      ],
+      "cultura": "La pollera es el traje típico, y las molas del pueblo guna son su artesanía más conocida.",
+      "festividades": [
+        "Carnaval de Las Tablas"
+      ],
+      "consejo": "Boquete produce el café geisha, de los más cotizados del mundo. Hay tours por fincas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Paraguay",
+      "iso": "PY",
+      "bandera": "🇵🇾",
+      "subregion": "Sudamérica",
+      "capital": "Asunción",
+      "lat": -23,
+      "lon": -58,
+      "poblacion": 7013078,
+      "area_km2": 406752,
+      "idiomas": [
+        "guaraní",
+        "español"
+      ],
+      "monedas": [
+        "guaraní paraguayo (PYG)"
+      ],
+      "imagen": "py.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los destinos menos conocidos de Sudamérica, bilingüe en español y guaraní.",
+      "ideal_para": [
+        "historia",
+        "cultura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Abril a septiembre, cuando hace menos calor.",
+      "imperdibles": [
+        "Misiones jesuíticas de Trinidad y Jesús (UNESCO)",
+        "Asunción",
+        "Represa de Itaipú",
+        "Colonias menonitas del Chaco"
+      ],
+      "gastronomia": [
+        "Sopa paraguaya (que en realidad es sólida)",
+        "Chipa",
+        "Mbejú",
+        "Tereré"
+      ],
+      "cultura": "El guaraní lo habla la mayoría de la población. El tereré es Patrimonio de la UNESCO.",
+      "festividades": [
+        "Fiesta de San Juan (junio)"
+      ],
+      "consejo": "Si te ofrecen tereré, acéptalo: es un gesto de amistad.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "Perú",
+      "iso": "PE",
+      "bandera": "🇵🇪",
+      "subregion": "Sudamérica",
+      "capital": "Lima",
+      "lat": -10,
+      "lon": -76,
+      "poblacion": 34576665,
+      "area_km2": 1285216,
+      "idiomas": [
+        "aimara",
+        "quechua",
+        "español"
+      ],
+      "monedas": [
+        "sol peruano (PEN)"
+      ],
+      "imagen": "pe.png",
+      "viaje_recomendado": true,
+      "resumen": "Machu Picchu es la estrella, pero el país ofrece también desierto, Amazonía y una de las mejores cocinas del mundo.",
+      "ideal_para": [
+        "historia",
+        "gastronomía",
+        "aventura",
+        "cultura"
+      ],
+      "mejor_epoca": "Mayo a septiembre, temporada seca en los Andes.",
+      "imperdibles": [
+        "Machu Picchu",
+        "Cusco y Valle Sagrado",
+        "Lago Titicaca e islas de los Uros",
+        "Cañón del Colca",
+        "Líneas de Nazca"
+      ],
+      "gastronomia": [
+        "Ceviche",
+        "Lomo saltado",
+        "Ají de gallina",
+        "Pisco sour"
+      ],
+      "cultura": "Fuerte herencia inca y quechua, mezclada con influencias españolas, africanas, chinas y japonesas en la cocina.",
+      "festividades": [
+        "Inti Raymi (Cusco, 24 de junio)",
+        "Virgen de la Candelaria (Puno, febrero)"
+      ],
+      "consejo": "Las entradas a Machu Picchu tienen cupo limitado. Cómpralas con bastante anticipación.",
+      "costo": "económico"
+    },
+    {
+      "nombre": "República Dominicana",
+      "iso": "DO",
+      "bandera": "🇩🇴",
+      "subregion": "Caribe",
+      "capital": "Santo Domingo",
+      "lat": 19,
+      "lon": -70.67,
+      "poblacion": 11520487,
+      "area_km2": 48671,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso dominicano (DOP)"
+      ],
+      "imagen": "do.png",
+      "viaje_recomendado": true,
+      "resumen": "Playas de resort, la ciudad europea más antigua de América y mucha música.",
+      "ideal_para": [
+        "playa",
+        "historia",
+        "música"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Punta Cana",
+        "Zona Colonial de Santo Domingo (UNESCO)",
+        "Samaná y avistamiento de ballenas",
+        "Isla Saona",
+        "Jarabacoa"
+      ],
+      "gastronomia": [
+        "La bandera (arroz, habichuelas y carne)",
+        "Mangú",
+        "Sancocho"
+      ],
+      "cultura": "El merengue y la bachata nacieron aquí; ambos son Patrimonio de la UNESCO.",
+      "festividades": [
+        "Carnaval dominicano (febrero)"
+      ],
+      "consejo": "De enero a marzo las ballenas jorobadas llegan a la bahía de Samaná.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "San Cristóbal y Nieves",
+      "iso": "KN",
+      "bandera": "🇰🇳",
+      "subregion": "Caribe",
+      "capital": "Basseterre",
+      "lat": 17.33,
+      "lon": -62.75,
+      "poblacion": 46922,
+      "area_km2": 261,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "kn.png",
+      "viaje_recomendado": true,
+      "resumen": "Dos pequeñas islas volcánicas con historia colonial y un tren que recorre antiguas plantaciones de azúcar.",
+      "ideal_para": [
+        "historia",
+        "playa",
+        "descanso"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Fortaleza de Brimstone Hill (UNESCO)",
+        "Tren panorámico de St. Kitts",
+        "Pinney's Beach, en Nieves",
+        "Casa natal de Alexander Hamilton"
+      ],
+      "gastronomia": [
+        "Stewed saltfish con dumplings",
+        "Goat water"
+      ],
+      "cultura": "El país más pequeño de América, tanto en área como en población.",
+      "festividades": [
+        "Sugar Mas, el carnaval (diciembre a enero)"
+      ],
+      "consejo": "Un ferry corto conecta las dos islas; vale la pena visitar ambas.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "San Vicente y las Granadinas",
+      "iso": "VC",
+      "bandera": "🇻🇨",
+      "subregion": "Caribe",
+      "capital": "Kingstown",
+      "lat": 13.25,
+      "lon": -61.2,
+      "poblacion": 99924,
+      "area_km2": 389,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "vc.png",
+      "viaje_recomendado": true,
+      "resumen": "Una isla volcánica principal y un rosario de islitas ideales para navegar.",
+      "ideal_para": [
+        "navegación",
+        "buceo",
+        "playa"
+      ],
+      "mejor_epoca": "Diciembre a mayo.",
+      "imperdibles": [
+        "Tobago Cays, para nadar con tortugas",
+        "Bequia",
+        "Volcán La Soufrière",
+        "Bahía de Wallilabou"
+      ],
+      "gastronomia": [
+        "Fruta del pan asada con pescado jack frito (plato nacional)"
+      ],
+      "cultura": "En Wallilabou se filmaron escenas de 'Piratas del Caribe'.",
+      "festividades": [
+        "Vincy Mas (junio a julio)"
+      ],
+      "consejo": "La mejor forma de conocer las Granadinas es en barco, saltando de isla en isla.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Santa Lucía",
+      "iso": "LC",
+      "bandera": "🇱🇨",
+      "subregion": "Caribe",
+      "capital": "Castries",
+      "lat": 13.88,
+      "lon": -60.97,
+      "poblacion": 180149,
+      "area_km2": 616,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar del Caribe Oriental (XCD)"
+      ],
+      "imagen": "lc.png",
+      "viaje_recomendado": true,
+      "resumen": "Isla montañosa del Caribe, famosa por los Pitons, dos picos volcánicos que salen del mar.",
+      "ideal_para": [
+        "playa",
+        "naturaleza",
+        "romántico"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Los Pitons (UNESCO)",
+        "Sulphur Springs, el 'volcán al que se entra en auto'",
+        "Marigot Bay",
+        "Pigeon Island"
+      ],
+      "gastronomia": [
+        "Green fig and saltfish (plato nacional)",
+        "Chocolate local"
+      ],
+      "cultura": "Se habla kwéyòl, un criollo de base francesa. La isla tiene dos premios Nobel: Derek Walcott y Arthur Lewis.",
+      "festividades": [
+        "Festival de Jazz y Artes (mayo)",
+        "Carnaval (julio)"
+      ],
+      "consejo": "Los baños de barro en Sulphur Springs son parte de la experiencia. Lleva ropa de baño vieja.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Surinam",
+      "iso": "SR",
+      "bandera": "🇸🇷",
+      "subregion": "Sudamérica",
+      "capital": "Paramaribo",
+      "lat": 4,
+      "lon": -56,
+      "poblacion": 639850,
+      "area_km2": 163820,
+      "idiomas": [
+        "neerlandés"
+      ],
+      "monedas": [
+        "dólar surinamés (SRD)"
+      ],
+      "imagen": "sr.png",
+      "viaje_recomendado": true,
+      "resumen": "El país más pequeño de Sudamérica, cubierto casi por completo de selva y con una mezcla cultural sin igual.",
+      "ideal_para": [
+        "naturaleza",
+        "cultura",
+        "ecoturismo"
+      ],
+      "mejor_epoca": "Febrero a abril y agosto a noviembre, temporadas secas.",
+      "imperdibles": [
+        "Centro histórico de Paramaribo (UNESCO)",
+        "Reserva Natural de Surinam Central (UNESCO)",
+        "Playas de Galibi para ver tortugas",
+        "Plantaciones de Commewijne"
+      ],
+      "gastronomia": [
+        "Roti",
+        "Pom",
+        "Bami y nasi, de influencia javanesa"
+      ],
+      "cultura": "En Paramaribo hay una mezquita y una sinagoga una al lado de la otra. Conviven descendientes de la India, Java, África y China.",
+      "festividades": [
+        "Keti Koti (1 de julio)",
+        "Phagwa (Holi)"
+      ],
+      "consejo": "El idioma oficial es el neerlandés, pero en la calle se habla mucho sranan tongo.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Trinidad y Tobago",
+      "iso": "TT",
+      "bandera": "🇹🇹",
+      "subregion": "Caribe",
+      "capital": "Puerto España",
+      "lat": 11,
+      "lon": -61,
+      "poblacion": 1367764,
+      "area_km2": 5130,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar de Trinidad y Tobago (TTD)"
+      ],
+      "imagen": "tt.png",
+      "viaje_recomendado": true,
+      "resumen": "Dos islas muy distintas: Trinidad es fiesta y cultura, Tobago es playa y calma. Aquí nació el steelpan.",
+      "ideal_para": [
+        "fiesta",
+        "música",
+        "playa",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Enero a mayo. El Carnaval cae en febrero o marzo.",
+      "imperdibles": [
+        "Carnaval de Puerto España",
+        "Pigeon Point, en Tobago",
+        "Pantano Caroni y sus ibis escarlata",
+        "Centro de naturaleza Asa Wright"
+      ],
+      "gastronomia": [
+        "Doubles",
+        "Bake and shark",
+        "Roti",
+        "Callaloo"
+      ],
+      "cultura": "El steelpan, un tambor hecho de barriles de aceite, se inventó aquí. El calipso y la soca también son de estas islas.",
+      "festividades": [
+        "Carnaval (lunes y martes antes del Miércoles de Ceniza)",
+        "Diwali"
+      ],
+      "consejo": "Para el Carnaval, reserva todo con meses de anticipación; es uno de los más grandes del Caribe.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Uruguay",
+      "iso": "UY",
+      "bandera": "🇺🇾",
+      "subregion": "Sudamérica",
+      "capital": "Montevideo",
+      "lat": -33,
+      "lon": -56,
+      "poblacion": 3384688,
+      "area_km2": 181034,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "peso uruguayo (UYU)"
+      ],
+      "imagen": "uy.png",
+      "viaje_recomendado": true,
+      "resumen": "País tranquilo, de playas atlánticas, pueblos coloniales y buena carne.",
+      "ideal_para": [
+        "playa",
+        "gastronomía",
+        "descanso",
+        "historia"
+      ],
+      "mejor_epoca": "Diciembre a marzo para playa.",
+      "imperdibles": [
+        "Colonia del Sacramento (UNESCO)",
+        "Rambla y Ciudad Vieja de Montevideo",
+        "Punta del Este",
+        "Cabo Polonio",
+        "Bodegas de tannat"
+      ],
+      "gastronomia": [
+        "Chivito",
+        "Asado",
+        "Vino tannat"
+      ],
+      "cultura": "El candombe, de raíz africana, es Patrimonio de la UNESCO. El Carnaval uruguayo dura cerca de 40 días.",
+      "festividades": [
+        "Carnaval (enero a marzo)",
+        "Semana Criolla (Semana Santa)"
+      ],
+      "consejo": "Cabo Polonio casi no tiene electricidad; lleva linterna y efectivo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Venezuela",
+      "iso": "VE",
+      "bandera": "🇻🇪",
+      "subregion": "Sudamérica",
+      "capital": "Caracas",
+      "lat": 8,
+      "lon": -66,
+      "poblacion": 28516896,
+      "area_km2": 916445,
+      "idiomas": [
+        "español"
+      ],
+      "monedas": [
+        "bolívar venezolano (VES)"
+      ],
+      "imagen": "ve.png",
+      "viaje_recomendado": true,
+      "resumen": "Tiene la cascada más alta del mundo, tepuyes, playas caribeñas y los Andes, aunque hoy es un destino complejo.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "playa"
+      ],
+      "mejor_epoca": "Diciembre a abril es temporada seca. El Salto Ángel lleva más agua de junio a noviembre.",
+      "imperdibles": [
+        "Salto Ángel y Parque Nacional Canaima",
+        "Monte Roraima",
+        "Archipiélago Los Roques",
+        "Mérida y los Andes",
+        "Médanos de Coro"
+      ],
+      "gastronomia": [
+        "Arepas",
+        "Pabellón criollo",
+        "Hallacas (Navidad)",
+        "Cachapas"
+      ],
+      "cultura": "El joropo es la música nacional y el béisbol, el deporte favorito.",
+      "festividades": [
+        "Diablos Danzantes de Yare (Corpus Christi, UNESCO)",
+        "Feria de la Chinita (Maracaibo, noviembre)"
+      ],
+      "consejo": "Revisa las alertas de seguridad y la situación del país antes de viajar.",
+      "costo": "moderado"
+    }
+  ]
+}

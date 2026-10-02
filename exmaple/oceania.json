@@ -1,0 +1,652 @@
+{
+  "continente": {
+    "nombre": "Oceanía",
+    "resumen": "Australia, Nueva Zelanda y miles de islas del Pacífico. Arrecifes de coral, volcanes, culturas aborígenes, maoríes y polinesias, en uno de los rincones más remotos del mundo.",
+    "cantidad_paises": 14,
+    "poblacion_total": 46457577,
+    "area_km2_total": 8490477,
+    "clima": "Del desierto australiano a los climas templados de Nueva Zelanda y el trópico de las islas. Las estaciones son inversas a las del hemisferio norte.",
+    "mejor_epoca": "Mayo a octubre para las islas del Pacífico (temporada seca). Primavera y otoño australes para Australia y Nueva Zelanda.",
+    "perfil_viajero": "Buceo, playas remotas, naturaleza extrema y aventura.",
+    "idiomas": "Inglés como idioma común, además de maorí, samoano, tongano, fiyiano, tok pisin y cientos de lenguas locales.",
+    "destinos_estrella": [
+      "Gran Barrera de Coral (Australia)",
+      "Sídney (Australia)",
+      "Milford Sound (Nueva Zelanda)",
+      "Islas de Fiyi",
+      "Islas de Roca (Palaos)"
+    ],
+    "consejos_generales": [
+      "Los vuelos entre islas son escasos; planifica con mucho margen.",
+      "Noviembre a abril es temporada de ciclones en el Pacífico sur.",
+      "Australia y Nueva Zelanda revisan estrictamente la comida y plantas que entran al país."
+    ],
+    "regiones": {
+      "Australia y Nueva Zelanda": [
+        "Australia",
+        "Nueva Zelanda"
+      ],
+      "Melanesia": [
+        "Fiyi",
+        "Islas Salomón",
+        "Papúa Nueva Guinea",
+        "Vanuatu"
+      ],
+      "Micronesia": [
+        "Islas Marshall",
+        "Kiribati",
+        "Micronesia",
+        "Nauru",
+        "Palaos"
+      ],
+      "Polinesia": [
+        "Samoa",
+        "Tonga",
+        "Tuvalu"
+      ]
+    },
+    "paises_no_recomendados_actualmente": []
+  },
+  "notas": {
+    "fuentes": "Población: Banco Mundial (2025). Capitales: Wikidata. Idiomas, monedas y coordenadas: dataset mledoze/countries. Guía turística: redactada para este proyecto.",
+    "aviso": "Visas, precios y seguridad cambian. Verifícalos antes de recomendar un viaje.",
+    "costo": "Escala relativa: económico, moderado o caro."
+  },
+  "paises": [
+    {
+      "nombre": "Australia",
+      "iso": "AU",
+      "bandera": "🇦🇺",
+      "subregion": "Australia y Nueva Zelanda",
+      "capital": "Canberra",
+      "lat": -27,
+      "lon": 133,
+      "poblacion": 27614411,
+      "area_km2": 7692024,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar australiano (AUD)"
+      ],
+      "imagen": "au.png",
+      "viaje_recomendado": true,
+      "resumen": "Un país-continente de playas, desierto rojo, arrecifes y fauna única.",
+      "ideal_para": [
+        "naturaleza",
+        "playa",
+        "buceo",
+        "ciudades"
+      ],
+      "mejor_epoca": "Septiembre a noviembre y marzo a mayo. El norte tropical, de mayo a octubre.",
+      "imperdibles": [
+        "Gran Barrera de Coral (UNESCO)",
+        "Sídney y su Ópera",
+        "Uluru",
+        "Great Ocean Road",
+        "Selva de Daintree"
+      ],
+      "gastronomia": [
+        "Barbacoa australiana",
+        "Meat pie",
+        "Pavlova",
+        "Tim Tam"
+      ],
+      "cultura": "Las culturas aborígenes son de las más antiguas que siguen vivas en el planeta.",
+      "festividades": [
+        "Año Nuevo en Sídney",
+        "Vivid Sydney (mayo-junio)"
+      ],
+      "consejo": "Las distancias son enormes. Elige una o dos regiones en vez de intentar verlo todo.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Fiyi",
+      "iso": "FJ",
+      "bandera": "🇫🇯",
+      "subregion": "Melanesia",
+      "capital": "Suva",
+      "lat": -18,
+      "lon": 175,
+      "poblacion": 933154,
+      "area_km2": 18272,
+      "idiomas": [
+        "inglés",
+        "fiyiano",
+        "hindi fiyiano"
+      ],
+      "monedas": [
+        "dólar fiyiano (FJD)"
+      ],
+      "imagen": "fj.png",
+      "viaje_recomendado": true,
+      "resumen": "Más de 300 islas con arrecifes de coral y una bienvenida muy cálida.",
+      "ideal_para": [
+        "playa",
+        "buceo",
+        "romántico"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Islas Mamanuca y Yasawa",
+        "Arrecifes de coral blando de Taveuni",
+        "Isla de Viti Levu"
+      ],
+      "gastronomia": [
+        "Kokoda (pescado marinado)",
+        "Lovo"
+      ],
+      "cultura": "El saludo es '¡Bula!'. La ceremonia del kava da la bienvenida a los visitantes.",
+      "festividades": [
+        "Festival Hibiscus (agosto)"
+      ],
+      "consejo": "Si visitas un pueblo, lleva raíz de kava como regalo para el jefe.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Islas Marshall",
+      "iso": "MH",
+      "bandera": "🇲🇭",
+      "subregion": "Micronesia",
+      "capital": "Majuro",
+      "lat": 9,
+      "lon": 168,
+      "poblacion": 36282,
+      "area_km2": 181,
+      "idiomas": [
+        "inglés",
+        "marshalés"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "mh.png",
+      "viaje_recomendado": true,
+      "resumen": "Atolones remotos con historia de la Segunda Guerra Mundial bajo el agua.",
+      "ideal_para": [
+        "buceo",
+        "historia"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Atolón de Bikini (UNESCO) y sus naufragios",
+        "Majuro",
+        "Atolón de Arno"
+      ],
+      "gastronomia": [
+        "Pescado y coco",
+        "Fruta del pan"
+      ],
+      "cultura": "Tradición navegante con cartas de palos para leer las olas.",
+      "festividades": [
+        "Día de la Constitución (1 de mayo)"
+      ],
+      "consejo": "Los vuelos son pocos y caros. Planifica con mucha anticipación.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Islas Salomón",
+      "iso": "SB",
+      "bandera": "🇸🇧",
+      "subregion": "Melanesia",
+      "capital": "Honiara",
+      "lat": -8,
+      "lon": 159,
+      "poblacion": 838645,
+      "area_km2": 28896,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [
+        "dólar salomonense (SBD)"
+      ],
+      "imagen": "sb.png",
+      "viaje_recomendado": true,
+      "resumen": "Buceo entre naufragios de la Segunda Guerra Mundial y aldeas tradicionales.",
+      "ideal_para": [
+        "buceo",
+        "historia",
+        "cultura"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Naufragios de Guadalcanal",
+        "Laguna de Marovo",
+        "Islas artificiales de Langa Langa"
+      ],
+      "gastronomia": [
+        "Poi",
+        "Pescado en leche de coco"
+      ],
+      "cultura": "Se usan conchas como moneda tradicional en ciertas ceremonias.",
+      "festividades": [
+        "Día de la Independencia (7 de julio)"
+      ],
+      "consejo": "La infraestructura es básica. Ve con reservas confirmadas.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Kiribati",
+      "iso": "KI",
+      "bandera": "🇰🇮",
+      "subregion": "Micronesia",
+      "capital": "Tarawa Sur",
+      "lat": 1.42,
+      "lon": 173,
+      "poblacion": 136488,
+      "area_km2": 811,
+      "idiomas": [
+        "inglés",
+        "gilbertés"
+      ],
+      "monedas": [
+        "dólar australiano (AUD)",
+        "Kiribati dollar (KID)"
+      ],
+      "imagen": "ki.png",
+      "viaje_recomendado": true,
+      "resumen": "Atolones en medio del Pacífico, entre los primeros lugares del mundo en recibir el año nuevo.",
+      "ideal_para": [
+        "pesca",
+        "tranquilidad"
+      ],
+      "mejor_epoca": "Abril a octubre.",
+      "imperdibles": [
+        "Isla de Navidad (Kiritimati)",
+        "Tarawa",
+        "Área protegida de las Islas Fénix (UNESCO)"
+      ],
+      "gastronomia": [
+        "Pescado crudo",
+        "Pandano"
+      ],
+      "cultura": "País formado por 33 atolones repartidos en una enorme superficie oceánica.",
+      "festividades": [
+        "Día de la Independencia (12 de julio)"
+      ],
+      "consejo": "La isla de Navidad es famosa entre aficionados a la pesca con mosca.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Micronesia",
+      "iso": "FM",
+      "bandera": "🇫🇲",
+      "subregion": "Micronesia",
+      "capital": "Palikir",
+      "lat": 6.92,
+      "lon": 158.25,
+      "poblacion": 113683,
+      "area_km2": 702,
+      "idiomas": [
+        "inglés"
+      ],
+      "monedas": [],
+      "imagen": "fm.png",
+      "viaje_recomendado": true,
+      "resumen": "Islas con ruinas de piedra misteriosas y buceo entre naufragios.",
+      "ideal_para": [
+        "buceo",
+        "historia"
+      ],
+      "mejor_epoca": "Diciembre a abril.",
+      "imperdibles": [
+        "Nan Madol (UNESCO)",
+        "Laguna de Chuuk y sus naufragios",
+        "Yap y su dinero de piedra"
+      ],
+      "gastronomia": [
+        "Fruta del pan",
+        "Pescado"
+      ],
+      "cultura": "En Yap aún se usan grandes discos de piedra como moneda ceremonial.",
+      "festividades": [
+        "Día de Yap (marzo)"
+      ],
+      "consejo": "Chuuk es uno de los mejores sitios del mundo para buceo en naufragios.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Nauru",
+      "iso": "NR",
+      "bandera": "🇳🇷",
+      "subregion": "Micronesia",
+      "capital": "Yaren",
+      "lat": -0.53,
+      "lon": 166.92,
+      "poblacion": 12025,
+      "area_km2": 21,
+      "idiomas": [
+        "inglés",
+        "nauruano"
+      ],
+      "monedas": [
+        "dólar australiano (AUD)"
+      ],
+      "imagen": "nr.png",
+      "viaje_recomendado": true,
+      "resumen": "La tercera nación más pequeña del mundo, sin capital oficial.",
+      "ideal_para": [
+        "curiosidades"
+      ],
+      "mejor_epoca": "Todo el año.",
+      "imperdibles": [
+        "Vuelta a la isla por su única carretera",
+        "Laguna Buada",
+        "Command Ridge"
+      ],
+      "gastronomia": [
+        "Pescado a la parrilla",
+        "Coco"
+      ],
+      "cultura": "La isla quedó muy afectada por décadas de minería de fosfato.",
+      "festividades": [
+        "Día Angam (26 de octubre)"
+      ],
+      "consejo": "La isla se recorre en auto en menos de una hora.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Nueva Zelanda",
+      "iso": "NZ",
+      "bandera": "🇳🇿",
+      "subregion": "Australia y Nueva Zelanda",
+      "capital": "Wellington",
+      "lat": -41,
+      "lon": 174,
+      "poblacion": 5324700,
+      "area_km2": 270467,
+      "idiomas": [
+        "inglés",
+        "maorí",
+        "lengua de señas neozelandesa"
+      ],
+      "monedas": [
+        "dólar neozelandés (NZD)"
+      ],
+      "imagen": "nz.png",
+      "viaje_recomendado": true,
+      "resumen": "Montañas, fiordos, volcanes y aventura, con una fuerte cultura maorí.",
+      "ideal_para": [
+        "naturaleza",
+        "aventura",
+        "senderismo"
+      ],
+      "mejor_epoca": "Diciembre a marzo. Junio a agosto para esquí.",
+      "imperdibles": [
+        "Milford Sound (UNESCO)",
+        "Queenstown",
+        "Rotorua y la cultura maorí",
+        "Hobbiton",
+        "Parque Tongariro"
+      ],
+      "gastronomia": [
+        "Hāngī",
+        "Pavlova",
+        "Cordero"
+      ],
+      "cultura": "El haka y el idioma maorí son parte de la identidad nacional.",
+      "festividades": [
+        "Matariki, año nuevo maorí (junio o julio)",
+        "Waitangi Day (6 de febrero)"
+      ],
+      "consejo": "Revisa las reglas de bioseguridad: hay multas por no declarar comida al entrar.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Palaos",
+      "iso": "PW",
+      "bandera": "🇵🇼",
+      "subregion": "Micronesia",
+      "capital": "Ngerulmud",
+      "lat": 7.5,
+      "lon": 134.5,
+      "poblacion": 17663,
+      "area_km2": 459,
+      "idiomas": [
+        "inglés",
+        "palauano"
+      ],
+      "monedas": [
+        "dólar estadounidense (USD)"
+      ],
+      "imagen": "pw.png",
+      "viaje_recomendado": true,
+      "resumen": "Islas de roca cubiertas de selva y un lago lleno de medusas.",
+      "ideal_para": [
+        "buceo",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Noviembre a abril.",
+      "imperdibles": [
+        "Islas de Roca (UNESCO)",
+        "Lago de las Medusas",
+        "Blue Corner para buceo"
+      ],
+      "gastronomia": [
+        "Sopa de taro",
+        "Pescado"
+      ],
+      "cultura": "Al entrar firmas la 'Promesa de Palaos' de cuidar el medio ambiente.",
+      "festividades": [
+        "Día de la Independencia (1 de octubre)"
+      ],
+      "consejo": "El acceso al Lago de las Medusas depende de la cantidad de medusas; confirma si está abierto.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Papúa Nueva Guinea",
+      "iso": "PG",
+      "bandera": "🇵🇬",
+      "subregion": "Melanesia",
+      "capital": "Puerto Moresby",
+      "lat": -6,
+      "lon": 147,
+      "poblacion": 10762817,
+      "area_km2": 462840,
+      "idiomas": [
+        "inglés",
+        "hiri motu",
+        "tok pisin"
+      ],
+      "monedas": [
+        "kina papú (PGK)"
+      ],
+      "imagen": "pg.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países con más diversidad cultural del mundo: más de 800 idiomas.",
+      "ideal_para": [
+        "cultura",
+        "aventura",
+        "buceo"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Festival de Goroka",
+        "Río Sepik",
+        "Sendero de Kokoda",
+        "Buceo en Kimbe Bay"
+      ],
+      "gastronomia": [
+        "Mumu",
+        "Sago"
+      ],
+      "cultura": "Más de 800 idiomas, la mayor cantidad en un solo país.",
+      "festividades": [
+        "Goroka Show (septiembre)",
+        "Mount Hagen Show (agosto)"
+      ],
+      "consejo": "Hay problemas de seguridad en algunas zonas. Viaja con operadores locales.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Samoa",
+      "iso": "WS",
+      "bandera": "🇼🇸",
+      "subregion": "Polinesia",
+      "capital": "Apia",
+      "lat": -13.58,
+      "lon": -172.33,
+      "poblacion": 219306,
+      "area_km2": 2842,
+      "idiomas": [
+        "inglés",
+        "samoano"
+      ],
+      "monedas": [
+        "tala samoano (WST)"
+      ],
+      "imagen": "ws.png",
+      "viaje_recomendado": true,
+      "resumen": "Cascadas, piscinas naturales y una cultura polinesia muy tradicional.",
+      "ideal_para": [
+        "playa",
+        "cultura",
+        "naturaleza"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Fosa de To Sua",
+        "Playa Lalomanu",
+        "Espiráculos de Alofaaga",
+        "Cascadas de Papapapaitai"
+      ],
+      "gastronomia": [
+        "Oka (pescado crudo)",
+        "Palusami"
+      ],
+      "cultura": "El 'fa'a Samoa' es la forma de vida samoana, basada en la familia y el respeto.",
+      "festividades": [
+        "Festival Teuila (septiembre)"
+      ],
+      "consejo": "Los domingos casi todo cierra por la iglesia. Planifica compras y traslados antes.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Tonga",
+      "iso": "TO",
+      "bandera": "🇹🇴",
+      "subregion": "Polinesia",
+      "capital": "Nukualofa",
+      "lat": -20,
+      "lon": -175,
+      "poblacion": 103742,
+      "area_km2": 747,
+      "idiomas": [
+        "inglés",
+        "tongano"
+      ],
+      "monedas": [
+        "paanga tongano (TOP)"
+      ],
+      "imagen": "to.png",
+      "viaje_recomendado": true,
+      "resumen": "El único reino del Pacífico, donde se puede nadar con ballenas jorobadas.",
+      "ideal_para": [
+        "ballenas",
+        "playa",
+        "cultura"
+      ],
+      "mejor_epoca": "Julio a octubre para ballenas.",
+      "imperdibles": [
+        "Nadar con ballenas en Vava'u",
+        "Trilitón Ha'amonga 'a Maui",
+        "Espiráculos de Mapu'a 'a Vaea"
+      ],
+      "gastronomia": [
+        "'Ota 'ika",
+        "Lu pulu"
+      ],
+      "cultura": "Nunca fue colonizado del todo. El domingo es de descanso obligatorio por ley.",
+      "festividades": [
+        "Festival Heilala (julio)"
+      ],
+      "consejo": "El domingo no se permite trabajar ni hacer actividades comerciales.",
+      "costo": "moderado"
+    },
+    {
+      "nombre": "Tuvalu",
+      "iso": "TV",
+      "bandera": "🇹🇻",
+      "subregion": "Polinesia",
+      "capital": "Funafuti",
+      "lat": -8,
+      "lon": 178,
+      "poblacion": 9492,
+      "area_km2": 26,
+      "idiomas": [
+        "inglés",
+        "tuvaluano"
+      ],
+      "monedas": [
+        "dólar australiano (AUD)",
+        "Tuvaluan dollar (TVD)"
+      ],
+      "imagen": "tv.png",
+      "viaje_recomendado": true,
+      "resumen": "Uno de los países menos visitados del mundo, amenazado por la subida del mar.",
+      "ideal_para": [
+        "tranquilidad",
+        "curiosidades"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Laguna de Funafuti",
+        "Área de Conservación de Funafuti"
+      ],
+      "gastronomia": [
+        "Pulaka",
+        "Pescado"
+      ],
+      "cultura": "Su punto más alto está a unos 4-5 metros sobre el nivel del mar.",
+      "festividades": [
+        "Día de la Independencia (1 de octubre)"
+      ],
+      "consejo": "Llegan pocos vuelos por semana desde Fiyi. Planifica con margen.",
+      "costo": "caro"
+    },
+    {
+      "nombre": "Vanuatu",
+      "iso": "VU",
+      "bandera": "🇻🇺",
+      "subregion": "Melanesia",
+      "capital": "Port Vila",
+      "lat": -16,
+      "lon": 167,
+      "poblacion": 335169,
+      "area_km2": 12189,
+      "idiomas": [
+        "bislama",
+        "inglés",
+        "francés"
+      ],
+      "monedas": [
+        "vatu vanuatense (VUV)"
+      ],
+      "imagen": "vu.png",
+      "viaje_recomendado": true,
+      "resumen": "Volcanes activos, buceo en naufragios y el salto que inspiró el bungee.",
+      "ideal_para": [
+        "aventura",
+        "buceo",
+        "cultura"
+      ],
+      "mejor_epoca": "Mayo a octubre.",
+      "imperdibles": [
+        "Volcán Yasur (Tanna)",
+        "Naufragio SS President Coolidge",
+        "Blue holes de Espíritu Santo",
+        "Saltos de Pentecostés (abril-junio)"
+      ],
+      "gastronomia": [
+        "Laplap",
+        "Tuluk"
+      ],
+      "cultura": "El 'naghol' de Pentecostés, saltar desde torres con lianas, originó el bungee.",
+      "festividades": [
+        "Naghol (abril a junio)"
+      ],
+      "consejo": "El volcán Yasur se ve mejor al atardecer. Consulta el nivel de alerta ese día.",
+      "costo": "moderado"
+    }
+  ]
+}
