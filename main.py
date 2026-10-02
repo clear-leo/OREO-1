@@ -51,7 +51,7 @@ class Information(ttk.Frame):
         ttk.Label(frame, textvariable=self.info_top, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=1, column=0, sticky='ew', pady=10)
 
         self.label_imagen = ttk.Label(self.frame, anchor="center")
-        self.label_imagen.grid(row=2, column=0, sticky='ew')
+        self.label_imagen.grid(row=2, column=0)
 
         ttk.Label(frame, textvariable=self.info_bottom, font=("Arial", 18), anchor="center", wraplength=self.WIDTH).grid(row=3, column=0, sticky='ew', pady=10)
 
